@@ -1331,7 +1331,7 @@ test/test_test_dash-script_tests.o: test/script_tests.cpp \
  /usr/include/boost/smart_ptr/make_shared_array.hpp \
  /usr/include/boost/smart_ptr/allocate_shared_array.hpp \
  /usr/include/boost/detail/atomic_undef_macros.hpp \
- /usr/include/boost/detail/atomic_redef_macros.hpp script/PCTconsensus.h \
+ /usr/include/boost/detail/atomic_redef_macros.hpp script/pctconsensus.h \
  /usr/include/boost/test/unit_test.hpp \
  /usr/include/boost/test/test_tools.hpp \
  /usr/include/boost/test/detail/config.hpp \
@@ -4530,7 +4530,7 @@ addressindex.h:
 
 /usr/include/boost/detail/atomic_redef_macros.hpp:
 
-script/PCTconsensus.h:
+script/pctconsensus.h:
 
 /usr/include/boost/test/unit_test.hpp:
 

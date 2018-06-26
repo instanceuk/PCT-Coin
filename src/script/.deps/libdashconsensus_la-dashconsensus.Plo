@@ -1,5 +1,5 @@
 script/libdashconsensus_la-dashconsensus.lo: script/dashconsensus.cpp \
- /usr/include/stdc-predef.h script/PCTconsensus.h config/PCT-config.h \
+ /usr/include/stdc-predef.h script/pctconsensus.h config/PCT-config.h \
  primitives/transaction.h amount.h serialize.h compat/endian.h \
  /usr/lib/gcc/x86_64-linux-gnu/5/include/stdint.h /usr/include/stdint.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -212,7 +212,7 @@ script/libdashconsensus_la-dashconsensus.lo: script/dashconsensus.cpp \
 
 /usr/include/stdc-predef.h:
 
-script/PCTconsensus.h:
+script/pctconsensus.h:
 
 config/PCT-config.h:
 
