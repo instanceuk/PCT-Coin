@@ -75,7 +75,9 @@ TESTS = tests
 endif
 
 if USE_ECMULT_STATIC_PRECOMPUTATION
+CPPFLAGS_FOR_BUILD =
 CPPFLAGS_FOR_BUILD +=-I$(top_srcdir)
+CFLAGS_FOR_BUILD =
 CFLAGS_FOR_BUILD += -Wall -Wextra -Wno-unused-function
 
 gen_context_OBJECTS = gen_context.o
@@ -96,7 +98,7 @@ src/ecmult_static_context.h: $(gen_context_BIN)
 CLEANFILES = $(gen_context_BIN) src/ecmult_static_context.h
 endif
 
-EXTRA_DIST = autogen.sh src/gen_context.c src/basic-config.h
+EXTRA_DIST = autogen.sh ./src/gen_context.c ./src/basic-config.h
 
 if ENABLE_MODULE_ECDH
 include src/modules/ecdh/Makefile.am.include
