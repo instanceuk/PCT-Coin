@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/pct_bg.qm</file>
+        <file alias="de">locale/pct_de.qm</file>
+        <file alias="en">locale/pct_en.qm</file>
+        <file alias="es">locale/pct_es.qm</file>
+        <file alias="fi">locale/pct_fi.qm</file>
+        <file alias="fr">locale/pct_fr.qm</file>
+        <file alias="it">locale/pct_it.qm</file>
+        <file alias="ja">locale/pct_ja.qm</file>
+        <file alias="pl">locale/pct_pl.qm</file>
+        <file alias="pt">locale/pct_pt.qm</file>
+        <file alias="ru">locale/pct_ru.qm</file>
+        <file alias="sk">locale/pct_sk.qm</file>
+        <file alias="sv">locale/pct_sv.qm</file>
+        <file alias="vi">locale/pct_vi.qm</file>
+        <file alias="zh_CN">locale/pct_zh_CN.qm</file>
+        <file alias="zh_TW">locale/pct_zh_TW.qm</file>
+    </qresource>
+</RCC>
