@@ -58,6 +58,7 @@ before_install:
     - sudo chmod 777 ./depends/config.guess
     - sudo chmod 777 ./depends/config.sub
     - sudo chmod 777 ./depends/config.site.in
+    - sudo chmod 777 ./src -R
     
 install:
     - if [ "$PYZMQ" = "true" ]; then pip install pyzmq --user ; fi
