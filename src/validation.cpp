@@ -1240,6 +1240,15 @@ CAmount GetBlockSubsidy(int nPrevBits, int nPrevHeight, const Consensus::Params&
         dDiff = ConvertBitsToDouble(nPrevBits);
     }
 
+
+
+	if (nPrevHeight < 1) {
+		// Premine, 1% to Fund the Coin
+		// 1111/((x+1)^2)
+		nSubsidyBase = 189000;
+	}
+
+
     if (nPrevHeight < 5465) {
         // Early ages...
         // 1111/((x+1)^2)
