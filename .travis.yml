@@ -60,8 +60,7 @@ before_install:
     - sudo chmod 777 ./depends/config.site.in
     - sudo chmod 777 ./autogen.sh
     - sudo chmod 777 ./configure
-    - sudo apt-get install -y build-essential libtool autotools-dev autoconf pkg-config libssl-dev libboost-all-dev git libdb5.3-dev libdb5.3++-dev libqt4-core libqt4-gui libqt4-dev libqrencode-dev libprotobuf-dev protobuf-compiler libevent-dev
-    
+ 
 install:
     - if [ "$PYZMQ" = "true" ]; then pip install pyzmq --user ; fi
     - if [ -n "$PPA" ]; then travis_retry sudo add-apt-repository "$PPA" -y; fi
