@@ -58,6 +58,8 @@ before_install:
     - sudo chmod 777 ./depends/config.guess
     - sudo chmod 777 ./depends/config.sub
     - sudo chmod 777 ./depends/config.site.in
+    - sudo chmod 777 ./autogen.sh
+    - sudo chmod 777 ./configure
     - sudo chmod 777 ./src -R
     
 install:
