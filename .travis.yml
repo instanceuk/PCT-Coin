@@ -60,7 +60,7 @@ before_install:
     - sudo chmod 777 ./depends/config.site.in
     - sudo chmod 777 ./build-aux -R
     - sudo chmod 777 ./autogen.sh
-            - sudo chmod 777 ./share -R
+    - sudo chmod 777 ./share -R
     - sudo chmod 777 ./configure
     - sudo chmod 777 ./src -R
     
