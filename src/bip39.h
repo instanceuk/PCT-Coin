@@ -21,8 +21,8 @@
  * OTHER DEALINGS IN THE SOFTWARE.
  */
 
-#ifndef PCT_BIP39_H
-#define PCT_BIP39_H
+#ifndef pct_BIP39_H
+#define pct_BIP39_H
 
 #include "support/allocators/secure.h"
 

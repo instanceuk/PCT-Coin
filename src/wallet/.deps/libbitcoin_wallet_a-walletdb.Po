@@ -1,6 +1,6 @@
 wallet/libbitcoin_wallet_a-walletdb.o: wallet/walletdb.cpp \
  /usr/include/stdc-predef.h wallet/walletdb.h amount.h serialize.h \
- compat/endian.h config/PCT-config.h \
+ compat/endian.h config/pct-config.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -159,7 +159,7 @@ wallet/libbitcoin_wallet_a-walletdb.o: wallet/walletdb.cpp \
  /usr/include/c++/7/ostream /usr/include/c++/7/bits/ostream.tcc \
  /usr/include/c++/7/istream /usr/include/c++/7/bits/istream.tcc \
  /usr/include/c++/7/bits/stream_iterator.h wallet/db.h clientversion.h \
- config/PCT-config.h serialize.h streams.h \
+ config/pct-config.h serialize.h streams.h \
  support/allocators/zeroafterfree.h support/cleanse.h \
  /usr/include/c++/7/memory /usr/include/c++/7/bits/stl_raw_storage_iter.h \
  /usr/include/c++/7/ext/concurrence.h \
@@ -696,7 +696,7 @@ wallet/libbitcoin_wallet_a-walletdb.o: wallet/walletdb.cpp \
  /usr/include/boost/functional/hash/hash_fwd.hpp /usr/include/db_cxx.h \
  /usr/include/c++/7/iostream /usr/include/db.h /usr/include/inttypes.h \
  hdchain.h key.h pubkey.h hash.h crypto/ripemd160.h crypto/sha256.h \
- uint256.h crypto/common.h ../src/config/PCT-config.h compat/endian.h \
+ uint256.h crypto/common.h ../src/config/pct-config.h compat/endian.h \
  version.h crypto/sph_blake.h crypto/sph_types.h crypto/sph_bmw.h \
  crypto/sph_groestl.h crypto/sph_jh.h crypto/sph_keccak.h \
  crypto/sph_skein.h crypto/sph_luffa.h crypto/sph_cubehash.h \
@@ -1190,7 +1190,7 @@ serialize.h:
 
 compat/endian.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h:
 
@@ -1616,7 +1616,7 @@ wallet/db.h:
 
 clientversion.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 serialize.h:
 
@@ -2806,7 +2806,7 @@ uint256.h:
 
 crypto/common.h:
 
-../src/config/PCT-config.h:
+../src/config/pct-config.h:
 
 compat/endian.h:
 

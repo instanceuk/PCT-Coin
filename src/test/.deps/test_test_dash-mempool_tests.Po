@@ -131,8 +131,8 @@ test/test_test_dash-mempool_tests.o: test/mempool_tests.cpp \
  /usr/include/c++/7/bits/stl_uninitialized.h \
  /usr/include/c++/7/bits/stl_vector.h \
  /usr/include/c++/7/bits/stl_bvector.h /usr/include/c++/7/bits/vector.tcc \
- crypto/common.h ../src/config/PCT-config.h compat/endian.h \
- config/PCT-config.h compat/byteswap.h /usr/include/byteswap.h amount.h \
+ crypto/common.h ../src/config/pct-config.h compat/endian.h \
+ config/pct-config.h compat/byteswap.h /usr/include/byteswap.h amount.h \
  serialize.h compat/endian.h /usr/include/c++/7/algorithm \
  /usr/include/c++/7/utility /usr/include/c++/7/bits/stl_relops.h \
  /usr/include/c++/7/bits/stl_algo.h \
@@ -1018,7 +1018,7 @@ test/test_test_dash-mempool_tests.o: test/mempool_tests.cpp \
  /usr/include/boost/bind/bind_mf2_cc.hpp \
  /usr/include/boost/bind/placeholders.hpp \
  /usr/include/boost/multi_index/detail/duplicates_iterator.hpp util.h \
- config/PCT-config.h compat.h /usr/include/x86_64-linux-gnu/sys/fcntl.h \
+ config/pct-config.h compat.h /usr/include/x86_64-linux-gnu/sys/fcntl.h \
  /usr/include/fcntl.h /usr/include/x86_64-linux-gnu/bits/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
@@ -1189,7 +1189,7 @@ test/test_test_dash-mempool_tests.o: test/mempool_tests.cpp \
  /usr/include/boost/signals2/detail/lwm_pthreads.hpp \
  /usr/include/boost/signals2/variadic_signal.hpp \
  /usr/include/boost/signals2/detail/variadic_slot_invoker.hpp \
- /usr/include/boost/signals2/detail/signal_template.hpp test/test_PCT.h \
+ /usr/include/boost/signals2/detail/signal_template.hpp test/test_pct.h \
  chainparamsbase.h key.h pubkey.h support/allocators/secure.h \
  support/pagelocker.h support/cleanse.h \
  /usr/include/boost/thread/once.hpp \
@@ -1781,11 +1781,11 @@ uint256.h:
 
 crypto/common.h:
 
-../src/config/PCT-config.h:
+../src/config/pct-config.h:
 
 compat/endian.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat/byteswap.h:
 
@@ -3781,7 +3781,7 @@ threadsafety.h:
 
 util.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat.h:
 
@@ -4173,7 +4173,7 @@ utiltime.h:
 
 /usr/include/boost/signals2/detail/signal_template.hpp:
 
-test/test_PCT.h:
+test/test_pct.h:
 
 chainparamsbase.h:
 

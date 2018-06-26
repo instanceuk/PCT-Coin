@@ -3,7 +3,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/PCT-config.h"
+#include "config/pct-config.h"
 #endif
 
 #include "optionsdialog.h"
@@ -92,11 +92,11 @@ OptionsDialog::OptionsDialog(QWidget *parent, bool enableWallet) :
     }
     
     /* Theme selector */
-    ui->theme->addItem(QString("PCT-light"), QVariant("light"));
-    ui->theme->addItem(QString("PCT-light-hires"), QVariant("light-hires"));
-    ui->theme->addItem(QString("PCT-blue"), QVariant("drkblue"));
-    ui->theme->addItem(QString("PCT-Crownium"), QVariant("crownium"));
-    ui->theme->addItem(QString("PCT-traditional"), QVariant("trad"));
+    ui->theme->addItem(QString("pct-light"), QVariant("light"));
+    ui->theme->addItem(QString("pct-light-hires"), QVariant("light-hires"));
+    ui->theme->addItem(QString("pct-blue"), QVariant("drkblue"));
+    ui->theme->addItem(QString("pct-Crownium"), QVariant("crownium"));
+    ui->theme->addItem(QString("pct-traditional"), QVariant("trad"));
     
     /* Language selector */
     QDir translations(":translations");

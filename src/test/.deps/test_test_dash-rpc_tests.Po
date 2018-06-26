@@ -1,6 +1,6 @@
 test/test_test_dash-rpc_tests.o: test/rpc_tests.cpp \
  /usr/include/stdc-predef.h rpc/server.h amount.h serialize.h \
- compat/endian.h config/PCT-config.h \
+ compat/endian.h config/pct-config.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -571,7 +571,7 @@ test/test_test_dash-rpc_tests.o: test/rpc_tests.cpp \
  /usr/include/x86_64-linux-gnu/c++/7/bits/c++io.h \
  /usr/include/c++/7/bits/fstream.tcc univalue/include/univalue.h \
  /usr/include/c++/7/sstream /usr/include/c++/7/bits/sstream.tcc uint256.h \
- crypto/common.h ../src/config/PCT-config.h compat/endian.h \
+ crypto/common.h ../src/config/pct-config.h compat/endian.h \
  /usr/include/boost/function.hpp \
  /usr/include/boost/preprocessor/iterate.hpp \
  /usr/include/boost/preprocessor/iteration/iterate.hpp \
@@ -631,7 +631,7 @@ test/test_test_dash-rpc_tests.o: test/rpc_tests.cpp \
  /usr/include/boost/move/detail/meta_utils_core.hpp rpc/client.h base58.h \
  chainparams.h chainparamsbase.h consensus/params.h primitives/block.h \
  primitives/transaction.h script/script.h crypto/common.h prevector.h \
- serialize.h protocol.h netaddress.h config/PCT-config.h compat.h \
+ serialize.h protocol.h netaddress.h config/pct-config.h compat.h \
  /usr/include/x86_64-linux-gnu/sys/fcntl.h /usr/include/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
@@ -983,7 +983,7 @@ test/test_test_dash-rpc_tests.o: test/rpc_tests.cpp \
  /usr/include/boost/variant/detail/element_index.hpp \
  /usr/include/boost/variant/visitor_ptr.hpp \
  /usr/include/boost/variant/bad_visit.hpp \
- support/allocators/zeroafterfree.h netbase.h test/test_PCT.h \
+ support/allocators/zeroafterfree.h netbase.h test/test_pct.h \
  chainparamsbase.h key.h pubkey.h txdb.h coins.h compressor.h \
  primitives/transaction.h core_memusage.h memusage.h \
  /usr/include/c++/7/unordered_map /usr/include/c++/7/bits/hashtable.h \
@@ -1505,7 +1505,7 @@ serialize.h:
 
 compat/endian.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h:
 
@@ -2839,7 +2839,7 @@ uint256.h:
 
 crypto/common.h:
 
-../src/config/PCT-config.h:
+../src/config/pct-config.h:
 
 compat/endian.h:
 
@@ -2993,7 +2993,7 @@ protocol.h:
 
 netaddress.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat.h:
 
@@ -3803,7 +3803,7 @@ support/allocators/zeroafterfree.h:
 
 netbase.h:
 
-test/test_PCT.h:
+test/test_pct.h:
 
 chainparamsbase.h:
 

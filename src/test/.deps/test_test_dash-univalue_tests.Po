@@ -147,13 +147,13 @@ test/test_test_dash-univalue_tests.o: test/univalue_tests.cpp \
  /usr/include/c++/7/bits/locale_facets.tcc \
  /usr/include/c++/7/bits/basic_ios.tcc /usr/include/c++/7/ostream \
  /usr/include/c++/7/bits/ostream.tcc /usr/include/c++/7/bits/istream.tcc \
- /usr/include/c++/7/bits/sstream.tcc test/test_PCT.h chainparamsbase.h \
+ /usr/include/c++/7/bits/sstream.tcc test/test_pct.h chainparamsbase.h \
  key.h pubkey.h hash.h crypto/ripemd160.h /usr/include/c++/7/stdlib.h \
  crypto/sha256.h prevector.h /usr/include/string.h /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
  /usr/include/c++/7/iterator /usr/include/c++/7/bits/stream_iterator.h \
- serialize.h compat/endian.h config/PCT-config.h compat/byteswap.h \
+ serialize.h compat/endian.h config/pct-config.h compat/byteswap.h \
  /usr/include/byteswap.h /usr/include/c++/7/algorithm \
  /usr/include/c++/7/bits/stl_algo.h \
  /usr/include/c++/7/bits/algorithmfwd.h \
@@ -163,7 +163,7 @@ test/test_test_dash-univalue_tests.o: test/univalue_tests.cpp \
  /usr/include/c++/7/bits/allocated_ptr.h /usr/include/c++/7/bits/list.tcc \
  /usr/include/c++/7/set /usr/include/c++/7/bits/stl_set.h \
  /usr/include/c++/7/bits/stl_multiset.h uint256.h \
- /usr/include/c++/7/cstring crypto/common.h ../src/config/PCT-config.h \
+ /usr/include/c++/7/cstring crypto/common.h ../src/config/pct-config.h \
  compat/endian.h version.h crypto/sph_blake.h crypto/sph_types.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/syslimits.h \
@@ -793,7 +793,7 @@ test/test_test_dash-univalue_tests.o: test/univalue_tests.cpp \
  /usr/include/boost/type_traits/is_default_constructible.hpp \
  /usr/include/boost/unordered/detail/map.hpp \
  /usr/include/boost/unordered/unordered_map_fwd.hpp dbwrapper.h \
- clientversion.h config/PCT-config.h streams.h \
+ clientversion.h config/pct-config.h streams.h \
  support/allocators/zeroafterfree.h util.h compat.h \
  /usr/include/x86_64-linux-gnu/sys/fcntl.h /usr/include/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl.h \
@@ -1823,7 +1823,7 @@ univalue/include/univalue.h:
 
 /usr/include/c++/7/bits/sstream.tcc:
 
-test/test_PCT.h:
+test/test_pct.h:
 
 chainparamsbase.h:
 
@@ -1857,7 +1857,7 @@ serialize.h:
 
 compat/endian.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat/byteswap.h:
 
@@ -1897,7 +1897,7 @@ uint256.h:
 
 crypto/common.h:
 
-../src/config/PCT-config.h:
+../src/config/pct-config.h:
 
 compat/endian.h:
 
@@ -3321,7 +3321,7 @@ dbwrapper.h:
 
 clientversion.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 streams.h:
 

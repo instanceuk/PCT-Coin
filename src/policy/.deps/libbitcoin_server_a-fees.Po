@@ -1,6 +1,6 @@
 policy/libbitcoin_server_a-fees.o: policy/fees.cpp \
  /usr/include/stdc-predef.h policy/fees.h amount.h serialize.h \
- compat/endian.h config/PCT-config.h \
+ compat/endian.h config/pct-config.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -159,7 +159,7 @@ policy/libbitcoin_server_a-fees.o: policy/fees.cpp \
  /usr/include/c++/7/ostream /usr/include/c++/7/bits/ostream.tcc \
  /usr/include/c++/7/istream /usr/include/c++/7/bits/istream.tcc \
  /usr/include/c++/7/bits/stream_iterator.h uint256.h \
- /usr/include/c++/7/cstring crypto/common.h ../src/config/PCT-config.h \
+ /usr/include/c++/7/cstring crypto/common.h ../src/config/pct-config.h \
  compat/endian.h policy/policy.h consensus/consensus.h \
  script/interpreter.h script/script_error.h primitives/transaction.h \
  script/script.h crypto/common.h prevector.h /usr/include/c++/7/climits \
@@ -1114,7 +1114,7 @@ policy/libbitcoin_server_a-fees.o: policy/fees.cpp \
  /usr/include/boost/bind/bind_mf2_cc.hpp \
  /usr/include/boost/bind/placeholders.hpp \
  /usr/include/boost/multi_index/detail/duplicates_iterator.hpp util.h \
- config/PCT-config.h compat.h /usr/include/x86_64-linux-gnu/sys/fcntl.h \
+ config/pct-config.h compat.h /usr/include/x86_64-linux-gnu/sys/fcntl.h \
  /usr/include/fcntl.h /usr/include/x86_64-linux-gnu/bits/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
@@ -1219,7 +1219,7 @@ serialize.h:
 
 compat/endian.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h:
 
@@ -1647,7 +1647,7 @@ uint256.h:
 
 crypto/common.h:
 
-../src/config/PCT-config.h:
+../src/config/pct-config.h:
 
 compat/endian.h:
 
@@ -3759,7 +3759,7 @@ threadsafety.h:
 
 util.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat.h:
 

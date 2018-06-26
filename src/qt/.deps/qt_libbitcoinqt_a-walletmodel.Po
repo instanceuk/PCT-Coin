@@ -222,8 +222,8 @@ qt/qt_libbitcoinqt_a-walletmodel.o: qt/walletmodel.cpp \
  /usr/include/google/protobuf/extension_set.h /usr/include/c++/7/map \
  /usr/include/c++/7/bits/stl_map.h /usr/include/c++/7/bits/stl_multimap.h \
  base58.h chainparams.h chainparamsbase.h consensus/params.h uint256.h \
- /usr/include/c++/7/cstring crypto/common.h ../src/config/PCT-config.h \
- compat/endian.h config/PCT-config.h compat/byteswap.h primitives/block.h \
+ /usr/include/c++/7/cstring crypto/common.h ../src/config/pct-config.h \
+ compat/endian.h config/pct-config.h compat/byteswap.h primitives/block.h \
  primitives/transaction.h amount.h serialize.h compat/endian.h \
  /usr/include/c++/7/algorithm /usr/include/c++/7/bits/stl_algo.h \
  /usr/include/c++/7/bits/algorithmfwd.h \
@@ -232,7 +232,7 @@ qt/qt_libbitcoinqt_a-walletmodel.o: qt/walletmodel.cpp \
  /usr/include/c++/7/bits/stl_list.h /usr/include/c++/7/bits/list.tcc \
  prevector.h script/script.h crypto/common.h prevector.h \
  /usr/include/c++/7/climits serialize.h protocol.h netaddress.h \
- config/PCT-config.h compat.h /usr/include/x86_64-linux-gnu/sys/fcntl.h \
+ config/pct-config.h compat.h /usr/include/x86_64-linux-gnu/sys/fcntl.h \
  /usr/include/fcntl.h /usr/include/x86_64-linux-gnu/bits/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
@@ -1886,11 +1886,11 @@ uint256.h:
 
 crypto/common.h:
 
-../src/config/PCT-config.h:
+../src/config/pct-config.h:
 
 compat/endian.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat/byteswap.h:
 
@@ -1936,7 +1936,7 @@ protocol.h:
 
 netaddress.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat.h:
 

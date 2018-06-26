@@ -60,35 +60,35 @@ bool RPCIsInWarmup(std::string *statusOut);
 /**
  * Type-check arguments; throws JSONRPCError if wrong type given. Does not check that
  * the right number of arguments are passed, just that any passed are the correct type.
- * Use like:  RPCTypeCheck(params, boost::assign::list_of(str_type)(int_type)(obj_type));
+ * Use like:  RpctypeCheck(params, boost::assign::list_of(str_type)(int_type)(obj_type));
  */
-void RPCTypeCheck(const UniValue& params,
+void RpctypeCheck(const UniValue& params,
                   const std::list<UniValue::VType>& typesExpected, bool fAllowNull=false);
 
 /*
   Check for expected keys/value types in an Object.
-  Use like: RPCTypeCheckObj(object, boost::assign::map_list_of("name", str_type)("value", int_type));
+  Use like: RpctypeCheckObj(object, boost::assign::map_list_of("name", str_type)("value", int_type));
 */
-void RPCTypeCheckObj(const UniValue& o,
+void RpctypeCheckObj(const UniValue& o,
                   const std::map<std::string, UniValue::VType>& typesExpected, bool fAllowNull=false);
 
 /** Opaque base class for timers returned by NewTimerFunc.
  * This provides no methods at the moment, but makes sure that delete
  * cleans up the whole state.
  */
-class RPCTimerBase
+class RpctimerBase
 {
 public:
-    virtual ~RPCTimerBase() {}
+    virtual ~RpctimerBase() {}
 };
 
 /**
  * RPC timer "driver".
  */
-class RPCTimerInterface
+class RpctimerInterface
 {
 public:
-    virtual ~RPCTimerInterface() {}
+    virtual ~RpctimerInterface() {}
     /** Implementation name */
     virtual const char *Name() = 0;
     /** Factory function for timers.
@@ -97,13 +97,13 @@ public:
      * This is needed to cope with the case in which there is no HTTP server, but
      * only GUI RPC console, and to break the dependency of pcserver on httprpc.
      */
-    virtual RPCTimerBase* NewTimer(boost::function<void(void)>& func, int64_t millis) = 0;
+    virtual RpctimerBase* NewTimer(boost::function<void(void)>& func, int64_t millis) = 0;
 };
 
 /** Register factory function for timers */
-void RPCRegisterTimerInterface(RPCTimerInterface *iface);
+void RPCRegisterTimerInterface(RpctimerInterface *iface);
 /** Unregister factory function for timers */
-void RPCUnregisterTimerInterface(RPCTimerInterface *iface);
+void RPCUnregisterTimerInterface(RpctimerInterface *iface);
 
 /**
  * Run func nSeconds from now.
@@ -123,14 +123,14 @@ public:
 };
 
 /**
- * PCT RPC command dispatcher.
+ * pct RPC command dispatcher.
  */
-class CRPCTable
+class CRpctable
 {
 private:
     std::map<std::string, const CRPCCommand*> mapCommands;
 public:
-    CRPCTable();
+    CRpctable();
     const CRPCCommand* operator[](const std::string& name) const;
     std::string help(const std::string& name) const;
 
@@ -150,7 +150,7 @@ public:
     std::vector<std::string> listCommands() const;
 };
 
-extern const CRPCTable tableRPC;
+extern const CRpctable tableRPC;
 
 /**
  * Utilities: convert hex-encoded Values

@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2017 The PCT Core developers
+// Copyright (c) 2014-2017 The pct Core developers
 // Distributed under the MIT software license, see the accompanying
 
 #include "base58.h"

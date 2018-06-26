@@ -10,10 +10,10 @@
 
 /**
  * Name of client reported in the 'version' message. Report the same name
- * for both PCTd and PCT-qt, to make it harder for attackers to
+ * for both pctd and pct-qt, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("PCT Core");
+const std::string CLIENT_NAME("pct Core");
 
 /**
  * Client version number

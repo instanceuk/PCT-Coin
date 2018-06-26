@@ -49,7 +49,7 @@ crypto/crypto_libbitcoin_crypto_a-ripemd160.o: crypto/ripemd160.cpp \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
  /usr/include/c++/7/bits/std_abs.h crypto/common.h \
- ../src/config/PCT-config.h compat/endian.h config/PCT-config.h \
+ ../src/config/pct-config.h compat/endian.h config/pct-config.h \
  compat/byteswap.h /usr/include/byteswap.h /usr/include/string.h \
  /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
@@ -169,11 +169,11 @@ crypto/ripemd160.h:
 
 crypto/common.h:
 
-../src/config/PCT-config.h:
+../src/config/pct-config.h:
 
 compat/endian.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat/byteswap.h:
 

@@ -1,6 +1,6 @@
 qt/qt_libbitcoinqt_a-transactionview.o: qt/transactionview.cpp \
  /usr/include/stdc-predef.h qt/transactionview.h qt/guiutil.h amount.h \
- serialize.h compat/endian.h config/PCT-config.h \
+ serialize.h compat/endian.h config/pct-config.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -729,7 +729,7 @@ qt/qt_libbitcoinqt_a-transactionview.o: qt/transactionview.cpp \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsortfilterproxymodel.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractproxymodel.h \
  qt/transactionrecord.h uint256.h crypto/common.h \
- ../src/config/PCT-config.h compat/endian.h qt/transactiontablemodel.h \
+ ../src/config/pct-config.h compat/endian.h qt/transactiontablemodel.h \
  qt/walletmodel.h qt/paymentrequestplus.h qt/paymentrequest.pb.h \
  /usr/include/google/protobuf/stubs/common.h \
  /usr/include/google/protobuf/stubs/port.h \
@@ -783,7 +783,7 @@ qt/qt_libbitcoinqt_a-transactionview.o: qt/transactionview.cpp \
  chainparamsbase.h consensus/params.h primitives/block.h \
  primitives/transaction.h script/script.h crypto/common.h prevector.h \
  /usr/include/c++/7/climits serialize.h protocol.h netaddress.h \
- config/PCT-config.h compat.h /usr/include/x86_64-linux-gnu/sys/fcntl.h \
+ config/pct-config.h compat.h /usr/include/x86_64-linux-gnu/sys/fcntl.h \
  /usr/include/fcntl.h /usr/include/x86_64-linux-gnu/bits/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
@@ -1325,7 +1325,7 @@ serialize.h:
 
 compat/endian.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h:
 
@@ -2983,7 +2983,7 @@ uint256.h:
 
 crypto/common.h:
 
-../src/config/PCT-config.h:
+../src/config/pct-config.h:
 
 compat/endian.h:
 
@@ -3123,7 +3123,7 @@ protocol.h:
 
 netaddress.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat.h:
 

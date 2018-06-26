@@ -1,6 +1,6 @@
 test/test_test_dash-ratecheck_tests.o: test/ratecheck_tests.cpp \
  /usr/include/stdc-predef.h governance.h bloom.h serialize.h \
- compat/endian.h config/PCT-config.h \
+ compat/endian.h config/pct-config.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -161,7 +161,7 @@ test/test_test_dash-ratecheck_tests.o: test/ratecheck_tests.cpp \
  /usr/include/c++/7/bits/stream_iterator.h cachemap.h \
  /usr/include/c++/7/cstddef cachemultimap.h chain.h arith_uint256.h \
  /usr/include/c++/7/cstring primitives/block.h primitives/transaction.h \
- amount.h script/script.h crypto/common.h ../src/config/PCT-config.h \
+ amount.h script/script.h crypto/common.h ../src/config/pct-config.h \
  compat/endian.h prevector.h /usr/include/c++/7/climits \
  /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/syslimits.h \
@@ -995,7 +995,7 @@ test/test_test_dash-ratecheck_tests.o: test/ratecheck_tests.cpp \
  /usr/include/boost/io/ios_state.hpp /usr/include/boost/io_fwd.hpp \
  /usr/include/boost/functional/hash_fwd.hpp \
  /usr/include/boost/functional/hash/hash_fwd.hpp addrman.h netaddress.h \
- config/PCT-config.h compat.h /usr/include/x86_64-linux-gnu/sys/fcntl.h \
+ config/pct-config.h compat.h /usr/include/x86_64-linux-gnu/sys/fcntl.h \
  /usr/include/fcntl.h /usr/include/x86_64-linux-gnu/bits/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
@@ -1198,7 +1198,7 @@ test/test_test_dash-ratecheck_tests.o: test/ratecheck_tests.cpp \
  /usr/include/c++/7/deque /usr/include/c++/7/bits/stl_deque.h \
  /usr/include/c++/7/bits/deque.tcc /usr/include/c++/7/thread \
  /usr/include/boost/foreach.hpp /usr/include/boost/foreach_fwd.hpp \
- univalue/include/univalue.h test/test_PCT.h chainparamsbase.h key.h \
+ univalue/include/univalue.h test/test_pct.h chainparamsbase.h key.h \
  pubkey.h txdb.h coins.h compressor.h script/script.h core_memusage.h \
  memusage.h /usr/include/c++/7/unordered_map \
  /usr/include/c++/7/bits/hashtable.h \
@@ -1498,7 +1498,7 @@ serialize.h:
 
 compat/endian.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h:
 
@@ -1942,7 +1942,7 @@ script/script.h:
 
 crypto/common.h:
 
-../src/config/PCT-config.h:
+../src/config/pct-config.h:
 
 compat/endian.h:
 
@@ -3810,7 +3810,7 @@ addrman.h:
 
 netaddress.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat.h:
 
@@ -4284,7 +4284,7 @@ threadinterrupt.h:
 
 univalue/include/univalue.h:
 
-test/test_PCT.h:
+test/test_pct.h:
 
 chainparamsbase.h:
 

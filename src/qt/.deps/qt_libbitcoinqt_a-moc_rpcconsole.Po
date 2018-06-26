@@ -1,6 +1,6 @@
 qt/qt_libbitcoinqt_a-moc_rpcconsole.o: qt/moc_rpcconsole.cpp \
  /usr/include/stdc-predef.h qt/rpcconsole.h qt/guiutil.h amount.h \
- serialize.h compat/endian.h config/PCT-config.h \
+ serialize.h compat/endian.h config/pct-config.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -698,7 +698,7 @@ qt/qt_libbitcoinqt_a-moc_rpcconsole.o: qt/moc_rpcconsole.cpp \
  /usr/include/x86_64-linux-gnu/c++/7/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/7/bits/c++io.h \
  /usr/include/c++/7/bits/fstream.tcc qt/peertablemodel.h net_processing.h \
- net.h addrdb.h addrman.h netaddress.h config/PCT-config.h compat.h \
+ net.h addrdb.h addrman.h netaddress.h config/pct-config.h compat.h \
  /usr/include/x86_64-linux-gnu/sys/fcntl.h /usr/include/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
@@ -725,7 +725,7 @@ qt/qt_libbitcoinqt_a-moc_rpcconsole.o: qt/moc_rpcconsole.cpp \
  /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
  /usr/include/x86_64-linux-gnu/bits/netdb.h protocol.h uint256.h \
- crypto/common.h ../src/config/PCT-config.h compat/endian.h version.h \
+ crypto/common.h ../src/config/pct-config.h compat/endian.h version.h \
  random.h sync.h threadsafety.h \
  /usr/include/boost/thread/condition_variable.hpp \
  /usr/include/boost/thread/detail/platform.hpp \
@@ -1167,7 +1167,7 @@ serialize.h:
 
 compat/endian.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h:
 
@@ -2761,7 +2761,7 @@ addrman.h:
 
 netaddress.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat.h:
 
@@ -2837,7 +2837,7 @@ uint256.h:
 
 crypto/common.h:
 
-../src/config/PCT-config.h:
+../src/config/pct-config.h:
 
 compat/endian.h:
 

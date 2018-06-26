@@ -142,7 +142,7 @@ test/test_test_dash-key_tests.o: test/key_tests.cpp \
  /usr/include/c++/7/bits/ostream.tcc /usr/include/c++/7/istream \
  /usr/include/c++/7/bits/istream.tcc \
  /usr/include/c++/7/bits/stream_iterator.h serialize.h compat/endian.h \
- config/PCT-config.h compat/byteswap.h /usr/include/byteswap.h \
+ config/pct-config.h compat/byteswap.h /usr/include/byteswap.h \
  /usr/include/c++/7/algorithm /usr/include/c++/7/utility \
  /usr/include/c++/7/bits/stl_relops.h /usr/include/c++/7/bits/stl_algo.h \
  /usr/include/c++/7/bits/algorithmfwd.h \
@@ -163,7 +163,7 @@ test/test_test_dash-key_tests.o: test/key_tests.cpp \
  /usr/include/c++/7/bits/stl_vector.h \
  /usr/include/c++/7/bits/stl_bvector.h /usr/include/c++/7/bits/vector.tcc \
  uint256.h /usr/include/c++/7/cstring crypto/common.h \
- ../src/config/PCT-config.h compat/endian.h version.h crypto/sph_blake.h \
+ ../src/config/pct-config.h compat/endian.h version.h crypto/sph_blake.h \
  crypto/sph_types.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/syslimits.h \
@@ -646,7 +646,7 @@ test/test_test_dash-key_tests.o: test/key_tests.cpp \
  chainparams.h chainparamsbase.h consensus/params.h uint256.h \
  primitives/block.h primitives/transaction.h amount.h script/script.h \
  crypto/common.h prevector.h serialize.h protocol.h netaddress.h \
- config/PCT-config.h compat.h /usr/include/x86_64-linux-gnu/sys/fcntl.h \
+ config/pct-config.h compat.h /usr/include/x86_64-linux-gnu/sys/fcntl.h \
  /usr/include/fcntl.h /usr/include/x86_64-linux-gnu/bits/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
@@ -1022,7 +1022,7 @@ test/test_test_dash-key_tests.o: test/key_tests.cpp \
  /usr/include/boost/signals2/detail/variadic_slot_invoker.hpp \
  /usr/include/boost/type_traits/function_traits.hpp \
  /usr/include/boost/signals2/detail/signal_template.hpp \
- utilstrencodings.h test/test_PCT.h chainparamsbase.h pubkey.h txdb.h \
+ utilstrencodings.h test/test_pct.h chainparamsbase.h pubkey.h txdb.h \
  coins.h compressor.h primitives/transaction.h core_memusage.h memusage.h \
  /usr/include/c++/7/unordered_map /usr/include/c++/7/bits/hashtable.h \
  /usr/include/c++/7/bits/hashtable_policy.h \
@@ -1823,7 +1823,7 @@ serialize.h:
 
 compat/endian.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat/byteswap.h:
 
@@ -1899,7 +1899,7 @@ uint256.h:
 
 crypto/common.h:
 
-../src/config/PCT-config.h:
+../src/config/pct-config.h:
 
 compat/endian.h:
 
@@ -2989,7 +2989,7 @@ protocol.h:
 
 netaddress.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat.h:
 
@@ -3831,7 +3831,7 @@ amount.h:
 
 utilstrencodings.h:
 
-test/test_PCT.h:
+test/test_pct.h:
 
 chainparamsbase.h:
 

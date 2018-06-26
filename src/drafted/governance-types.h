@@ -16,9 +16,9 @@ enum GovernanceObjectType {
     ValueOverride = 1, 
 
     // -------------------------------
-    // PCTNetwork - is the root node
-    PCTNetwork = 1000,
-    PCTNetworkVariable = 1001,
+    // pctNetwork - is the root node
+    pctNetwork = 1000,
+    pctNetworkVariable = 1001,
     Category = 1002,
 
     // Actors

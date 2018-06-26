@@ -4,22 +4,22 @@
 
 	* means the category has an associated class
 	
-	CPCTNetwork: PCT NETWORK (ROOT)
+	CpctNetwork: pct NETWORK (ROOT)
 	has:
 		vector<CNetworkVariable> vecNetworkVariables;
-		vector<CPCTProject> vecProjects;
+		vector<CpctProject> vecProjects;
 		vector<CGovernanceObject> vecProposals;
 		vector<CBudgetContract> vecContracts;
 		vector<CBudgetUsers> vecUsers;
 
-	CPCTProject:
+	CpctProject:
 	has:
 		name
 		employees
 
 */
 
-	// PCT NETWORK (ROOT)
+	// pct NETWORK (ROOT)
 	// 	-> NETWORK VARIABLE
 	// 		-> switch, setting
 	// 	-> CATEGORIES
@@ -49,7 +49,7 @@
 	// 			-> USER1 (only users are allowed here in this scope)
 	// 			-> USER2
 	// 		-> GROUP2 (EVO)
-	// 			-> VALUEOVERRIDE (STORE=PCTDRIVE)
+	// 			-> VALUEOVERRIDE (STORE=pctDRIVE)
 	// 			-> USER1
 
 	// 	-> COMPANIES

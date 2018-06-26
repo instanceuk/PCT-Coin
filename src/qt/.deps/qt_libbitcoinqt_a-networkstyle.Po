@@ -246,7 +246,7 @@ qt/qt_libbitcoinqt_a-networkstyle.o: qt/networkstyle.cpp \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QString \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h qt/guiconstants.h \
- qt/guiutil.h amount.h serialize.h compat/endian.h config/PCT-config.h \
+ qt/guiutil.h amount.h serialize.h compat/endian.h config/pct-config.h \
  compat/byteswap.h /usr/include/byteswap.h /usr/include/assert.h \
  /usr/include/c++/7/set /usr/include/c++/7/bits/stl_set.h \
  /usr/include/c++/7/bits/stl_multiset.h prevector.h \
@@ -1318,7 +1318,7 @@ serialize.h:
 
 compat/endian.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat/byteswap.h:
 

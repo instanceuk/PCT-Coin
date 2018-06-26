@@ -1,6 +1,6 @@
 primitives/libbitcoin_common_a-block.o: primitives/block.cpp \
  /usr/include/stdc-predef.h primitives/block.h primitives/transaction.h \
- amount.h serialize.h compat/endian.h config/PCT-config.h \
+ amount.h serialize.h compat/endian.h config/pct-config.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -159,7 +159,7 @@ primitives/libbitcoin_common_a-block.o: primitives/block.cpp \
  /usr/include/c++/7/ostream /usr/include/c++/7/bits/ostream.tcc \
  /usr/include/c++/7/istream /usr/include/c++/7/bits/istream.tcc \
  /usr/include/c++/7/bits/stream_iterator.h script/script.h \
- crypto/common.h ../src/config/PCT-config.h compat/endian.h prevector.h \
+ crypto/common.h ../src/config/pct-config.h compat/endian.h prevector.h \
  /usr/include/c++/7/climits \
  /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/syslimits.h \
@@ -190,7 +190,7 @@ serialize.h:
 
 compat/endian.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h:
 
@@ -616,7 +616,7 @@ script/script.h:
 
 crypto/common.h:
 
-../src/config/PCT-config.h:
+../src/config/pct-config.h:
 
 compat/endian.h:
 

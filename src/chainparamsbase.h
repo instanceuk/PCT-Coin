@@ -9,8 +9,8 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between PCT-cli and PCTd)
- * of a given instance of the PCT system.
+ * CBaseChainParams defines the base parameters (shared between pct-cli and pctd)
+ * of a given instance of the pct system.
  */
 class CBaseChainParams
 {

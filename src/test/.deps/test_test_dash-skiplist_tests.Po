@@ -128,7 +128,7 @@ test/test_test_dash-skiplist_tests.o: test/skiplist_tests.cpp \
  /usr/include/c++/7/bits/stl_vector.h \
  /usr/include/c++/7/bits/stl_bvector.h /usr/include/c++/7/bits/vector.tcc \
  primitives/block.h primitives/transaction.h amount.h serialize.h \
- compat/endian.h config/PCT-config.h compat/byteswap.h \
+ compat/endian.h config/pct-config.h compat/byteswap.h \
  /usr/include/byteswap.h /usr/include/c++/7/algorithm \
  /usr/include/c++/7/utility /usr/include/c++/7/bits/stl_relops.h \
  /usr/include/c++/7/bits/stl_algo.h \
@@ -162,7 +162,7 @@ test/test_test_dash-skiplist_tests.o: test/skiplist_tests.cpp \
  /usr/include/c++/7/ostream /usr/include/c++/7/bits/ostream.tcc \
  /usr/include/c++/7/istream /usr/include/c++/7/bits/istream.tcc \
  /usr/include/c++/7/bits/stream_iterator.h script/script.h \
- crypto/common.h ../src/config/PCT-config.h compat/endian.h prevector.h \
+ crypto/common.h ../src/config/pct-config.h compat/endian.h prevector.h \
  /usr/include/c++/7/climits \
  /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/syslimits.h \
@@ -175,7 +175,7 @@ test/test_test_dash-skiplist_tests.o: test/skiplist_tests.cpp \
  crypto/common.h pow.h consensus/params.h tinyformat.h \
  /usr/include/c++/7/cassert /usr/include/c++/7/iostream \
  /usr/include/c++/7/sstream /usr/include/c++/7/bits/sstream.tcc uint256.h \
- random.h util.h config/PCT-config.h compat.h \
+ random.h util.h config/pct-config.h compat.h \
  /usr/include/x86_64-linux-gnu/sys/fcntl.h /usr/include/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
@@ -881,7 +881,7 @@ test/test_test_dash-skiplist_tests.o: test/skiplist_tests.cpp \
  /usr/include/boost/thread/exceptions.hpp \
  /usr/include/boost/thread/detail/config.hpp \
  /usr/include/boost/thread/detail/platform.hpp \
- /usr/include/boost/config/requires_threads.hpp test/test_PCT.h \
+ /usr/include/boost/config/requires_threads.hpp test/test_pct.h \
  chainparamsbase.h key.h pubkey.h hash.h crypto/ripemd160.h \
  crypto/sha256.h version.h crypto/sph_blake.h crypto/sph_types.h \
  crypto/sph_bmw.h crypto/sph_groestl.h crypto/sph_jh.h \
@@ -1774,7 +1774,7 @@ serialize.h:
 
 compat/endian.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat/byteswap.h:
 
@@ -1886,7 +1886,7 @@ script/script.h:
 
 crypto/common.h:
 
-../src/config/PCT-config.h:
+../src/config/pct-config.h:
 
 compat/endian.h:
 
@@ -1938,7 +1938,7 @@ random.h:
 
 util.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat.h:
 
@@ -3486,7 +3486,7 @@ amount.h:
 
 /usr/include/boost/config/requires_threads.hpp:
 
-test/test_PCT.h:
+test/test_pct.h:
 
 chainparamsbase.h:
 

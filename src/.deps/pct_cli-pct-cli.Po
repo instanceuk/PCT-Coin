@@ -122,7 +122,7 @@ pct_cli-pct-cli.o: pct-cli.cpp /usr/include/stdc-predef.h \
  /usr/include/c++/7/bits/stl_uninitialized.h \
  /usr/include/c++/7/bits/stl_vector.h \
  /usr/include/c++/7/bits/stl_bvector.h /usr/include/c++/7/bits/vector.tcc \
- clientversion.h config/PCT-config.h rpc/client.h \
+ clientversion.h config/pct-config.h rpc/client.h \
  univalue/include/univalue.h /usr/include/c++/7/map \
  /usr/include/c++/7/bits/stl_tree.h \
  /usr/include/c++/7/ext/aligned_buffer.h \
@@ -607,7 +607,7 @@ pct_cli-pct-cli.o: pct-cli.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
  /usr/include/x86_64-linux-gnu/bits/netdb.h tinyformat.h \
  /usr/include/c++/7/iostream utiltime.h amount.h serialize.h \
- compat/endian.h config/PCT-config.h compat/byteswap.h \
+ compat/endian.h config/pct-config.h compat/byteswap.h \
  /usr/include/byteswap.h /usr/include/c++/7/set \
  /usr/include/c++/7/bits/stl_set.h /usr/include/c++/7/bits/stl_multiset.h \
  prevector.h /usr/include/c++/7/stdlib.h \
@@ -1215,7 +1215,7 @@ chainparamsbase.h:
 
 clientversion.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 rpc/client.h:
 
@@ -2331,7 +2331,7 @@ serialize.h:
 
 compat/endian.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat/byteswap.h:
 

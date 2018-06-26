@@ -62,12 +62,12 @@
         <translation>Адреса получения</translation>
     </message>
     <message>
-        <source>These are your PCT addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Это ваши адреса PCT для отправки платежей. Всегда проверяйте количество и адрес получателя перед отправкой перевода.</translation>
+        <source>These are your pct addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Это ваши адреса pct для отправки платежей. Всегда проверяйте количество и адрес получателя перед отправкой перевода.</translation>
     </message>
     <message>
-        <source>These are your PCT addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Это ваши адреса PCT для приёма платежей. Рекомендуется использовать новый адрес получения для каждой транзакции.</translation>
+        <source>These are your pct addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Это ваши адреса pct для приёма платежей. Рекомендуется использовать новый адрес получения для каждой транзакции.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,8 +176,8 @@
         <translation>Подтвердите шифрование кошелька</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PCT&lt;/b&gt;!</source>
-        <translation>Внимание: если Вы зашифруете кошелёк и потеряете пароль, вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ ВАШИ PCT&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR pct&lt;/b&gt;!</source>
+        <translation>Внимание: если Вы зашифруете кошелёк и потеряете пароль, вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ ВАШИ pct&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -188,8 +188,8 @@
         <translation>Кошелёк зашифрован</translation>
     </message>
     <message>
-        <source>PCT Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PCTs from being stolen by malware infecting your computer.</source>
-        <translation>Сейчас PCT Core закроется для завершения процесса шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши даши от кражи с помощью инфицирования вашего компьютера вредоносным ПО.</translation>
+        <source>pct Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your pcts from being stolen by malware infecting your computer.</source>
+        <translation>Сейчас pct Core закроется для завершения процесса шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши даши от кражи с помощью инфицирования вашего компьютера вредоносным ПО.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -242,12 +242,12 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>A fatal error occurred. PCT Core can no longer continue safely and will quit.</source>
-        <translation>Произошла критическая ошибка. Дальнейшая безопасная работа PCT Core невозможна, программа будет закрыта.</translation>
+        <source>A fatal error occurred. pct Core can no longer continue safely and will quit.</source>
+        <translation>Произошла критическая ошибка. Дальнейшая безопасная работа pct Core невозможна, программа будет закрыта.</translation>
     </message>
     <message>
-        <source>PCT Core</source>
-        <translation>PCT Core</translation>
+        <source>pct Core</source>
+        <translation>pct Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -270,16 +270,16 @@
         <translation>&amp;Отправить</translation>
     </message>
     <message>
-        <source>Send coins to a PCT address</source>
-        <translation>Отправить монеты на указанный адрес PCT</translation>
+        <source>Send coins to a pct address</source>
+        <translation>Отправить монеты на указанный адрес pct</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
         <translation>&amp;Получить</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and PCT: URIs)</source>
-        <translation>Запросить платежи (создать QR-коды и PCT: URI)</translation>
+        <source>Request payments (generates QR codes and pct: URIs)</source>
+        <translation>Запросить платежи (создать QR-коды и pct: URI)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -306,12 +306,12 @@
         <translation>Закрыть приложение</translation>
     </message>
     <message>
-        <source>&amp;About PCT Core</source>
-        <translation>О &amp;PCT Core</translation>
+        <source>&amp;About pct Core</source>
+        <translation>О &amp;pct Core</translation>
     </message>
     <message>
-        <source>Show information about PCT Core</source>
-        <translation>Показать информацию о PCT Core</translation>
+        <source>Show information about pct Core</source>
+        <translation>Показать информацию о pct Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -326,8 +326,8 @@
         <translation>&amp;Параметры...</translation>
     </message>
     <message>
-        <source>Modify configuration options for PCT Core</source>
-        <translation>Изменить параметры конфигурации PCT Core</translation>
+        <source>Modify configuration options for pct Core</source>
+        <translation>Изменить параметры конфигурации pct Core</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -378,16 +378,16 @@
         <translation>П&amp;одписать сообщение...</translation>
     </message>
     <message>
-        <source>Sign messages with your PCT addresses to prove you own them</source>
-        <translation>Подписать сообщения вашими адресами PCT, чтобы доказать, что вы ими владеете</translation>
+        <source>Sign messages with your pct addresses to prove you own them</source>
+        <translation>Подписать сообщения вашими адресами pct, чтобы доказать, что вы ими владеете</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>П&amp;роверить сообщение...</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified PCT addresses</source>
-        <translation>Проверить сообщения, чтобы удостовериться, что они были подписаны определёнными адресами PCT</translation>
+        <source>Verify messages to ensure they were signed with specified pct addresses</source>
+        <translation>Проверить сообщения, чтобы удостовериться, что они были подписаны определёнными адресами pct</translation>
     </message>
     <message>
         <source>&amp;Information</source>
@@ -474,16 +474,16 @@
         <translation>Открыть &amp;URI...</translation>
     </message>
     <message>
-        <source>Open a PCT: URI or payment request</source>
-        <translation>Открыть PCT: URI или запрос платежа</translation>
+        <source>Open a pct: URI or payment request</source>
+        <translation>Открыть pct: URI или запрос платежа</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Параметры командной строки</translation>
     </message>
     <message>
-        <source>Show the PCT Core help message to get a list with possible PCT Core command-line options</source>
-        <translation>Показать справку по PCT Core со списком возможных параметров командной строки</translation>
+        <source>Show the pct Core help message to get a list with possible pct Core command-line options</source>
+        <translation>Показать справку по pct Core со списком возможных параметров командной строки</translation>
     </message>
     <message>
         <source>&amp;PrivateSend information</source>
@@ -514,12 +514,12 @@
         <translation>Панель вкладок</translation>
     </message>
     <message>
-        <source>PCT Core client</source>
-        <translation>Клиент PCT Core</translation>
+        <source>pct Core client</source>
+        <translation>Клиент pct Core</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to PCT network</source>
-        <translation><numerusform>%n активное соединение с сетью PCT</numerusform><numerusform>%n активных соединения с сетью PCT</numerusform><numerusform>%n активных соединений с сетью PCT</numerusform><numerusform>%n активных соединений с сетью PCT</numerusform></translation>
+        <source>%n active connection(s) to pct network</source>
+        <translation><numerusform>%n активное соединение с сетью pct</numerusform><numerusform>%n активных соединения с сетью pct</numerusform><numerusform>%n активных соединений с сетью pct</numerusform><numerusform>%n активных соединений с сетью pct</numerusform></translation>
     </message>
     <message>
         <source>Network activity disabled</source>
@@ -857,28 +857,28 @@
         <translation>Пожалуйста, выберите уровень приватности.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 1000 PCT</source>
-        <translation>Использовать 2 отдельные мастерноды для перемешивания до 1000 PCT</translation>
+        <source>Use 2 separate masternodes to mix funds up to 1000 pct</source>
+        <translation>Использовать 2 отдельные мастерноды для перемешивания до 1000 pct</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 1000 PCT</source>
-        <translation>Использовать 8 отдельных мастернод для перемешивания до 1000 PCT</translation>
+        <source>Use 8 separate masternodes to mix funds up to 1000 pct</source>
+        <translation>Использовать 8 отдельных мастернод для перемешивания до 1000 pct</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Использовать 16 отдельных мастернод</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 PCT to anonymize 1000 PCT</source>
-        <translation>Это самый быстрый вариант, анонимизация 1000 PCT будет стоить вам примерно 0.025 PCT</translation>
+        <source>This option is the quickest and will cost about ~0.025 pct to anonymize 1000 pct</source>
+        <translation>Это самый быстрый вариант, анонимизация 1000 pct будет стоить вам примерно 0.025 pct</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 PCT to anonymize 1000 PCT</source>
-        <translation>Это относительно быстрый вариант, анонимизация 1000 PCT будет стоить вам примерно 0.05 PCT</translation>
+        <source>This option is moderately fast and will cost about 0.05 pct to anonymize 1000 pct</source>
+        <translation>Это относительно быстрый вариант, анонимизация 1000 pct будет стоить вам примерно 0.05 pct</translation>
     </message>
     <message>
-        <source>0.1 PCT per 1000 PCT you anonymize.</source>
-        <translation>0.1 PCT за каждые анонимизированные 1000 PCT.</translation>
+        <source>0.1 pct per 1000 pct you anonymize.</source>
+        <translation>0.1 pct за каждые анонимизированные 1000 pct.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
@@ -889,15 +889,15 @@
         <translation>Настройки PrivateSend</translation>
     </message>
     <message>
-        <source>PrivateSend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening PCT's configuration screen.</source>
+        <source>PrivateSend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening pct's configuration screen.</source>
         <translation>PrivateSend успешно установлен в режим базовой приватности (%1 и 2 раунда). Вы можете изменить это в любое время, используя окно настроек.</translation>
     </message>
     <message>
-        <source>PrivateSend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening PCT's configuration screen.</source>
+        <source>PrivateSend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening pct's configuration screen.</source>
         <translation>PrivateSend успешно установлен в режим высокой приватности (%1 и 8 раундов). Вы можете изменить это в любое время, используя окно настроек.</translation>
     </message>
     <message>
-        <source>PrivateSend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening PCT's configuration screen.</source>
+        <source>PrivateSend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening pct's configuration screen.</source>
         <translation>PrivateSend успешно установлен в режим максимальной приватности (%1 и 16 раундов). Вы можете изменить это в любое время, используя окно настроек.</translation>
     </message>
 </context>
@@ -940,8 +940,8 @@
         <translation>Изменение адреса для отправки</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid PCT address.</source>
-        <translation>Введённый адрес "%1" не является правильным адресом PCT.</translation>
+        <source>The entered address "%1" is not a valid pct address.</source>
+        <translation>Введённый адрес "%1" не является правильным адресом pct.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -982,8 +982,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>PCT Core</source>
-        <translation>PCT Core</translation>
+        <source>pct Core</source>
+        <translation>pct Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -994,8 +994,8 @@
         <translation>(%1-бит)</translation>
     </message>
     <message>
-        <source>About PCT Core</source>
-        <translation>О PCT Core</translation>
+        <source>About pct Core</source>
+        <translation>О pct Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1042,8 +1042,8 @@
         <translation>Информация о PrivateSend</translation>
     </message>
     <message>
-        <source>&lt;h3&gt;PrivateSend Basics&lt;/h3&gt; PrivateSend gives you true financial privacy by obscuring the origins of your funds. All the PCT in your wallet is comprised of different "inputs" which you can think of as separate, discrete coins.&lt;br&gt; PrivateSend uses an innovative process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. You retain control of your money at all times..&lt;hr&gt; &lt;b&gt;The PrivateSend process works like this:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;PrivateSend begins by breaking your transaction inputs down into standard denominations. These denominations are 0.01 PCT, 0.1 PCT, 1 PCT and 10 PCT -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called "masternodes." These masternodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the masternodes, so they never know "who" you are.&lt;/li&gt; &lt;li&gt;When two other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The masternode mixes up the inputs and instructs all three users' wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it's called a "round." Each round of PrivateSend makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be anonymized. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these "change addresses." Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have PrivateSend disabled. &lt;hr&gt;For more info see &lt;a href="https://PCTpay.atlassian.net/wiki/display/DOC/PrivateSend"&gt;https://PCTpay.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;         </source>
-        <translation>&lt;h3&gt;Основы PrivateSend&lt;/h3&gt;PrivateSend позволяет Вам получить настоящую финансовую конфиденциальность за счет скрытия источников Ваших средств. Все PCT в  Вашем кошельке состоят из различных ""входов", Вы можете думать о них как об отдельных монетах.&lt;br&gt;PrivateSend использует инновационный процесс для перемешивания Ваших входов со входами еще двоих человек, но при этом Ваши монеты никогда не покидают Ваш кошелек. Вы сохраняете контроль над Вашими деньгами на протяжении всего времени.&lt;hr&gt; &lt;b&gt;PrivateSend работает так:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;PrivateSend начинается с разбиения Ваших входов транзакций на стандартные номиналы. Такими номиналами являются 0.01 PCT, 0.1 PCT, 1 PCT и 10 PCT -- что-то вроде купюр, которыми вы пользуетесь каждый день.&lt;/li&gt; &lt;li&gt;Ваш кошелек затем отправляет запросы к особым образом настроенным сетевым узлам, называемым "мастернодами". Эти мастерноды знают только то, что Вы хотите перемешать определенные номиналы. Никакой идентифицирующей информации мастернодам не отправляется, так что они не знают "кто" Вы конкретно.&lt;/li&gt; &lt;li&gt;Сессия перемешивания начинается тогда, когда еще двое человек отправляют схожее сообщение, подтверждающее, что они хотят перемешать точно такой же номинал. Мастернода перемешивает входы и просит кошельки всех пользователей осуществить платежи по ним. Ваш кошелек осуществляет выплату самому себе, но на другой адрес (тоже из вашего кошелька).&lt;/li&gt; &lt;li&gt;Для скрытия Ваших средств кошелек должен повторить этот процесс несколько раз с каждым номиналом. Каждый раз, когда такой процесс завершается, называется "раундом". С каждым раундом PrivateSend становится экспоненциально сложнее определить откуда поступили средства.&lt;/li&gt; &lt;li&gt;Процесс перемешивания выполняется в фоне, без участия пользователя. Когда Вы захотите провести транзакцию, средства уже будут анонимизированы. Дополнительно ждать не требуется.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;ВАЖНО:&lt;/b&gt; Ваш кошелек содержит 1000 адресов. Каждое перемешивание использует до 9 из этих адресов. Это означает, что 1000 адресов хватит примерно на 100 перемешиваний. Когда 900 адресов будут уже использованы, Ваш кошелек должен создать новые адреса. Однако, он может сделать это, только если у Вас включены автоматические резервные копии.&lt;br&gt;Соответственно, пользователям с отключенным резервным копированием PrivateSend не доступен. &lt;hr&gt;Дополнительная информация доступна по ссылке &lt;a href="https://PCTpay.atlassian.net/wiki/display/DOC/PrivateSend"&gt;https://PCTpay.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;         </translation>
+        <source>&lt;h3&gt;PrivateSend Basics&lt;/h3&gt; PrivateSend gives you true financial privacy by obscuring the origins of your funds. All the pct in your wallet is comprised of different "inputs" which you can think of as separate, discrete coins.&lt;br&gt; PrivateSend uses an innovative process to mix your inputs with the inputs of two other people, without having your coins ever leave your wallet. You retain control of your money at all times..&lt;hr&gt; &lt;b&gt;The PrivateSend process works like this:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;PrivateSend begins by breaking your transaction inputs down into standard denominations. These denominations are 0.01 pct, 0.1 pct, 1 pct and 10 pct -- sort of like the paper money you use every day.&lt;/li&gt; &lt;li&gt;Your wallet then sends requests to specially configured software nodes on the network, called "masternodes." These masternodes are informed then that you are interested in mixing a certain denomination. No identifiable information is sent to the masternodes, so they never know "who" you are.&lt;/li&gt; &lt;li&gt;When two other people send similar messages, indicating that they wish to mix the same denomination, a mixing session begins. The masternode mixes up the inputs and instructs all three users' wallets to pay the now-transformed input back to themselves. Your wallet pays that denomination directly to itself, but in a different address (called a change address).&lt;/li&gt; &lt;li&gt;In order to fully obscure your funds, your wallet must repeat this process a number of times with each denomination. Each time the process is completed, it's called a "round." Each round of PrivateSend makes it exponentially more difficult to determine where your funds originated.&lt;/li&gt; &lt;li&gt;This mixing process happens in the background without any intervention on your part. When you wish to make a transaction, your funds will already be anonymized. No additional waiting is required.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;IMPORTANT:&lt;/b&gt; Your wallet only contains 1000 of these "change addresses." Every time a mixing event happens, up to 9 of your addresses are used up. This means those 1000 addresses last for about 100 mixing events. When 900 of them are used, your wallet must create more addresses. It can only do this, however, if you have automatic backups enabled.&lt;br&gt; Consequently, users who have backups disabled will also have PrivateSend disabled. &lt;hr&gt;For more info see &lt;a href="https://pctpay.atlassian.net/wiki/display/DOC/PrivateSend"&gt;https://pctpay.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;         </source>
+        <translation>&lt;h3&gt;Основы PrivateSend&lt;/h3&gt;PrivateSend позволяет Вам получить настоящую финансовую конфиденциальность за счет скрытия источников Ваших средств. Все pct в  Вашем кошельке состоят из различных ""входов", Вы можете думать о них как об отдельных монетах.&lt;br&gt;PrivateSend использует инновационный процесс для перемешивания Ваших входов со входами еще двоих человек, но при этом Ваши монеты никогда не покидают Ваш кошелек. Вы сохраняете контроль над Вашими деньгами на протяжении всего времени.&lt;hr&gt; &lt;b&gt;PrivateSend работает так:&lt;/b&gt;&lt;ol type="1"&gt; &lt;li&gt;PrivateSend начинается с разбиения Ваших входов транзакций на стандартные номиналы. Такими номиналами являются 0.01 pct, 0.1 pct, 1 pct и 10 pct -- что-то вроде купюр, которыми вы пользуетесь каждый день.&lt;/li&gt; &lt;li&gt;Ваш кошелек затем отправляет запросы к особым образом настроенным сетевым узлам, называемым "мастернодами". Эти мастерноды знают только то, что Вы хотите перемешать определенные номиналы. Никакой идентифицирующей информации мастернодам не отправляется, так что они не знают "кто" Вы конкретно.&lt;/li&gt; &lt;li&gt;Сессия перемешивания начинается тогда, когда еще двое человек отправляют схожее сообщение, подтверждающее, что они хотят перемешать точно такой же номинал. Мастернода перемешивает входы и просит кошельки всех пользователей осуществить платежи по ним. Ваш кошелек осуществляет выплату самому себе, но на другой адрес (тоже из вашего кошелька).&lt;/li&gt; &lt;li&gt;Для скрытия Ваших средств кошелек должен повторить этот процесс несколько раз с каждым номиналом. Каждый раз, когда такой процесс завершается, называется "раундом". С каждым раундом PrivateSend становится экспоненциально сложнее определить откуда поступили средства.&lt;/li&gt; &lt;li&gt;Процесс перемешивания выполняется в фоне, без участия пользователя. Когда Вы захотите провести транзакцию, средства уже будут анонимизированы. Дополнительно ждать не требуется.&lt;/li&gt; &lt;/ol&gt; &lt;hr&gt;&lt;b&gt;ВАЖНО:&lt;/b&gt; Ваш кошелек содержит 1000 адресов. Каждое перемешивание использует до 9 из этих адресов. Это означает, что 1000 адресов хватит примерно на 100 перемешиваний. Когда 900 адресов будут уже использованы, Ваш кошелек должен создать новые адреса. Однако, он может сделать это, только если у Вас включены автоматические резервные копии.&lt;br&gt;Соответственно, пользователям с отключенным резервным копированием PrivateSend не доступен. &lt;hr&gt;Дополнительная информация доступна по ссылке &lt;a href="https://pctpay.atlassian.net/wiki/display/DOC/PrivateSend"&gt;https://pctpay.atlassian.net/wiki/display/DOC/PrivateSend&lt;/a&gt;         </translation>
     </message>
 </context>
 <context>
@@ -1053,16 +1053,16 @@
         <translation>Добро пожаловать</translation>
     </message>
     <message>
-        <source>Welcome to PCT Core.</source>
-        <translation>Добро пожаловать в PCT Core.</translation>
+        <source>Welcome to pct Core.</source>
+        <translation>Добро пожаловать в pct Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where PCT Core will store its data.</source>
-        <translation>Так как вы впервые запустили программу, вы можете выбрать, где PCT Core будет хранить данные.</translation>
+        <source>As this is the first time the program is launched, you can choose where pct Core will store its data.</source>
+        <translation>Так как вы впервые запустили программу, вы можете выбрать, где pct Core будет хранить данные.</translation>
     </message>
     <message>
-        <source>PCT Core will download and store a copy of the PCT block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>PCT Core скачает и сохранит копию цепочки блоков. Как минимум %1ГБ данных будет храниться в этом каталоге и размер данных будет со временем расти. В этом же каталоге будет сохранён кошелёк.</translation>
+        <source>pct Core will download and store a copy of the pct block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>pct Core скачает и сохранит копию цепочки блоков. Как минимум %1ГБ данных будет храниться в этом каталоге и размер данных будет со временем расти. В этом же каталоге будет сохранён кошелёк.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1073,8 +1073,8 @@
         <translation>Использовать другой каталог данных:</translation>
     </message>
     <message>
-        <source>PCT Core</source>
-        <translation>PCT Core</translation>
+        <source>pct Core</source>
+        <translation>pct Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1219,11 +1219,11 @@
         <translation>Форма</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the PCT network, as detailed below.</source>
-        <translation>Последние транзакции пока что могут быть не видны и поэтому ваш баланс может отображаться некорректно. Информация будет корректироваться по мере синхронизации с сетью PCT, подробности о ходе синхронизации представлены ниже.</translation>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the pct network, as detailed below.</source>
+        <translation>Последние транзакции пока что могут быть не видны и поэтому ваш баланс может отображаться некорректно. Информация будет корректироваться по мере синхронизации с сетью pct, подробности о ходе синхронизации представлены ниже.</translation>
     </message>
     <message>
-        <source>Attempting to spend PCT that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <source>Attempting to spend pct that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
         <translation>Попытка потратить средства из ещё не отображённых транзакций будет отвергнута сетью.</translation>
     </message>
     <message>
@@ -1317,20 +1317,20 @@
         <translation>(0 = автоматически, &lt;0 = оставить столько незагруженных ядер)</translation>
     </message>
     <message>
-        <source>Amount of PCT to keep anonymized</source>
-        <translation>Сумма постоянно анонимизированных PCT</translation>
+        <source>Amount of pct to keep anonymized</source>
+        <translation>Сумма постоянно анонимизированных pct</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
         <translation>К&amp;ошелёк</translation>
     </message>
     <message>
-        <source>Automatically start PCT Core after logging in to the system.</source>
-        <translation>Автоматически запускать PCT Core после входа в систему.</translation>
+        <source>Automatically start pct Core after logging in to the system.</source>
+        <translation>Автоматически запускать pct Core после входа в систему.</translation>
     </message>
     <message>
-        <source>&amp;Start PCT Core on system login</source>
-        <translation>&amp;Запускать PCT Core при входе в систему</translation>
+        <source>&amp;Start pct Core on system login</source>
+        <translation>&amp;Запускать pct Core при входе в систему</translation>
     </message>
     <message>
         <source>Show additional tab listing all your masternodes in first sub-tab&lt;br/&gt;and all masternodes on the network in second sub-tab.</source>
@@ -1377,8 +1377,8 @@
         <translation>Это пороговое значение, при достижении которого PrivateSend отключается.</translation>
     </message>
     <message>
-        <source>Automatically open the PCT Core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматически открыть порт для PCT Core на роутере. Работает только в том случае, если Ваш роутер поддерживает UPnP и данная функция включена.</translation>
+        <source>Automatically open the pct Core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматически открыть порт для pct Core на роутере. Работает только в том случае, если Ваш роутер поддерживает UPnP и данная функция включена.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1389,8 +1389,8 @@
         <translation>Принимать входящие подключения</translation>
     </message>
     <message>
-        <source>Connect to the PCT network through a SOCKS5 proxy.</source>
-        <translation>Подключаться к сети PCT через прокси SOCKS5.</translation>
+        <source>Connect to the pct network through a SOCKS5 proxy.</source>
+        <translation>Подключаться к сети pct через прокси SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1401,8 +1401,8 @@
         <translation>Сворачивать вместо закрытия. Если данная настройка будет выбрана, то приложение закроется только после выбора пункта меню Завершить.</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting PCT Core.</source>
-        <translation>Здесь можно выбрать язык интерфейса. Настройки вступят в силу после перезапуска PCT Core.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting pct Core.</source>
+        <translation>Здесь можно выбрать язык интерфейса. Настройки вступят в силу после перезапуска pct Core.</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items.&lt;br/&gt;%s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
@@ -1473,8 +1473,8 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the PCT network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Подключаться к сети PCT через отдельный прокси SOCKS5 для скрытых сервисов Tor.</translation>
+        <source>Connect to the pct network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Подключаться к сети pct через отдельный прокси SOCKS5 для скрытых сервисов Tor.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
@@ -1514,9 +1514,9 @@
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/projects/p/PCT/</source>
+https://www.transifex.com/projects/p/pct/</source>
         <translation>Нет Вашего языка или перевод неполон? Помогите нам сделать перевод лучше:
-https://www.transifex.com/projects/p/PCT/</translation>
+https://www.transifex.com/projects/p/pct/</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
@@ -1594,8 +1594,8 @@ https://www.transifex.com/projects/p/PCT/</translation>
         <translation>Форма</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the PCT network after a connection is established, but this process has not completed yet.</source>
-        <translation>Отображаемая информация может быть устаревшей. Ваш кошелёк автоматически синхронизируется с сетью PCT после подключения, но этот процесс пока не завершён.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the pct network after a connection is established, but this process has not completed yet.</source>
+        <translation>Отображаемая информация может быть устаревшей. Ваш кошелёк автоматически синхронизируется с сетью pct после подключения, но этот процесс пока не завершён.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1694,8 +1694,8 @@ https://www.transifex.com/projects/p/PCT/</translation>
         <translation>Сумма и раунды:</translation>
     </message>
     <message>
-        <source>0 PCT / 0 Rounds</source>
-        <translation>0 PCT / 0 раундов</translation>
+        <source>0 pct / 0 Rounds</source>
+        <translation>0 pct / 0 раундов</translation>
     </message>
     <message>
         <source>Submitted Denom:</source>
@@ -1863,8 +1863,8 @@ https://www.transifex.com/projects/p/PCT/</translation>
         <translation>Ошибка запроса платежа</translation>
     </message>
     <message>
-        <source>Cannot start PCT: click-to-pay handler</source>
-        <translation>Не удаётся запустить обработчик PCT: click-to-pay</translation>
+        <source>Cannot start pct: click-to-pay handler</source>
+        <translation>Не удаётся запустить обработчик pct: click-to-pay</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1879,8 +1879,8 @@ https://www.transifex.com/projects/p/PCT/</translation>
         <translation>Неверный адрес платежа %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid PCT address or malformed URI parameters.</source>
-        <translation>Не удалось разобрать URI! Возможно указан некорректный адрес PCT либо параметры URI сформированы неверно.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid pct address or malformed URI parameters.</source>
+        <translation>Не удалось разобрать URI! Возможно указан некорректный адрес pct либо параметры URI сформированы неверно.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1969,8 +1969,8 @@ https://www.transifex.com/projects/p/PCT/</translation>
 <context>
     <name>QObject</name>
     <message>
-        <source>PCT Core</source>
-        <translation>PCT Core</translation>
+        <source>pct Core</source>
+        <translation>pct Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" does not exist.</source>
@@ -1989,16 +1989,16 @@ https://www.transifex.com/projects/p/PCT/</translation>
         <translation>Ошибка чтения файла конфигурации мастернод: %1</translation>
     </message>
     <message>
-        <source>PCT Core didn't yet exit safely...</source>
-        <translation>PCT Core еще не завершил работу...</translation>
+        <source>pct Core didn't yet exit safely...</source>
+        <translation>pct Core еще не завершил работу...</translation>
     </message>
     <message>
         <source>Amount</source>
         <translation>Сумма</translation>
     </message>
     <message>
-        <source>Enter a PCT address (e.g. %1)</source>
-        <translation>Введите адрес PCT (например, %1)</translation>
+        <source>Enter a pct address (e.g. %1)</source>
+        <translation>Введите адрес pct (например, %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2163,8 +2163,8 @@ https://www.transifex.com/projects/p/PCT/</translation>
         <translation>Использование памяти</translation>
     </message>
     <message>
-        <source>Open the PCT Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Открыть отладочный лог-файл PCT Core из текущего каталога данных. Для больших лог-файлов эта операция может занять несколько секунд.</translation>
+        <source>Open the pct Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Открыть отладочный лог-файл pct Core из текущего каталога данных. Для больших лог-файлов эта операция может занять несколько секунд.</translation>
     </message>
     <message>
         <source>&amp;Console</source>
@@ -2379,8 +2379,8 @@ https://www.transifex.com/projects/p/PCT/</translation>
         <translation>&amp;Разблокировать</translation>
     </message>
     <message>
-        <source>Welcome to the PCT Core RPC console.</source>
-        <translation>Добро пожаловать в RPC-консоль PCT Core.</translation>
+        <source>Welcome to the pct Core RPC console.</source>
+        <translation>Добро пожаловать в RPC-консоль pct Core.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2462,8 +2462,8 @@ https://www.transifex.com/projects/p/PCT/</translation>
         <translation>&amp;Повторно использовать существующий адрес получения (не рекомендуется)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the PCT network.</source>
-        <translation>Необязательное сообщение для запроса платежа, которое будет показано при открытии запроса. Обратите внимание: сообщение не будет отправлено вместе с платежом через сеть PCT.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the pct network.</source>
+        <translation>Необязательное сообщение для запроса платежа, которое будет показано при открытии запроса. Обратите внимание: сообщение не будет отправлено вместе с платежом через сеть pct.</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
@@ -2474,8 +2474,8 @@ https://www.transifex.com/projects/p/PCT/</translation>
         <translation>Необязательная метка для нового адреса получения.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the PCT network.</source>
-        <translation>Необязательное сообщение для запроса платежа, которое будет показано при открытии запроса.&lt;br&gt;Обратите внимание: сообщение не будет отправлено вместе с платежом через сеть PCT.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the pct network.</source>
+        <translation>Необязательное сообщение для запроса платежа, которое будет показано при открытии запроса.&lt;br&gt;Обратите внимание: сообщение не будет отправлено вместе с платежом через сеть pct.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2731,7 +2731,7 @@ https://www.transifex.com/projects/p/PCT/</translation>
         <translation>Если ручная комиссия  установлена в 1000 duff, а транзакция по размеру только 250 байт, то плата "за килобайт" составит лишь 250 duff,&lt;br&gt;в то время как "итого минимум" будет равна 1000 duff. Для тразакций больше килобайта в любом случае идет расчет "за килобайт".</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for PCT transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for pct transactions than the network can process.</source>
         <translation>Оплаты только минимальной комиссии должно быть достаточно во всех случаях, пока в блоках достаточно места.&lt;br&gt;Однако, будьте готовы к тому, что транзакция может вовсе не получить подтверждения,&lt;br&gt;если количество транзакций будет стабильно больше, чем сеть способна обработать.</translation>
     </message>
     <message>
@@ -2927,8 +2927,8 @@ https://www.transifex.com/projects/p/PCT/</translation>
         <translation><numerusform>Будет подтверждено приблизительно в течение %n блока.</numerusform><numerusform>Будет подтверждено приблизительно в течение %n блоков.</numerusform><numerusform>Будет подтверждено приблизительно в течение %n блоков.</numerusform><numerusform>Будет подтверждено приблизительно в течение %n блоков.</numerusform></translation>
     </message>
     <message>
-        <source>Warning: Invalid PCT address</source>
-        <translation>Внимание: неверный адрес PCT</translation>
+        <source>Warning: Invalid pct address</source>
+        <translation>Внимание: неверный адрес pct</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2950,8 +2950,8 @@ https://www.transifex.com/projects/p/PCT/</translation>
         <translation>Полу&amp;чатель:</translation>
     </message>
     <message>
-        <source>The PCT address to send the payment to</source>
-        <translation>Адрес PCT для отправки на него монет</translation>
+        <source>The pct address to send the payment to</source>
+        <translation>Адрес pct для отправки на него монет</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2986,8 +2986,8 @@ https://www.transifex.com/projects/p/PCT/</translation>
         <translation>Ко&amp;личество:</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive a lower amount of PCT than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>Комиссия будет вычтена из отправляемой суммы. Получателю придет меньше PCT, сем указано в поле "Сумма". Если указано несколько получателей, то комиссия будет разделена между ними поровну.</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive a lower amount of pct than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>Комиссия будет вычтена из отправляемой суммы. Получателю придет меньше pct, сем указано в поле "Сумма". Если указано несколько получателей, то комиссия будет разделена между ними поровну.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2998,8 +2998,8 @@ https://www.transifex.com/projects/p/PCT/</translation>
         <translation>Сообщение:</translation>
     </message>
     <message>
-        <source>A message that was attached to the PCT: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the PCT network.</source>
-        <translation>К PCT: URI было прикреплено сообщение, которое будет сохранено вместе с транзакцией для вашего сведения. Обратите внимание: сообщение не будет отправлено через сеть PCT.</translation>
+        <source>A message that was attached to the pct: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the pct network.</source>
+        <translation>К pct: URI было прикреплено сообщение, которое будет сохранено вместе с транзакцией для вашего сведения. Обратите внимание: сообщение не будет отправлено через сеть pct.</translation>
     </message>
     <message>
         <source>This is an unauthenticated payment request.</source>
@@ -3025,8 +3025,8 @@ https://www.transifex.com/projects/p/PCT/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>PCT Core is shutting down...</source>
-        <translation>PCT Core выключается...</translation>
+        <source>pct Core is shutting down...</source>
+        <translation>pct Core выключается...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -3044,12 +3044,12 @@ https://www.transifex.com/projects/p/PCT/</translation>
         <translation>&amp;Подписать сообщение</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive PCT sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Вы можете подписывать сообщения своими адресами, чтобы доказать, что Вы можете получать PCT на них. Будьте осторожны, не подписывайте что-то неопределённое, так как фишинговые атаки могут обманным путём заставить вас подписать нежелательные сообщения. Подписывайте только те сообщения, с которыми вы согласны вплоть до мелочей.</translation>
+        <source>You can sign messages/agreements with your addresses to prove you can receive pct sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>Вы можете подписывать сообщения своими адресами, чтобы доказать, что Вы можете получать pct на них. Будьте осторожны, не подписывайте что-то неопределённое, так как фишинговые атаки могут обманным путём заставить вас подписать нежелательные сообщения. Подписывайте только те сообщения, с которыми вы согласны вплоть до мелочей.</translation>
     </message>
     <message>
-        <source>The PCT address to sign the message with</source>
-        <translation>Адрес PCT, которым Вы хотите подписать сообщение</translation>
+        <source>The pct address to sign the message with</source>
+        <translation>Адрес pct, которым Вы хотите подписать сообщение</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3080,8 +3080,8 @@ https://www.transifex.com/projects/p/PCT/</translation>
         <translation>Скопировать текущую подпись в системный буфер обмена</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this PCT address</source>
-        <translation>Подписать сообщение, чтобы доказать владение этим адресом PCT</translation>
+        <source>Sign the message to prove you own this pct address</source>
+        <translation>Подписать сообщение, чтобы доказать владение этим адресом pct</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3104,12 +3104,12 @@ https://www.transifex.com/projects/p/PCT/</translation>
         <translation>Введите ниже адрес для подписи, сообщение (убедитесь, что переводы строк, пробелы, табы и т.п. в точности скопированы) и подпись, чтобы проверить сообщение. Убедитесь, что не скопировали лишнего в подпись, кроме самого подписываемого сообщения, чтобы не стать жертвой атаки "man-in-the-middle". Обратите внимание, что это лишь подтверждает, что подписывающий может получить средства на этот адрес, это не подтверждает, что он является отправителем какой-либо транзакции!</translation>
     </message>
     <message>
-        <source>The PCT address the message was signed with</source>
-        <translation>Адрес PCT, которым было подписано сообщение</translation>
+        <source>The pct address the message was signed with</source>
+        <translation>Адрес pct, которым было подписано сообщение</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified PCT address</source>
-        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом PCT</translation>
+        <source>Verify the message to ensure it was signed with the specified pct address</source>
+        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом pct</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -3179,8 +3179,8 @@ https://www.transifex.com/projects/p/PCT/</translation>
         <translation>[тестовая сеть]</translation>
     </message>
     <message>
-        <source>PCT Core</source>
-        <translation>PCT Core</translation>
+        <source>pct Core</source>
+        <translation>pct Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -3191,8 +3191,8 @@ https://www.transifex.com/projects/p/PCT/</translation>
         <translation>Разработчики Bitcoin Core</translation>
     </message>
     <message>
-        <source>The PCT Core developers</source>
-        <translation>Разработчики PCT Core</translation>
+        <source>The pct Core developers</source>
+        <translation>Разработчики pct Core</translation>
     </message>
 </context>
 <context>
@@ -3735,8 +3735,8 @@ https://www.transifex.com/projects/p/PCT/</translation>
         <translation>Отправка</translation>
     </message>
     <message>
-        <source>InstantSend doesn't support sending values that high yet. Transactions are currently limited to %1 PCT.</source>
-        <translation>InstantSend пока что не поддерживает такие большие суммы. На данный момент транзакции ограничены суммами до %1 PCT.</translation>
+        <source>InstantSend doesn't support sending values that high yet. Transactions are currently limited to %1 pct.</source>
+        <translation>InstantSend пока что не поддерживает такие большие суммы. На данный момент транзакции ограничены суммами до %1 pct.</translation>
     </message>
     <message>
         <source>Used way too many inputs (&gt;%1) for this InstantSend transaction, fees could be huge.</source>
@@ -3783,14 +3783,14 @@ https://www.transifex.com/projects/p/PCT/</translation>
     </message>
 </context>
 <context>
-    <name>PCT-core</name>
+    <name>pct-core</name>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Привязаться к указанному адресу и всегда прослушивать только его. Используйте [хост]:порт для IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. PCT Core is probably already running.</source>
-        <translation>Не удалось установить блокировку на каталог данных %s. Возможно, PCT Core уже запущен.</translation>
+        <source>Cannot obtain a lock on data directory %s. pct Core is probably already running.</source>
+        <translation>Не удалось установить блокировку на каталог данных %s. Возможно, pct Core уже запущен.</translation>
     </message>
     <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
@@ -3829,8 +3829,8 @@ https://www.transifex.com/projects/p/PCT/</translation>
         <translation>Это пре-релизная тестовая сборка - используйте на свой страх и риск - не используйте для добычи или торговых приложений</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. PCT Core is probably already running.</source>
-        <translation>Не удалось привязаться к %s на этом компьютере. Возможно, PCT Core уже запущен.</translation>
+        <source>Unable to bind to %s on this computer. pct Core is probably already running.</source>
+        <translation>Не удалось привязаться к %s на этом компьютере. Возможно, pct Core уже запущен.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -4073,7 +4073,7 @@ https://www.transifex.com/projects/p/PCT/</translation>
         <translation>Этот продукт включает ПО, разработанное проектом OpenSSL Project для использования в OpenSSL Toolkit &lt;https://www.openssl.org/&gt;, криптографическое ПО, написанное Eric Young и ПО для работы с UPnP, написанное Thomas Bernard.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 1000 PCT.</source>
+        <source>Unable to locate enough funds for this transaction that are not equal 1000 pct.</source>
         <translation>Не удалось обнаружить достаточных для выполнения этой транзакции средств, отличающихся от 1000DRK.</translation>
     </message>
     <message>
@@ -4145,8 +4145,8 @@ https://www.transifex.com/projects/p/PCT/</translation>
         <translation>Copyright (C) 2009-%i The Bitcoin Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The PCT Core Developers</source>
-        <translation>Copyright (C) 2014-%i The PCT Core Developers</translation>
+        <source>Copyright (C) 2014-%i The pct Core Developers</source>
+        <translation>Copyright (C) 2014-%i The pct Core Developers</translation>
     </message>
     <message>
         <source>Enable the client to act as a masternode (0-1, default: %u)</source>
@@ -4165,8 +4165,8 @@ https://www.transifex.com/projects/p/PCT/</translation>
         <translation>Ошибка загрузки %s: Вы не можете отключить HD режим для существующего HD кошелька</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of PCT Core</source>
-        <translation>Ошибка загрузки wallet.dat: кошелёк требует более новой версии PCT Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of pct Core</source>
+        <translation>Ошибка загрузки wallet.dat: кошелёк требует более новой версии pct Core</translation>
     </message>
     <message>
         <source>Failed to load fulfilled requests cache from</source>
@@ -4225,8 +4225,8 @@ https://www.transifex.com/projects/p/PCT/</translation>
         <translation>Информация</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. PCT Core is shutting down.</source>
-        <translation>Проверка на непротиворечивость закончилась неудачно. PCT Core выключается.</translation>
+        <source>Initialization sanity check failed. pct Core is shutting down.</source>
+        <translation>Проверка на непротиворечивость закончилась неудачно. pct Core выключается.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4481,8 +4481,8 @@ https://www.transifex.com/projects/p/PCT/</translation>
         <translation>Комментарий User Agent  (%s) содержит небезопасные символы.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart PCT Core to complete</source>
-        <translation>Необходимо перезаписать кошелёк: перезапустите PCT Core для завершения операции</translation>
+        <source>Wallet needed to be rewritten: restart pct Core to complete</source>
+        <translation>Необходимо перезаписать кошелёк: перезапустите pct Core для завершения операции</translation>
     </message>
     <message>
         <source>Will retry...</source>
@@ -4525,16 +4525,16 @@ https://www.transifex.com/projects/p/PCT/</translation>
         <translation>Ключ KeePassHttp для зашифрованной коммуникации с KeePass</translation>
     </message>
     <message>
-        <source>Keep N PCT anonymized (default: %u)</source>
-        <translation>Держать N PCT анонимизированными (по умолчанию: %u)</translation>
+        <source>Keep N pct anonymized (default: %u)</source>
+        <translation>Держать N pct анонимизированными (по умолчанию: %u)</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
         <translation>Держать в памяти до &lt;n&gt; несвязных транзакций (по умолчанию: %u)</translation>
     </message>
     <message>
-        <source>Disable all PCT specific functionality (Masternodes, PrivateSend, InstantSend, Governance) (0-1, default: %u)</source>
-        <translation>Отключить всю функциональность, относящуюся к PCT (Мастерноды, PrivateSend, InstantSend, Governance) (0-1, по умолчанию: %u)</translation>
+        <source>Disable all pct specific functionality (Masternodes, PrivateSend, InstantSend, Governance) (0-1, default: %u)</source>
+        <translation>Отключить всю функциональность, относящуюся к pct (Мастерноды, PrivateSend, InstantSend, Governance) (0-1, по умолчанию: %u)</translation>
     </message>
     <message>
         <source>Discover own IP addresses (default: 1 when listening and no -externalip or -proxy)</source>
@@ -4585,8 +4585,8 @@ https://www.transifex.com/projects/p/PCT/</translation>
         <translation>Если &lt;category&gt; не указана или &lt;category&gt; = 1, выводит всю отладочную информацию.</translation>
     </message>
     <message>
-        <source>InstantSend doesn't support sending values that high yet. Transactions are currently limited to %1 PCT.</source>
-        <translation>InstantSend пока что не поддерживает такие большие суммы. На данный момент транзакции ограничены суммами до %1 PCT.</translation>
+        <source>InstantSend doesn't support sending values that high yet. Transactions are currently limited to %1 pct.</source>
+        <translation>InstantSend пока что не поддерживает такие большие суммы. На данный момент транзакции ограничены суммами до %1 pct.</translation>
     </message>
     <message>
         <source>InstantSend requires inputs with at least %d confirmations, you might need to wait a few minutes and try again.</source>
@@ -4613,8 +4613,8 @@ https://www.transifex.com/projects/p/PCT/</translation>
         <translation>Максимальная сумма комиссии (в %s), допустимая в одной транзакции. Установка слишком низкого значения может привести к невозможности отправить большие транзакции (по умолчанию: %s)</translation>
     </message>
     <message>
-        <source>Please check that your computer's date and time are correct! If your clock is wrong PCT Core will not work properly.</source>
-        <translation>Пожалуйста, убедитесь что дата и время на Вашем компьютере выставлены правильно! PCT Core не сможет работать корректно, если часы настроены неверно.</translation>
+        <source>Please check that your computer's date and time are correct! If your clock is wrong pct Core will not work properly.</source>
+        <translation>Пожалуйста, убедитесь что дата и время на Вашем компьютере выставлены правильно! pct Core не сможет работать корректно, если часы настроены неверно.</translation>
     </message>
     <message>
         <source>PrivateSend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -4673,8 +4673,8 @@ https://www.transifex.com/projects/p/PCT/</translation>
         <translation>Не удалось обнаружить достаточных для выполнения этой транзакции номиналов PrivateSend.</translation>
     </message>
     <message>
-        <source>Unable to locate enough PrivateSend non-denominated funds for this transaction that are not equal 1000 PCT.</source>
-        <translation>Не удалось обнаружить достаточных для выполнения этой транзакции неденоминированных средств, отличающихся от 1000 PCT.</translation>
+        <source>Unable to locate enough PrivateSend non-denominated funds for this transaction that are not equal 1000 pct.</source>
+        <translation>Не удалось обнаружить достаточных для выполнения этой транзакции неденоминированных средств, отличающихся от 1000 pct.</translation>
     </message>
     <message>
         <source>Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>

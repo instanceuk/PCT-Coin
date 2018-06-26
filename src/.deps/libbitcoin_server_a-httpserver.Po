@@ -889,7 +889,7 @@ libbitcoin_server_a-httpserver.o: httpserver.cpp \
  /usr/include/boost/detail/atomic_redef_macros.hpp \
  /usr/include/boost/scoped_ptr.hpp \
  /usr/include/boost/smart_ptr/scoped_ptr.hpp chainparamsbase.h compat.h \
- config/PCT-config.h /usr/include/x86_64-linux-gnu/sys/fcntl.h \
+ config/pct-config.h /usr/include/x86_64-linux-gnu/sys/fcntl.h \
  /usr/include/fcntl.h /usr/include/x86_64-linux-gnu/bits/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
@@ -916,7 +916,7 @@ libbitcoin_server_a-httpserver.o: httpserver.cpp \
  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
  /usr/include/x86_64-linux-gnu/bits/netdb.h util.h tinyformat.h \
  /usr/include/c++/7/iostream utiltime.h amount.h serialize.h \
- compat/endian.h config/PCT-config.h compat/byteswap.h \
+ compat/endian.h config/pct-config.h compat/byteswap.h \
  /usr/include/byteswap.h prevector.h \
  /usr/include/boost/filesystem/path.hpp \
  /usr/include/boost/filesystem/config.hpp \
@@ -3219,7 +3219,7 @@ chainparamsbase.h:
 
 compat.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 /usr/include/x86_64-linux-gnu/sys/fcntl.h:
 
@@ -3301,7 +3301,7 @@ serialize.h:
 
 compat/endian.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat/byteswap.h:
 

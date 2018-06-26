@@ -131,8 +131,8 @@ libbitcoin_server_a-txmempool.o: txmempool.cpp /usr/include/stdc-predef.h \
  /usr/include/c++/7/bits/stl_uninitialized.h \
  /usr/include/c++/7/bits/stl_vector.h \
  /usr/include/c++/7/bits/stl_bvector.h /usr/include/c++/7/bits/vector.tcc \
- crypto/common.h ../src/config/PCT-config.h compat/endian.h \
- config/PCT-config.h compat/byteswap.h /usr/include/byteswap.h amount.h \
+ crypto/common.h ../src/config/pct-config.h compat/endian.h \
+ config/pct-config.h compat/byteswap.h /usr/include/byteswap.h amount.h \
  serialize.h compat/endian.h /usr/include/c++/7/algorithm \
  /usr/include/c++/7/utility /usr/include/c++/7/bits/stl_relops.h \
  /usr/include/c++/7/bits/stl_algo.h \
@@ -1018,7 +1018,7 @@ libbitcoin_server_a-txmempool.o: txmempool.cpp /usr/include/stdc-predef.h \
  /usr/include/boost/bind/bind_mf2_cc.hpp \
  /usr/include/boost/bind/placeholders.hpp \
  /usr/include/boost/multi_index/detail/duplicates_iterator.hpp \
- clientversion.h config/PCT-config.h consensus/consensus.h \
+ clientversion.h config/pct-config.h consensus/consensus.h \
  consensus/validation.h validation.h chain.h arith_uint256.h pow.h \
  consensus/params.h tinyformat.h /usr/include/c++/7/iostream protocol.h \
  netaddress.h compat.h /usr/include/x86_64-linux-gnu/sys/fcntl.h \
@@ -1539,11 +1539,11 @@ uint256.h:
 
 crypto/common.h:
 
-../src/config/PCT-config.h:
+../src/config/pct-config.h:
 
 compat/endian.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat/byteswap.h:
 
@@ -3539,7 +3539,7 @@ threadsafety.h:
 
 clientversion.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 consensus/consensus.h:
 

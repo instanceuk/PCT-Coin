@@ -25,7 +25,7 @@ crypto/libdashconsensus_la-sha256.lo: crypto/sha256.cpp \
  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib.h crypto/common.h \
- ../src/config/PCT-config.h compat/endian.h config/PCT-config.h \
+ ../src/config/pct-config.h compat/endian.h config/pct-config.h \
  compat/byteswap.h /usr/include/byteswap.h /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/string3.h
 
@@ -99,11 +99,11 @@ crypto/sha256.h:
 
 crypto/common.h:
 
-../src/config/PCT-config.h:
+../src/config/pct-config.h:
 
 compat/endian.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat/byteswap.h:
 

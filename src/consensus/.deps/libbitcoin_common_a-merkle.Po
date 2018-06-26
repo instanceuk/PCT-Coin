@@ -48,7 +48,7 @@ consensus/libbitcoin_common_a-merkle.o: consensus/merkle.cpp \
  /usr/include/c++/7/bits/functional_hash.h \
  /usr/include/c++/7/bits/range_access.h \
  /usr/include/c++/7/bits/vector.tcc primitives/transaction.h amount.h \
- serialize.h compat/endian.h config/PCT-config.h compat/byteswap.h \
+ serialize.h compat/endian.h config/pct-config.h compat/byteswap.h \
  /usr/include/byteswap.h /usr/include/x86_64-linux-gnu/bits/byteswap.h \
  /usr/include/x86_64-linux-gnu/bits/byteswap-16.h /usr/include/endian.h \
  /usr/include/x86_64-linux-gnu/bits/endian.h \
@@ -160,7 +160,7 @@ consensus/libbitcoin_common_a-merkle.o: consensus/merkle.cpp \
  /usr/include/c++/7/ostream /usr/include/c++/7/bits/ostream.tcc \
  /usr/include/c++/7/istream /usr/include/c++/7/bits/istream.tcc \
  /usr/include/c++/7/bits/stream_iterator.h script/script.h \
- crypto/common.h ../src/config/PCT-config.h compat/endian.h prevector.h \
+ crypto/common.h ../src/config/pct-config.h compat/endian.h prevector.h \
  /usr/include/c++/7/climits \
  /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/syslimits.h \
@@ -306,7 +306,7 @@ serialize.h:
 
 compat/endian.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat/byteswap.h:
 
@@ -616,7 +616,7 @@ script/script.h:
 
 crypto/common.h:
 
-../src/config/PCT-config.h:
+../src/config/pct-config.h:
 
 compat/endian.h:
 

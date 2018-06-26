@@ -1,10 +1,10 @@
-// Copyright (c) 2014-2017 The PCT Core developers
+// Copyright (c) 2014-2017 The pct Core developers
 
 #include "governance-validators.h"
 #include "univalue.h"
 #include "utilstrencodings.h"
 
-#include "test/test_PCT.h"
+#include "test/test_pct.h"
 
 #include <boost/test/unit_test.hpp>
 

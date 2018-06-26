@@ -633,7 +633,7 @@ libbitcoin_common_a-bip39.o: bip39.cpp /usr/include/stdc-predef.h bip39.h \
  /usr/include/c++/7/vector /usr/include/c++/7/bits/stl_vector.h \
  /usr/include/c++/7/bits/stl_bvector.h /usr/include/c++/7/bits/vector.tcc \
  bip39_english.h crypto/sha256.h random.h uint256.h crypto/common.h \
- ../src/config/PCT-config.h compat/endian.h config/PCT-config.h \
+ ../src/config/pct-config.h compat/endian.h config/pct-config.h \
  compat/byteswap.h /usr/include/byteswap.h /usr/include/openssl/evp.h \
  /usr/include/x86_64-linux-gnu/openssl/opensslconf.h \
  /usr/include/openssl/ossl_typ.h /usr/include/openssl/e_os2.h \
@@ -2093,11 +2093,11 @@ uint256.h:
 
 crypto/common.h:
 
-../src/config/PCT-config.h:
+../src/config/pct-config.h:
 
 compat/endian.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat/byteswap.h:
 

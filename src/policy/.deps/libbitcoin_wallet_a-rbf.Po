@@ -131,8 +131,8 @@ policy/libbitcoin_wallet_a-rbf.o: policy/rbf.cpp \
  /usr/include/c++/7/bits/stl_uninitialized.h \
  /usr/include/c++/7/bits/stl_vector.h \
  /usr/include/c++/7/bits/stl_bvector.h /usr/include/c++/7/bits/vector.tcc \
- crypto/common.h ../src/config/PCT-config.h compat/endian.h \
- config/PCT-config.h compat/byteswap.h /usr/include/byteswap.h amount.h \
+ crypto/common.h ../src/config/pct-config.h compat/endian.h \
+ config/pct-config.h compat/byteswap.h /usr/include/byteswap.h amount.h \
  serialize.h compat/endian.h /usr/include/c++/7/algorithm \
  /usr/include/c++/7/utility /usr/include/c++/7/bits/stl_relops.h \
  /usr/include/c++/7/bits/stl_algo.h \
@@ -1365,11 +1365,11 @@ uint256.h:
 
 crypto/common.h:
 
-../src/config/PCT-config.h:
+../src/config/pct-config.h:
 
 compat/endian.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat/byteswap.h:
 

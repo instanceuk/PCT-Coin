@@ -1,5 +1,5 @@
 test/test_test_dash-addrman_tests.o: test/addrman_tests.cpp \
- /usr/include/stdc-predef.h addrman.h netaddress.h config/PCT-config.h \
+ /usr/include/stdc-predef.h addrman.h netaddress.h config/pct-config.h \
  compat.h /usr/include/x86_64-linux-gnu/sys/fcntl.h /usr/include/fcntl.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -79,7 +79,7 @@ test/test_test_dash-addrman_tests.o: test/addrman_tests.cpp \
  /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
  /usr/include/x86_64-linux-gnu/asm/errno.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
- serialize.h compat/endian.h config/PCT-config.h compat/byteswap.h \
+ serialize.h compat/endian.h config/pct-config.h compat/byteswap.h \
  /usr/include/byteswap.h /usr/include/c++/7/algorithm \
  /usr/include/c++/7/utility \
  /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h \
@@ -202,7 +202,7 @@ test/test_test_dash-addrman_tests.o: test/addrman_tests.cpp \
  /usr/include/c++/7/ostream /usr/include/c++/7/bits/ostream.tcc \
  /usr/include/c++/7/istream /usr/include/c++/7/bits/istream.tcc \
  /usr/include/c++/7/bits/stream_iterator.h protocol.h uint256.h \
- /usr/include/c++/7/cstring crypto/common.h ../src/config/PCT-config.h \
+ /usr/include/c++/7/cstring crypto/common.h ../src/config/pct-config.h \
  compat/endian.h version.h random.h sync.h threadsafety.h \
  /usr/include/boost/thread/condition_variable.hpp \
  /usr/include/boost/thread/detail/platform.hpp \
@@ -987,7 +987,7 @@ test/test_test_dash-addrman_tests.o: test/addrman_tests.cpp \
  /usr/include/boost/preprocessor/control/expr_if.hpp \
  /usr/include/boost/signals2/detail/variadic_slot_invoker.hpp \
  /usr/include/boost/type_traits/function_traits.hpp \
- /usr/include/boost/signals2/detail/signal_template.hpp test/test_PCT.h \
+ /usr/include/boost/signals2/detail/signal_template.hpp test/test_pct.h \
  chainparamsbase.h key.h pubkey.h hash.h crypto/ripemd160.h \
  crypto/sha256.h crypto/sph_blake.h crypto/sph_types.h crypto/sph_bmw.h \
  crypto/sph_groestl.h crypto/sph_jh.h crypto/sph_keccak.h \
@@ -1449,7 +1449,7 @@ addrman.h:
 
 netaddress.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat.h:
 
@@ -1641,7 +1641,7 @@ serialize.h:
 
 compat/endian.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat/byteswap.h:
 
@@ -1985,7 +1985,7 @@ uint256.h:
 
 crypto/common.h:
 
-../src/config/PCT-config.h:
+../src/config/pct-config.h:
 
 compat/endian.h:
 
@@ -3701,7 +3701,7 @@ amount.h:
 
 /usr/include/boost/signals2/detail/signal_template.hpp:
 
-test/test_PCT.h:
+test/test_pct.h:
 
 chainparamsbase.h:
 

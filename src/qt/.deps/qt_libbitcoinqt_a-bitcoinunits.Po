@@ -1,6 +1,6 @@
 qt/qt_libbitcoinqt_a-bitcoinunits.o: qt/bitcoinunits.cpp \
  /usr/include/stdc-predef.h qt/bitcoinunits.h amount.h serialize.h \
- compat/endian.h config/PCT-config.h \
+ compat/endian.h config/pct-config.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -224,10 +224,10 @@ qt/qt_libbitcoinqt_a-bitcoinunits.o: qt/bitcoinunits.cpp \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QString \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h chainparams.h \
  chainparamsbase.h consensus/params.h uint256.h \
- /usr/include/c++/7/cstring crypto/common.h ../src/config/PCT-config.h \
+ /usr/include/c++/7/cstring crypto/common.h ../src/config/pct-config.h \
  compat/endian.h primitives/block.h primitives/transaction.h \
  script/script.h crypto/common.h prevector.h /usr/include/c++/7/climits \
- serialize.h protocol.h netaddress.h config/PCT-config.h compat.h \
+ serialize.h protocol.h netaddress.h config/pct-config.h compat.h \
  /usr/include/x86_64-linux-gnu/sys/fcntl.h /usr/include/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
@@ -275,7 +275,7 @@ serialize.h:
 
 compat/endian.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h:
 
@@ -849,7 +849,7 @@ uint256.h:
 
 crypto/common.h:
 
-../src/config/PCT-config.h:
+../src/config/pct-config.h:
 
 compat/endian.h:
 
@@ -871,7 +871,7 @@ protocol.h:
 
 netaddress.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat.h:
 

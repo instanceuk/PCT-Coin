@@ -1,6 +1,6 @@
 test/test_test_dash-alert_tests.o: test/alert_tests.cpp \
  /usr/include/stdc-predef.h alert.h serialize.h compat/endian.h \
- config/PCT-config.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h \
+ config/pct-config.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h \
  /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -608,11 +608,11 @@ test/test_test_dash-alert_tests.o: test/alert_tests.cpp \
  /usr/include/boost/thread/recursive_mutex.hpp \
  /usr/include/boost/thread/pthread/recursive_mutex.hpp chain.h \
  arith_uint256.h primitives/block.h primitives/transaction.h amount.h \
- script/script.h crypto/common.h ../src/config/PCT-config.h \
+ script/script.h crypto/common.h ../src/config/pct-config.h \
  compat/endian.h prevector.h serialize.h uint256.h crypto/common.h pow.h \
  consensus/params.h tinyformat.h /usr/include/c++/7/iostream uint256.h \
  chainparams.h chainparamsbase.h protocol.h netaddress.h \
- config/PCT-config.h compat.h /usr/include/x86_64-linux-gnu/sys/fcntl.h \
+ config/pct-config.h compat.h /usr/include/x86_64-linux-gnu/sys/fcntl.h \
  /usr/include/fcntl.h /usr/include/x86_64-linux-gnu/bits/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
@@ -990,7 +990,7 @@ test/test_test_dash-alert_tests.o: test/alert_tests.cpp \
  /usr/include/boost/signals2/detail/variadic_slot_invoker.hpp \
  /usr/include/boost/type_traits/function_traits.hpp \
  /usr/include/boost/signals2/detail/signal_template.hpp \
- utilstrencodings.h test/test_PCT.h chainparamsbase.h key.h pubkey.h \
+ utilstrencodings.h test/test_pct.h chainparamsbase.h key.h pubkey.h \
  hash.h crypto/ripemd160.h crypto/sha256.h crypto/sph_blake.h \
  crypto/sph_types.h crypto/sph_bmw.h crypto/sph_groestl.h crypto/sph_jh.h \
  crypto/sph_keccak.h crypto/sph_skein.h crypto/sph_luffa.h \
@@ -1449,7 +1449,7 @@ serialize.h:
 
 compat/endian.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h:
 
@@ -2845,7 +2845,7 @@ script/script.h:
 
 crypto/common.h:
 
-../src/config/PCT-config.h:
+../src/config/pct-config.h:
 
 compat/endian.h:
 
@@ -2875,7 +2875,7 @@ protocol.h:
 
 netaddress.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat.h:
 
@@ -3735,7 +3735,7 @@ amount.h:
 
 utilstrencodings.h:
 
-test/test_PCT.h:
+test/test_pct.h:
 
 chainparamsbase.h:
 

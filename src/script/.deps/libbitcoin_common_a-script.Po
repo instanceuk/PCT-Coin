@@ -1,6 +1,6 @@
 script/libbitcoin_common_a-script.o: script/script.cpp \
  /usr/include/stdc-predef.h script/script.h crypto/common.h \
- ../src/config/PCT-config.h \
+ ../src/config/pct-config.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -13,7 +13,7 @@ script/libbitcoin_common_a-script.o: script/script.cpp \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h compat/endian.h \
- config/PCT-config.h compat/byteswap.h /usr/include/byteswap.h \
+ config/pct-config.h compat/byteswap.h /usr/include/byteswap.h \
  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
  /usr/include/x86_64-linux-gnu/bits/byteswap-16.h /usr/include/endian.h \
  /usr/include/x86_64-linux-gnu/bits/endian.h \
@@ -167,7 +167,7 @@ script/script.h:
 
 crypto/common.h:
 
-../src/config/PCT-config.h:
+../src/config/pct-config.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h:
 
@@ -199,7 +199,7 @@ crypto/common.h:
 
 compat/endian.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat/byteswap.h:
 

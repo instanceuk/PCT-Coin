@@ -108,7 +108,7 @@ libdashconsensus_la-hash.lo: hash.cpp /usr/include/stdc-predef.h hash.h \
  /usr/include/c++/5/bits/ostream.tcc /usr/include/c++/5/istream \
  /usr/include/c++/5/bits/istream.tcc \
  /usr/include/c++/5/bits/stream_iterator.h serialize.h compat/endian.h \
- config/PCT-config.h compat/byteswap.h /usr/include/byteswap.h \
+ config/pct-config.h compat/byteswap.h /usr/include/byteswap.h \
  /usr/include/c++/5/algorithm /usr/include/c++/5/utility \
  /usr/include/c++/5/bits/stl_relops.h /usr/include/c++/5/bits/stl_algo.h \
  /usr/include/c++/5/bits/algorithmfwd.h \
@@ -195,7 +195,7 @@ libdashconsensus_la-hash.lo: hash.cpp /usr/include/stdc-predef.h hash.h \
  /usr/include/c++/5/bits/stl_multimap.h /usr/include/c++/5/set \
  /usr/include/c++/5/bits/stl_set.h /usr/include/c++/5/bits/stl_multiset.h \
  uint256.h /usr/include/c++/5/cstring crypto/common.h \
- ../src/config/PCT-config.h compat/endian.h version.h crypto/sph_blake.h \
+ ../src/config/pct-config.h compat/endian.h version.h crypto/sph_blake.h \
  crypto/sph_types.h \
  /usr/lib/gcc/x86_64-linux-gnu/5/include-fixed/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/5/include-fixed/syslimits.h \
@@ -505,7 +505,7 @@ serialize.h:
 
 compat/endian.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat/byteswap.h:
 
@@ -719,7 +719,7 @@ uint256.h:
 
 crypto/common.h:
 
-../src/config/PCT-config.h:
+../src/config/pct-config.h:
 
 compat/endian.h:
 

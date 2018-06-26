@@ -4,7 +4,7 @@
 
 #include "hash.h"
 #include "utilstrencodings.h"
-#include "test/test_PCT.h"
+#include "test/test_pct.h"
 
 #include <vector>
 

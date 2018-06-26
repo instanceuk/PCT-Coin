@@ -1,6 +1,6 @@
 libbitcoin_server_a-net.o: net.cpp /usr/include/stdc-predef.h \
- config/PCT-config.h net.h addrdb.h serialize.h compat/endian.h \
- config/PCT-config.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h \
+ config/pct-config.h net.h addrdb.h serialize.h compat/endian.h \
+ config/pct-config.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h \
  /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -587,7 +587,7 @@ libbitcoin_server_a-net.o: net.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
  /usr/include/x86_64-linux-gnu/bits/netdb.h protocol.h uint256.h \
- crypto/common.h ../src/config/PCT-config.h compat/endian.h version.h \
+ crypto/common.h ../src/config/pct-config.h compat/endian.h version.h \
  random.h sync.h threadsafety.h \
  /usr/include/boost/thread/condition_variable.hpp \
  /usr/include/boost/thread/detail/platform.hpp \
@@ -1170,7 +1170,7 @@ libbitcoin_server_a-net.o: net.cpp /usr/include/stdc-predef.h \
 
 /usr/include/stdc-predef.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 net.h:
 
@@ -1180,7 +1180,7 @@ serialize.h:
 
 compat/endian.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h:
 
@@ -2552,7 +2552,7 @@ uint256.h:
 
 crypto/common.h:
 
-../src/config/PCT-config.h:
+../src/config/pct-config.h:
 
 compat/endian.h:
 

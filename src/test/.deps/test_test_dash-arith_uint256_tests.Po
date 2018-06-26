@@ -789,9 +789,9 @@ test/test_test_dash-arith_uint256_tests.o: test/arith_uint256_tests.cpp \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
  /usr/include/x86_64-linux-gnu/bits/mathinline.h uint256.h \
- crypto/common.h ../src/config/PCT-config.h compat/endian.h \
- config/PCT-config.h compat/byteswap.h /usr/include/byteswap.h \
- arith_uint256.h version.h test/test_PCT.h chainparamsbase.h key.h \
+ crypto/common.h ../src/config/pct-config.h compat/endian.h \
+ config/pct-config.h compat/byteswap.h /usr/include/byteswap.h \
+ arith_uint256.h version.h test/test_pct.h chainparamsbase.h key.h \
  pubkey.h hash.h crypto/ripemd160.h /usr/include/c++/7/stdlib.h \
  crypto/sha256.h prevector.h serialize.h compat/endian.h \
  /usr/include/c++/7/set /usr/include/c++/7/bits/stl_set.h \
@@ -978,7 +978,7 @@ test/test_test_dash-arith_uint256_tests.o: test/arith_uint256_tests.cpp \
  /usr/include/boost/unordered/unordered_map.hpp \
  /usr/include/boost/unordered/detail/map.hpp \
  /usr/include/boost/unordered/unordered_map_fwd.hpp dbwrapper.h \
- clientversion.h config/PCT-config.h streams.h \
+ clientversion.h config/pct-config.h streams.h \
  support/allocators/zeroafterfree.h util.h compat.h \
  /usr/include/x86_64-linux-gnu/sys/fcntl.h /usr/include/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl.h \
@@ -3222,11 +3222,11 @@ uint256.h:
 
 crypto/common.h:
 
-../src/config/PCT-config.h:
+../src/config/pct-config.h:
 
 compat/endian.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat/byteswap.h:
 
@@ -3236,7 +3236,7 @@ arith_uint256.h:
 
 version.h:
 
-test/test_PCT.h:
+test/test_pct.h:
 
 chainparamsbase.h:
 
@@ -3718,7 +3718,7 @@ dbwrapper.h:
 
 clientversion.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 streams.h:
 

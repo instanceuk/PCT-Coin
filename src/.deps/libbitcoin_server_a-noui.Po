@@ -820,7 +820,7 @@ libbitcoin_server_a-noui.o: noui.cpp /usr/include/stdc-predef.h noui.h \
  /usr/include/boost/signals2/detail/variadic_slot_invoker.hpp \
  /usr/include/boost/type_traits/function_traits.hpp \
  /usr/include/boost/signals2/detail/signal_template.hpp util.h \
- config/PCT-config.h compat.h /usr/include/x86_64-linux-gnu/sys/fcntl.h \
+ config/pct-config.h compat.h /usr/include/x86_64-linux-gnu/sys/fcntl.h \
  /usr/include/fcntl.h /usr/include/x86_64-linux-gnu/bits/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
@@ -848,7 +848,7 @@ libbitcoin_server_a-noui.o: noui.cpp /usr/include/stdc-predef.h noui.h \
  /usr/include/x86_64-linux-gnu/bits/netdb.h tinyformat.h \
  /usr/include/c++/7/iostream /usr/include/c++/7/sstream \
  /usr/include/c++/7/bits/sstream.tcc utiltime.h amount.h serialize.h \
- compat/endian.h config/PCT-config.h compat/byteswap.h \
+ compat/endian.h config/pct-config.h compat/byteswap.h \
  /usr/include/byteswap.h /usr/include/c++/7/set \
  /usr/include/c++/7/bits/stl_set.h /usr/include/c++/7/bits/stl_multiset.h \
  prevector.h /usr/include/c++/7/stdlib.h \
@@ -2729,7 +2729,7 @@ ui_interface.h:
 
 util.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat.h:
 
@@ -2815,7 +2815,7 @@ serialize.h:
 
 compat/endian.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat/byteswap.h:
 

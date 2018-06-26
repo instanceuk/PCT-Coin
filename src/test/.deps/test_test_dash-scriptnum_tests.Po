@@ -130,7 +130,7 @@ test/test_test_dash-scriptnum_tests.o: test/scriptnum_tests.cpp \
  /usr/include/c++/7/bits/stl_vector.h \
  /usr/include/c++/7/bits/stl_bvector.h /usr/include/c++/7/bits/vector.tcc \
  /usr/include/assert.h script/script.h crypto/common.h \
- ../src/config/PCT-config.h compat/endian.h config/PCT-config.h \
+ ../src/config/pct-config.h compat/endian.h config/pct-config.h \
  compat/byteswap.h /usr/include/byteswap.h prevector.h \
  /usr/include/c++/7/stdlib.h /usr/include/string.h /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
@@ -160,7 +160,7 @@ test/test_test_dash-scriptnum_tests.o: test/scriptnum_tests.cpp \
  /usr/include/linux/limits.h \
  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
- /usr/include/x86_64-linux-gnu/bits/uio_lim.h test/test_PCT.h \
+ /usr/include/x86_64-linux-gnu/bits/uio_lim.h test/test_pct.h \
  chainparamsbase.h key.h pubkey.h hash.h crypto/ripemd160.h \
  crypto/sha256.h prevector.h serialize.h compat/endian.h \
  /usr/include/c++/7/list /usr/include/c++/7/bits/stl_list.h \
@@ -792,7 +792,7 @@ test/test_test_dash-scriptnum_tests.o: test/scriptnum_tests.cpp \
  /usr/include/boost/type_traits/is_default_constructible.hpp \
  /usr/include/boost/unordered/detail/map.hpp \
  /usr/include/boost/unordered/unordered_map_fwd.hpp dbwrapper.h \
- clientversion.h config/PCT-config.h streams.h \
+ clientversion.h config/pct-config.h streams.h \
  support/allocators/zeroafterfree.h util.h compat.h \
  /usr/include/x86_64-linux-gnu/sys/fcntl.h /usr/include/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl.h \
@@ -1772,11 +1772,11 @@ script/script.h:
 
 crypto/common.h:
 
-../src/config/PCT-config.h:
+../src/config/pct-config.h:
 
 compat/endian.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat/byteswap.h:
 
@@ -1862,7 +1862,7 @@ prevector.h:
 
 /usr/include/x86_64-linux-gnu/bits/uio_lim.h:
 
-test/test_PCT.h:
+test/test_pct.h:
 
 chainparamsbase.h:
 
@@ -3320,7 +3320,7 @@ dbwrapper.h:
 
 clientversion.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 streams.h:
 

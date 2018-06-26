@@ -604,7 +604,7 @@ libbitcoin_util_a-sync.o: sync.cpp /usr/include/stdc-predef.h sync.h \
  /usr/include/boost/thread/shared_lock_guard.hpp \
  /usr/include/boost/thread/recursive_mutex.hpp \
  /usr/include/boost/thread/pthread/recursive_mutex.hpp util.h \
- config/PCT-config.h compat.h /usr/include/x86_64-linux-gnu/sys/fcntl.h \
+ config/pct-config.h compat.h /usr/include/x86_64-linux-gnu/sys/fcntl.h \
  /usr/include/fcntl.h /usr/include/x86_64-linux-gnu/bits/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
@@ -631,7 +631,7 @@ libbitcoin_util_a-sync.o: sync.cpp /usr/include/stdc-predef.h sync.h \
  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
  /usr/include/x86_64-linux-gnu/bits/netdb.h tinyformat.h \
  /usr/include/c++/7/iostream utiltime.h amount.h serialize.h \
- compat/endian.h config/PCT-config.h compat/byteswap.h \
+ compat/endian.h config/pct-config.h compat/byteswap.h \
  /usr/include/byteswap.h /usr/include/c++/7/list \
  /usr/include/c++/7/bits/stl_list.h /usr/include/c++/7/bits/list.tcc \
  /usr/include/c++/7/set /usr/include/c++/7/bits/stl_set.h \
@@ -2490,7 +2490,7 @@ threadsafety.h:
 
 util.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat.h:
 
@@ -2572,7 +2572,7 @@ serialize.h:
 
 compat/endian.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat/byteswap.h:
 

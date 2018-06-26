@@ -1,5 +1,5 @@
 qt/qt_libbitcoinqt_a-optionsmodel.o: qt/optionsmodel.cpp \
- /usr/include/stdc-predef.h config/PCT-config.h qt/optionsmodel.h \
+ /usr/include/stdc-predef.h config/pct-config.h qt/optionsmodel.h \
  amount.h serialize.h compat/endian.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -700,9 +700,9 @@ qt/qt_libbitcoinqt_a-optionsmodel.o: qt/optionsmodel.cpp \
  /usr/include/x86_64-linux-gnu/c++/7/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/7/bits/c++io.h \
  /usr/include/c++/7/bits/fstream.tcc init.h validation.h \
- config/PCT-config.h amount.h chain.h arith_uint256.h primitives/block.h \
+ config/pct-config.h amount.h chain.h arith_uint256.h primitives/block.h \
  primitives/transaction.h script/script.h crypto/common.h \
- ../src/config/PCT-config.h compat/endian.h prevector.h \
+ ../src/config/pct-config.h compat/endian.h prevector.h \
  /usr/include/c++/7/climits serialize.h uint256.h crypto/common.h pow.h \
  consensus/params.h tinyformat.h /usr/include/c++/7/iostream \
  /usr/include/c++/7/sstream /usr/include/c++/7/bits/sstream.tcc uint256.h \
@@ -1258,7 +1258,7 @@ qt/qt_libbitcoinqt_a-optionsmodel.o: qt/optionsmodel.cpp \
 
 /usr/include/stdc-predef.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 qt/optionsmodel.h:
 
@@ -2860,7 +2860,7 @@ init.h:
 
 validation.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 amount.h:
 
@@ -2876,7 +2876,7 @@ script/script.h:
 
 crypto/common.h:
 
-../src/config/PCT-config.h:
+../src/config/pct-config.h:
 
 compat/endian.h:
 

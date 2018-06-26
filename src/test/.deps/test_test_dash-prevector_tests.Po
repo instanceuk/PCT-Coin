@@ -148,7 +148,7 @@ test/test_test_dash-prevector_tests.o: test/prevector_tests.cpp \
  /usr/include/c++/7/bits/istream.tcc \
  /usr/include/c++/7/bits/stream_iterator.h random.h uint256.h \
  /usr/include/assert.h /usr/include/c++/7/cstring crypto/common.h \
- ../src/config/PCT-config.h compat/endian.h config/PCT-config.h \
+ ../src/config/pct-config.h compat/endian.h config/pct-config.h \
  compat/byteswap.h /usr/include/byteswap.h serialize.h compat/endian.h \
  /usr/include/c++/7/algorithm /usr/include/c++/7/utility \
  /usr/include/c++/7/bits/stl_relops.h /usr/include/c++/7/bits/stl_algo.h \
@@ -174,7 +174,7 @@ test/test_test_dash-prevector_tests.o: test/prevector_tests.cpp \
  /usr/include/c++/7/bits/shared_ptr_atomic.h \
  /usr/include/c++/7/bits/atomic_base.h \
  /usr/include/c++/7/bits/atomic_lockfree_defines.h \
- /usr/include/c++/7/backward/auto_ptr.h serialize.h test/test_PCT.h \
+ /usr/include/c++/7/backward/auto_ptr.h serialize.h test/test_pct.h \
  chainparamsbase.h key.h pubkey.h hash.h crypto/ripemd160.h \
  crypto/sha256.h version.h crypto/sph_blake.h crypto/sph_types.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/limits.h \
@@ -796,7 +796,7 @@ test/test_test_dash-prevector_tests.o: test/prevector_tests.cpp \
  /usr/include/boost/type_traits/is_default_constructible.hpp \
  /usr/include/boost/unordered/detail/map.hpp \
  /usr/include/boost/unordered/unordered_map_fwd.hpp dbwrapper.h \
- clientversion.h config/PCT-config.h streams.h util.h compat.h \
+ clientversion.h config/pct-config.h streams.h util.h compat.h \
  /usr/include/x86_64-linux-gnu/sys/fcntl.h /usr/include/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
@@ -1819,11 +1819,11 @@ uint256.h:
 
 crypto/common.h:
 
-../src/config/PCT-config.h:
+../src/config/pct-config.h:
 
 compat/endian.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat/byteswap.h:
 
@@ -1915,7 +1915,7 @@ support/cleanse.h:
 
 serialize.h:
 
-test/test_PCT.h:
+test/test_pct.h:
 
 chainparamsbase.h:
 
@@ -3327,7 +3327,7 @@ dbwrapper.h:
 
 clientversion.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 streams.h:
 

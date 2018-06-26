@@ -122,7 +122,7 @@ libbitcoin_server_a-governance-object.o: governance-object.cpp \
  /usr/include/c++/7/bits/stl_uninitialized.h \
  /usr/include/c++/7/bits/stl_vector.h \
  /usr/include/c++/7/bits/stl_bvector.h /usr/include/c++/7/bits/vector.tcc \
- governance.h bloom.h serialize.h compat/endian.h config/PCT-config.h \
+ governance.h bloom.h serialize.h compat/endian.h config/pct-config.h \
  compat/byteswap.h /usr/include/byteswap.h /usr/include/c++/7/algorithm \
  /usr/include/c++/7/utility /usr/include/c++/7/bits/stl_relops.h \
  /usr/include/c++/7/bits/stl_algo.h \
@@ -164,7 +164,7 @@ libbitcoin_server_a-governance-object.o: governance-object.cpp \
  /usr/include/c++/7/cstddef cachemultimap.h chain.h arith_uint256.h \
  /usr/include/c++/7/cstring primitives/block.h primitives/transaction.h \
  amount.h serialize.h script/script.h crypto/common.h \
- ../src/config/PCT-config.h compat/endian.h prevector.h \
+ ../src/config/pct-config.h compat/endian.h prevector.h \
  /usr/include/c++/7/climits \
  /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/syslimits.h \
@@ -998,7 +998,7 @@ libbitcoin_server_a-governance-object.o: governance-object.cpp \
  /usr/include/boost/io/ios_state.hpp /usr/include/boost/io_fwd.hpp \
  /usr/include/boost/functional/hash_fwd.hpp \
  /usr/include/boost/functional/hash/hash_fwd.hpp addrman.h netaddress.h \
- config/PCT-config.h compat.h /usr/include/x86_64-linux-gnu/sys/fcntl.h \
+ config/pct-config.h compat.h /usr/include/x86_64-linux-gnu/sys/fcntl.h \
  /usr/include/fcntl.h /usr/include/x86_64-linux-gnu/bits/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
@@ -1559,7 +1559,7 @@ serialize.h:
 
 compat/endian.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat/byteswap.h:
 
@@ -1703,7 +1703,7 @@ script/script.h:
 
 crypto/common.h:
 
-../src/config/PCT-config.h:
+../src/config/pct-config.h:
 
 compat/endian.h:
 
@@ -3571,7 +3571,7 @@ addrman.h:
 
 netaddress.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat.h:
 

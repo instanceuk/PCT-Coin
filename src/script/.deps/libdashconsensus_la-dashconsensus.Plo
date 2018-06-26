@@ -1,5 +1,5 @@
 script/libdashconsensus_la-dashconsensus.lo: script/dashconsensus.cpp \
- /usr/include/stdc-predef.h script/pctconsensus.h config/PCT-config.h \
+ /usr/include/stdc-predef.h script/pctconsensus.h config/pct-config.h \
  primitives/transaction.h amount.h serialize.h compat/endian.h \
  /usr/lib/gcc/x86_64-linux-gnu/5/include/stdint.h /usr/include/stdint.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -193,7 +193,7 @@ script/libdashconsensus_la-dashconsensus.lo: script/dashconsensus.cpp \
  /usr/include/c++/5/bits/ostream.tcc /usr/include/c++/5/istream \
  /usr/include/c++/5/bits/istream.tcc \
  /usr/include/c++/5/bits/stream_iterator.h script/script.h \
- crypto/common.h ../src/config/PCT-config.h compat/endian.h prevector.h \
+ crypto/common.h ../src/config/pct-config.h compat/endian.h prevector.h \
  /usr/include/c++/5/climits \
  /usr/lib/gcc/x86_64-linux-gnu/5/include-fixed/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/5/include-fixed/syslimits.h \
@@ -214,7 +214,7 @@ script/libdashconsensus_la-dashconsensus.lo: script/dashconsensus.cpp \
 
 script/pctconsensus.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 primitives/transaction.h:
 
@@ -718,7 +718,7 @@ script/script.h:
 
 crypto/common.h:
 
-../src/config/PCT-config.h:
+../src/config/pct-config.h:
 
 compat/endian.h:
 

@@ -92,7 +92,7 @@ dash_cli-dash-cli.o: dash-cli.cpp /usr/include/stdc-predef.h \
  /usr/include/c++/5/bits/stl_uninitialized.h \
  /usr/include/c++/5/bits/stl_vector.h \
  /usr/include/c++/5/bits/stl_bvector.h /usr/include/c++/5/bits/vector.tcc \
- clientversion.h config/PCT-config.h rpc/client.h \
+ clientversion.h config/pct-config.h rpc/client.h \
  univalue/include/univalue.h /usr/include/c++/5/map \
  /usr/include/c++/5/bits/stl_tree.h \
  /usr/include/c++/5/ext/aligned_buffer.h \
@@ -627,7 +627,7 @@ dash_cli-dash-cli.o: dash-cli.cpp /usr/include/stdc-predef.h \
  /usr/include/rpc/netdb.h /usr/include/x86_64-linux-gnu/bits/siginfo.h \
  /usr/include/x86_64-linux-gnu/bits/netdb.h tinyformat.h \
  /usr/include/c++/5/iostream utiltime.h amount.h serialize.h \
- compat/endian.h config/PCT-config.h compat/byteswap.h \
+ compat/endian.h config/pct-config.h compat/byteswap.h \
  /usr/include/byteswap.h /usr/include/c++/5/set \
  /usr/include/c++/5/bits/stl_set.h /usr/include/c++/5/bits/stl_multiset.h \
  prevector.h /usr/include/boost/signals2/signal.hpp \
@@ -1167,7 +1167,7 @@ chainparamsbase.h:
 
 clientversion.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 rpc/client.h:
 
@@ -2379,7 +2379,7 @@ serialize.h:
 
 compat/endian.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat/byteswap.h:
 

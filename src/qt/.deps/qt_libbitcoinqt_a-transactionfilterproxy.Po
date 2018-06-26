@@ -1,7 +1,7 @@
 qt/qt_libbitcoinqt_a-transactionfilterproxy.o: \
  qt/transactionfilterproxy.cpp /usr/include/stdc-predef.h \
  qt/transactionfilterproxy.h amount.h serialize.h compat/endian.h \
- config/PCT-config.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h \
+ config/pct-config.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h \
  /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -236,7 +236,7 @@ qt/qt_libbitcoinqt_a-transactionfilterproxy.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QStringList \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlist.h \
  qt/transactionrecord.h uint256.h /usr/include/c++/7/cstring \
- crypto/common.h ../src/config/PCT-config.h compat/endian.h \
+ crypto/common.h ../src/config/pct-config.h compat/endian.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/QList \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qevent.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h \
@@ -268,7 +268,7 @@ serialize.h:
 
 compat/endian.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h:
 
@@ -862,7 +862,7 @@ uint256.h:
 
 crypto/common.h:
 
-../src/config/PCT-config.h:
+../src/config/pct-config.h:
 
 compat/endian.h:
 

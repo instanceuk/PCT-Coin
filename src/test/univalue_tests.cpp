@@ -7,7 +7,7 @@
 #include <string>
 #include <map>
 #include <univalue.h>
-#include "test/test_PCT.h"
+#include "test/test_pct.h"
 
 #include <boost/test/unit_test.hpp>
 

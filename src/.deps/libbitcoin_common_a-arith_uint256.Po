@@ -127,8 +127,8 @@ libbitcoin_common_a-arith_uint256.o: arith_uint256.cpp \
  /usr/include/c++/7/bits/stl_uninitialized.h \
  /usr/include/c++/7/bits/stl_vector.h \
  /usr/include/c++/7/bits/stl_bvector.h /usr/include/c++/7/bits/vector.tcc \
- uint256.h crypto/common.h ../src/config/PCT-config.h compat/endian.h \
- config/PCT-config.h compat/byteswap.h /usr/include/byteswap.h \
+ uint256.h crypto/common.h ../src/config/pct-config.h compat/endian.h \
+ config/pct-config.h compat/byteswap.h /usr/include/byteswap.h \
  utilstrencodings.h
 
 /usr/include/stdc-predef.h:
@@ -455,11 +455,11 @@ uint256.h:
 
 crypto/common.h:
 
-../src/config/PCT-config.h:
+../src/config/pct-config.h:
 
 compat/endian.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat/byteswap.h:
 

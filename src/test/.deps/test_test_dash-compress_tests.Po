@@ -1,6 +1,6 @@
 test/test_test_dash-compress_tests.o: test/compress_tests.cpp \
  /usr/include/stdc-predef.h compressor.h primitives/transaction.h \
- amount.h serialize.h compat/endian.h config/PCT-config.h \
+ amount.h serialize.h compat/endian.h config/pct-config.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -159,7 +159,7 @@ test/test_test_dash-compress_tests.o: test/compress_tests.cpp \
  /usr/include/c++/7/ostream /usr/include/c++/7/bits/ostream.tcc \
  /usr/include/c++/7/istream /usr/include/c++/7/bits/istream.tcc \
  /usr/include/c++/7/bits/stream_iterator.h script/script.h \
- crypto/common.h ../src/config/PCT-config.h compat/endian.h prevector.h \
+ crypto/common.h ../src/config/pct-config.h compat/endian.h prevector.h \
  /usr/include/c++/7/climits \
  /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/syslimits.h \
@@ -170,7 +170,7 @@ test/test_test_dash-compress_tests.o: test/compress_tests.cpp \
  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
  /usr/include/x86_64-linux-gnu/bits/uio_lim.h serialize.h uint256.h \
  /usr/include/c++/7/cstring crypto/common.h script/script.h util.h \
- config/PCT-config.h compat.h /usr/include/x86_64-linux-gnu/sys/fcntl.h \
+ config/pct-config.h compat.h /usr/include/x86_64-linux-gnu/sys/fcntl.h \
  /usr/include/fcntl.h /usr/include/x86_64-linux-gnu/bits/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
@@ -877,7 +877,7 @@ test/test_test_dash-compress_tests.o: test/compress_tests.cpp \
  /usr/include/boost/thread/exceptions.hpp \
  /usr/include/boost/thread/detail/config.hpp \
  /usr/include/boost/thread/detail/platform.hpp \
- /usr/include/boost/config/requires_threads.hpp test/test_PCT.h \
+ /usr/include/boost/config/requires_threads.hpp test/test_pct.h \
  chainparamsbase.h key.h pubkey.h hash.h crypto/ripemd160.h \
  crypto/sha256.h uint256.h version.h crypto/sph_blake.h \
  crypto/sph_types.h crypto/sph_bmw.h crypto/sph_groestl.h crypto/sph_jh.h \
@@ -1450,7 +1450,7 @@ serialize.h:
 
 compat/endian.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h:
 
@@ -1876,7 +1876,7 @@ script/script.h:
 
 crypto/common.h:
 
-../src/config/PCT-config.h:
+../src/config/pct-config.h:
 
 compat/endian.h:
 
@@ -1914,7 +1914,7 @@ script/script.h:
 
 util.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat.h:
 
@@ -3472,7 +3472,7 @@ amount.h:
 
 /usr/include/boost/config/requires_threads.hpp:
 
-test/test_PCT.h:
+test/test_pct.h:
 
 chainparamsbase.h:
 

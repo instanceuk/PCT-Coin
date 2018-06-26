@@ -1,36 +1,36 @@
-PCT Core staging tree 0.12.2
+pct Core staging tree 0.12.2
 ===============================
 
-`master:` [![Build Status](https://travis-ci.org/T0mH4rr1s0n/PCT-Coin.svg?branch=master)](https://travis-ci.org/T0mH4rr1s0n/PCT-Coin) `develop:` [![Build Status](https://travis-ci.org/T0mH4rr1s0n/PCT-Coin.svg?branch=develop)](https://travis-ci.org/T0mH4rr1s0n/PCT-Coin/branches)
+`master:` [![Build Status](https://travis-ci.org/T0mH4rr1s0n/pct-Coin.svg?branch=master)](https://travis-ci.org/T0mH4rr1s0n/pct-Coin) `develop:` [![Build Status](https://travis-ci.org/T0mH4rr1s0n/pct-Coin.svg?branch=develop)](https://travis-ci.org/T0mH4rr1s0n/pct-Coin/branches)
 
-https://www.PCT.org
+https://www.pct.org
 
 
-What is PCT?
+What is pct?
 ----------------
 
-PCT is an experimental new digital currency that enables anonymous, instant
-payments to anyone, anywhere in the world. PCT uses peer-to-peer technology
+pct is an experimental new digital currency that enables anonymous, instant
+payments to anyone, anywhere in the world. pct uses peer-to-peer technology
 to operate with no central authority: managing transactions and issuing money
-are carried out collectively by the network. PCT Core is the name of the open
+are carried out collectively by the network. pct Core is the name of the open
 source software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the PCT Core software, see https://www.PCT.org/get-PCT/.
+the pct Core software, see https://www.pct.org/get-pct/.
 
 
 License
 -------
 
-PCT Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
+pct Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
 information or see https://opensource.org/licenses/MIT.
 
 Development Process
 -------------------
 
 The `master` branch is meant to be stable. Development is normally done in separate branches.
-[Tags](https://github.com/PCTpay/PCT/tags) are created to indicate new official,
-stable release versions of PCT Core.
+[Tags](https://github.com/pctpay/pct/tags) are created to indicate new official,
+stable release versions of pct Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
 
@@ -66,7 +66,7 @@ Translations
 ------------
 
 Changes to translations as well as new translations can be submitted to
-[PCT Core's Transifex page](https://www.transifex.com/projects/p/PCT/).
+[pct Core's Transifex page](https://www.transifex.com/projects/p/pct/).
 
 Translations are periodically pulled from Transifex and merged into the git repository. See the
 [translation process](doc/translation_process.md) for details on how this works.
@@ -74,4 +74,4 @@ Translations are periodically pulled from Transifex and merged into the git repo
 **Important**: We do not accept translation changes as GitHub pull requests because the next
 pull from Transifex would automatically overwrite them again.
 
-Translators should also follow the [forum](https://www.PCT.org/forum/topic/PCT-worldwide-collaboration.88/).
+Translators should also follow the [forum](https://www.pct.org/forum/topic/pct-worldwide-collaboration.88/).

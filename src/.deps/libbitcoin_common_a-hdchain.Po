@@ -126,8 +126,8 @@ libbitcoin_common_a-hdchain.o: hdchain.cpp /usr/include/stdc-predef.h \
  /usr/include/c++/7/cstring /usr/include/string.h /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
- /usr/include/c++/7/stdexcept crypto/common.h ../src/config/PCT-config.h \
- compat/endian.h config/PCT-config.h compat/byteswap.h \
+ /usr/include/c++/7/stdexcept crypto/common.h ../src/config/pct-config.h \
+ compat/endian.h config/pct-config.h compat/byteswap.h \
  /usr/include/byteswap.h /usr/include/c++/7/map \
  /usr/include/c++/7/bits/stl_tree.h \
  /usr/include/c++/7/ext/aligned_buffer.h \
@@ -172,7 +172,7 @@ libbitcoin_common_a-hdchain.o: hdchain.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
  /usr/include/x86_64-linux-gnu/bits/uio_lim.h serialize.h protocol.h \
- netaddress.h config/PCT-config.h compat.h \
+ netaddress.h config/pct-config.h compat.h \
  /usr/include/x86_64-linux-gnu/sys/fcntl.h /usr/include/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
@@ -1367,11 +1367,11 @@ uint256.h:
 
 crypto/common.h:
 
-../src/config/PCT-config.h:
+../src/config/pct-config.h:
 
 compat/endian.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat/byteswap.h:
 
@@ -1521,7 +1521,7 @@ protocol.h:
 
 netaddress.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat.h:
 

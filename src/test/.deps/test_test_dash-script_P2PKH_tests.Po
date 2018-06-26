@@ -1,6 +1,6 @@
 test/test_test_dash-script_P2PKH_tests.o: test/script_P2PKH_tests.cpp \
  /usr/include/stdc-predef.h script/script.h crypto/common.h \
- ../src/config/PCT-config.h \
+ ../src/config/pct-config.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -13,7 +13,7 @@ test/test_test_dash-script_P2PKH_tests.o: test/script_P2PKH_tests.cpp \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h compat/endian.h \
- config/PCT-config.h compat/byteswap.h /usr/include/byteswap.h \
+ config/pct-config.h compat/byteswap.h /usr/include/byteswap.h \
  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
  /usr/include/x86_64-linux-gnu/bits/byteswap-16.h /usr/include/endian.h \
  /usr/include/x86_64-linux-gnu/bits/endian.h \
@@ -157,7 +157,7 @@ test/test_test_dash-script_P2PKH_tests.o: test/script_P2PKH_tests.cpp \
  /usr/include/c++/7/bits/stl_uninitialized.h \
  /usr/include/c++/7/bits/stl_vector.h \
  /usr/include/c++/7/bits/stl_bvector.h /usr/include/c++/7/bits/vector.tcc \
- test/test_PCT.h chainparamsbase.h key.h pubkey.h hash.h \
+ test/test_pct.h chainparamsbase.h key.h pubkey.h hash.h \
  crypto/ripemd160.h crypto/sha256.h prevector.h serialize.h \
  compat/endian.h /usr/include/c++/7/algorithm /usr/include/c++/7/utility \
  /usr/include/c++/7/bits/stl_relops.h /usr/include/c++/7/bits/stl_algo.h \
@@ -793,7 +793,7 @@ test/test_test_dash-script_P2PKH_tests.o: test/script_P2PKH_tests.cpp \
  /usr/include/boost/type_traits/is_default_constructible.hpp \
  /usr/include/boost/unordered/detail/map.hpp \
  /usr/include/boost/unordered/unordered_map_fwd.hpp dbwrapper.h \
- clientversion.h config/PCT-config.h streams.h \
+ clientversion.h config/pct-config.h streams.h \
  support/allocators/zeroafterfree.h util.h compat.h \
  /usr/include/x86_64-linux-gnu/sys/fcntl.h /usr/include/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl.h \
@@ -1447,7 +1447,7 @@ script/script.h:
 
 crypto/common.h:
 
-../src/config/PCT-config.h:
+../src/config/pct-config.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h:
 
@@ -1479,7 +1479,7 @@ crypto/common.h:
 
 compat/endian.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat/byteswap.h:
 
@@ -1845,7 +1845,7 @@ prevector.h:
 
 /usr/include/c++/7/bits/vector.tcc:
 
-test/test_PCT.h:
+test/test_pct.h:
 
 chainparamsbase.h:
 
@@ -3319,7 +3319,7 @@ dbwrapper.h:
 
 clientversion.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 streams.h:
 

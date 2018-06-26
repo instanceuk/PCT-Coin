@@ -142,7 +142,7 @@ test/test_test_dash-txvalidationcache_tests.o: \
  /usr/include/c++/7/bits/ostream.tcc /usr/include/c++/7/istream \
  /usr/include/c++/7/bits/istream.tcc \
  /usr/include/c++/7/bits/stream_iterator.h serialize.h compat/endian.h \
- config/PCT-config.h compat/byteswap.h /usr/include/byteswap.h \
+ config/pct-config.h compat/byteswap.h /usr/include/byteswap.h \
  /usr/include/c++/7/algorithm /usr/include/c++/7/utility \
  /usr/include/c++/7/bits/stl_relops.h /usr/include/c++/7/bits/stl_algo.h \
  /usr/include/c++/7/bits/algorithmfwd.h \
@@ -163,7 +163,7 @@ test/test_test_dash-txvalidationcache_tests.o: \
  /usr/include/c++/7/bits/stl_vector.h \
  /usr/include/c++/7/bits/stl_bvector.h /usr/include/c++/7/bits/vector.tcc \
  uint256.h /usr/include/c++/7/cstring crypto/common.h \
- ../src/config/PCT-config.h compat/endian.h version.h crypto/sph_blake.h \
+ ../src/config/pct-config.h compat/endian.h version.h crypto/sph_blake.h \
  crypto/sph_types.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/syslimits.h \
@@ -643,7 +643,7 @@ test/test_test_dash-txvalidationcache_tests.o: \
  /usr/include/boost/atomic/detail/type_traits/is_integral.hpp \
  /usr/include/boost/atomic/detail/type_traits/is_function.hpp \
  /usr/include/boost/atomic/detail/type_traits/conditional.hpp \
- validation.h config/PCT-config.h amount.h chain.h arith_uint256.h \
+ validation.h config/pct-config.h amount.h chain.h arith_uint256.h \
  primitives/block.h primitives/transaction.h amount.h script/script.h \
  crypto/common.h prevector.h serialize.h uint256.h pow.h \
  consensus/params.h tinyformat.h /usr/include/c++/7/iostream coins.h \
@@ -1180,7 +1180,7 @@ test/test_test_dash-txvalidationcache_tests.o: \
  /usr/include/boost/mpl/equal.hpp /usr/include/boost/variant/get.hpp \
  /usr/include/boost/variant/detail/element_index.hpp \
  /usr/include/boost/variant/visitor_ptr.hpp \
- /usr/include/boost/variant/bad_visit.hpp test/test_PCT.h \
+ /usr/include/boost/variant/bad_visit.hpp test/test_pct.h \
  chainparamsbase.h txdb.h dbwrapper.h clientversion.h streams.h \
  support/allocators/zeroafterfree.h util.h utiltime.h \
  /usr/include/boost/signals2/signal.hpp /usr/include/boost/function.hpp \
@@ -1822,7 +1822,7 @@ serialize.h:
 
 compat/endian.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat/byteswap.h:
 
@@ -1898,7 +1898,7 @@ uint256.h:
 
 crypto/common.h:
 
-../src/config/PCT-config.h:
+../src/config/pct-config.h:
 
 compat/endian.h:
 
@@ -2962,7 +2962,7 @@ support/cleanse.h:
 
 validation.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 amount.h:
 
@@ -4192,7 +4192,7 @@ script/script_error.h:
 
 /usr/include/boost/variant/bad_visit.hpp:
 
-test/test_PCT.h:
+test/test_pct.h:
 
 chainparamsbase.h:
 

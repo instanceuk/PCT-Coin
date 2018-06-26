@@ -1,7 +1,7 @@
 qt/qt_libbitcoinqt_a-moc_coincontroldialog.o: \
  qt/moc_coincontroldialog.cpp /usr/include/stdc-predef.h \
  qt/coincontroldialog.h amount.h serialize.h compat/endian.h \
- config/PCT-config.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h \
+ config/pct-config.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h \
  /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -312,7 +312,7 @@ serialize.h:
 
 compat/endian.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h:
 

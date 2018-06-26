@@ -630,7 +630,7 @@ support/libbitcoin_util_a-pagelocker.o: support/pagelocker.cpp \
  /usr/include/boost/atomic/detail/type_traits/is_integral.hpp \
  /usr/include/boost/atomic/detail/type_traits/is_function.hpp \
  /usr/include/boost/atomic/detail/type_traits/conditional.hpp \
- config/PCT-config.h /usr/include/x86_64-linux-gnu/sys/mman.h \
+ config/pct-config.h /usr/include/x86_64-linux-gnu/sys/mman.h \
  /usr/include/x86_64-linux-gnu/bits/mman.h \
  /usr/include/x86_64-linux-gnu/bits/mman-linux.h \
  /usr/include/x86_64-linux-gnu/bits/mman-shared.h
@@ -2063,7 +2063,7 @@ support/cleanse.h:
 
 /usr/include/boost/atomic/detail/type_traits/conditional.hpp:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 /usr/include/x86_64-linux-gnu/sys/mman.h:
 

@@ -10,7 +10,7 @@
 #include "sync.h"
 #include "utilstrencodings.h"
 #include "utilmoneystr.h"
-#include "test/test_PCT.h"
+#include "test/test_pct.h"
 
 #include <stdint.h>
 #include <vector>

@@ -1,6 +1,6 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2015 The Bitcoin Core developers
-// Copyright (c) 2014-2017 The PCT Core developers
+// Copyright (c) 2014-2017 The pct Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -34,10 +34,10 @@ static bool fRPCInWarmup = true;
 static std::string rpcWarmupStatus("RPC server started");
 static CCriticalSection cs_rpcWarmup;
 /* Timer-creating functions */
-static std::vector<RPCTimerInterface*> timerInterfaces;
+static std::vector<RpctimerInterface*> timerInterfaces;
 /* Map of name to timer.
  * @note Can be changed to std::unique_ptr when C++11 */
-static std::map<std::string, boost::shared_ptr<RPCTimerBase> > deadlineTimers;
+static std::map<std::string, boost::shared_ptr<RpctimerBase> > deadlineTimers;
 
 static struct CRPCSignals
 {
@@ -67,7 +67,7 @@ void RPCServer::OnPostCommand(boost::function<void (const CRPCCommand&)> slot)
     g_rpcSignals.PostCommand.connect(boost::bind(slot, _1));
 }
 
-void RPCTypeCheck(const UniValue& params,
+void RpctypeCheck(const UniValue& params,
                   const list<UniValue::VType>& typesExpected,
                   bool fAllowNull)
 {
@@ -88,7 +88,7 @@ void RPCTypeCheck(const UniValue& params,
     }
 }
 
-void RPCTypeCheckObj(const UniValue& o,
+void RpctypeCheckObj(const UniValue& o,
                   const map<string, UniValue::VType>& typesExpected,
                   bool fAllowNull)
 {
@@ -162,7 +162,7 @@ vector<unsigned char> ParseHexO(const UniValue& o, string strKey)
  * Note: This interface may still be subject to change.
  */
 
-std::string CRPCTable::help(const std::string& strCommand) const
+std::string CRpctable::help(const std::string& strCommand) const
 {
     string strRet;
     string category;
@@ -243,11 +243,11 @@ UniValue stop(const UniValue& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw runtime_error(
             "stop\n"
-            "\nStop PCT Core server.");
+            "\nStop pct Core server.");
     // Event loop will exit after current HTTP requests have been handled, so
     // this reply will get back to the client.
     StartShutdown();
-    return "PCT Core server stopping";
+    return "pct Core server stopping";
 }
 
 /**
@@ -343,20 +343,20 @@ static const CRPCCommand vRPCCommands[] =
     { "hidden",             "resendwallettransactions", &resendwallettransactions, true},
 #endif
 
-    /* PCT features */
-    { "PCT",               "masternode",             &masternode,             true  },
-    { "PCT",               "masternodelist",         &masternodelist,         true  },
-    { "PCT",               "masternodebroadcast",    &masternodebroadcast,    true  },
-    { "PCT",               "gobject",                &gobject,                true  },
-    { "PCT",               "getgovernanceinfo",      &getgovernanceinfo,      true  },
-    { "PCT",               "getsuperblockbudget",    &getsuperblockbudget,    true  },
-    { "PCT",               "voteraw",                &voteraw,                true  },
-    { "PCT",               "mnsync",                 &mnsync,                 true  },
-    { "PCT",               "spork",                  &spork,                  true  },
-    { "PCT",               "getpoolinfo",            &getpoolinfo,            true  },
-    { "PCT",               "sentinelping",           &sentinelping,           true  },
+    /* pct features */
+    { "pct",               "masternode",             &masternode,             true  },
+    { "pct",               "masternodelist",         &masternodelist,         true  },
+    { "pct",               "masternodebroadcast",    &masternodebroadcast,    true  },
+    { "pct",               "gobject",                &gobject,                true  },
+    { "pct",               "getgovernanceinfo",      &getgovernanceinfo,      true  },
+    { "pct",               "getsuperblockbudget",    &getsuperblockbudget,    true  },
+    { "pct",               "voteraw",                &voteraw,                true  },
+    { "pct",               "mnsync",                 &mnsync,                 true  },
+    { "pct",               "spork",                  &spork,                  true  },
+    { "pct",               "getpoolinfo",            &getpoolinfo,            true  },
+    { "pct",               "sentinelping",           &sentinelping,           true  },
 #ifdef ENABLE_WALLET
-    { "PCT",               "privatesend",            &privatesend,            false },
+    { "pct",               "privatesend",            &privatesend,            false },
 
     /* Wallet */
     { "wallet",             "keepass",                &keepass,                true },
@@ -407,7 +407,7 @@ static const CRPCCommand vRPCCommands[] =
 #endif // ENABLE_WALLET
 };
 
-CRPCTable::CRPCTable()
+CRpctable::CRpctable()
 {
     unsigned int vcidx;
     for (vcidx = 0; vcidx < (sizeof(vRPCCommands) / sizeof(vRPCCommands[0])); vcidx++)
@@ -419,7 +419,7 @@ CRPCTable::CRPCTable()
     }
 }
 
-const CRPCCommand *CRPCTable::operator[](const std::string &name) const
+const CRPCCommand *CRpctable::operator[](const std::string &name) const
 {
     map<string, const CRPCCommand*>::const_iterator it = mapCommands.find(name);
     if (it == mapCommands.end())
@@ -538,7 +538,7 @@ std::string JSONRPCExecBatch(const UniValue& vReq)
     return ret.write() + "\n";
 }
 
-UniValue CRPCTable::execute(const std::string &strMethod, const UniValue &params) const
+UniValue CRpctable::execute(const std::string &strMethod, const UniValue &params) const
 {
     // Return immediately if in warmup
     {
@@ -567,7 +567,7 @@ UniValue CRPCTable::execute(const std::string &strMethod, const UniValue &params
     g_rpcSignals.PostCommand(*pcmd);
 }
 
-std::vector<std::string> CRPCTable::listCommands() const
+std::vector<std::string> CRpctable::listCommands() const
 {
     std::vector<std::string> commandList;
     typedef std::map<std::string, const CRPCCommand*> commandMap;
@@ -580,7 +580,7 @@ std::vector<std::string> CRPCTable::listCommands() const
 
 std::string HelpExampleCli(const std::string& methodname, const std::string& args)
 {
-    return "> PCT-cli " + methodname + " " + args + "\n";
+    return "> pct-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(const std::string& methodname, const std::string& args)
@@ -589,14 +589,14 @@ std::string HelpExampleRpc(const std::string& methodname, const std::string& arg
         "\"method\": \"" + methodname + "\", \"params\": [" + args + "] }' -H 'content-type: text/plain;' http://127.0.0.1:9998/\n";
 }
 
-void RPCRegisterTimerInterface(RPCTimerInterface *iface)
+void RPCRegisterTimerInterface(RpctimerInterface *iface)
 {
     timerInterfaces.push_back(iface);
 }
 
-void RPCUnregisterTimerInterface(RPCTimerInterface *iface)
+void RPCUnregisterTimerInterface(RpctimerInterface *iface)
 {
-    std::vector<RPCTimerInterface*>::iterator i = std::find(timerInterfaces.begin(), timerInterfaces.end(), iface);
+    std::vector<RpctimerInterface*>::iterator i = std::find(timerInterfaces.begin(), timerInterfaces.end(), iface);
     assert(i != timerInterfaces.end());
     timerInterfaces.erase(i);
 }
@@ -606,9 +606,9 @@ void RPCRunLater(const std::string& name, boost::function<void(void)> func, int6
     if (timerInterfaces.empty())
         throw JSONRPCError(RPC_INTERNAL_ERROR, "No timer handler registered for RPC");
     deadlineTimers.erase(name);
-    RPCTimerInterface* timerInterface = timerInterfaces.back();
+    RpctimerInterface* timerInterface = timerInterfaces.back();
     LogPrint("rpc", "queue run of timer %s in %i seconds (using %s)\n", name, nSeconds, timerInterface->Name());
-    deadlineTimers.insert(std::make_pair(name, boost::shared_ptr<RPCTimerBase>(timerInterface->NewTimer(func, nSeconds*1000))));
+    deadlineTimers.insert(std::make_pair(name, boost::shared_ptr<RpctimerBase>(timerInterface->NewTimer(func, nSeconds*1000))));
 }
 
-const CRPCTable tableRPC;
+const CRpctable tableRPC;

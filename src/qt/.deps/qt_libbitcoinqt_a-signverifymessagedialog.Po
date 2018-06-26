@@ -338,7 +338,7 @@ qt/qt_libbitcoinqt_a-signverifymessagedialog.o: \
  qt/qvalidatedlineedit.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLineEdit \
  qt/addressbookpage.h qt/guiutil.h amount.h serialize.h compat/endian.h \
- config/PCT-config.h compat/byteswap.h /usr/include/byteswap.h \
+ config/pct-config.h compat/byteswap.h /usr/include/byteswap.h \
  /usr/include/assert.h /usr/include/c++/7/set \
  /usr/include/c++/7/bits/stl_set.h /usr/include/c++/7/bits/stl_multiset.h \
  prevector.h /usr/include/x86_64-linux-gnu/qt5/QtCore/QEvent \
@@ -818,10 +818,10 @@ qt/qt_libbitcoinqt_a-signverifymessagedialog.o: \
  /usr/include/google/protobuf/stubs/casts.h \
  /usr/include/google/protobuf/extension_set.h base58.h chainparams.h \
  chainparamsbase.h consensus/params.h uint256.h crypto/common.h \
- ../src/config/PCT-config.h compat/endian.h primitives/block.h \
+ ../src/config/pct-config.h compat/endian.h primitives/block.h \
  primitives/transaction.h script/script.h crypto/common.h prevector.h \
  /usr/include/c++/7/climits serialize.h protocol.h netaddress.h \
- config/PCT-config.h compat.h /usr/include/x86_64-linux-gnu/sys/fcntl.h \
+ config/pct-config.h compat.h /usr/include/x86_64-linux-gnu/sys/fcntl.h \
  /usr/include/fcntl.h /usr/include/x86_64-linux-gnu/bits/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
@@ -2147,7 +2147,7 @@ serialize.h:
 
 compat/endian.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat/byteswap.h:
 
@@ -3207,7 +3207,7 @@ uint256.h:
 
 crypto/common.h:
 
-../src/config/PCT-config.h:
+../src/config/pct-config.h:
 
 compat/endian.h:
 
@@ -3229,7 +3229,7 @@ protocol.h:
 
 netaddress.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat.h:
 

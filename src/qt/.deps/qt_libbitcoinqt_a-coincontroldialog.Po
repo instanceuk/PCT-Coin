@@ -1,6 +1,6 @@
 qt/qt_libbitcoinqt_a-coincontroldialog.o: qt/coincontroldialog.cpp \
  /usr/include/stdc-predef.h qt/coincontroldialog.h amount.h serialize.h \
- compat/endian.h config/PCT-config.h \
+ compat/endian.h config/pct-config.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -772,7 +772,7 @@ qt/qt_libbitcoinqt_a-coincontroldialog.o: qt/coincontroldialog.cpp \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/QPixmap \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h txmempool.h \
- addressindex.h uint256.h crypto/common.h ../src/config/PCT-config.h \
+ addressindex.h uint256.h crypto/common.h ../src/config/pct-config.h \
  compat/endian.h amount.h spentindex.h script/script.h crypto/common.h \
  prevector.h /usr/include/c++/7/climits coins.h compressor.h \
  primitives/transaction.h script/script.h serialize.h uint256.h \
@@ -1289,7 +1289,7 @@ qt/qt_libbitcoinqt_a-coincontroldialog.o: qt/coincontroldialog.cpp \
  /usr/include/google/protobuf/stubs/casts.h \
  /usr/include/google/protobuf/extension_set.h base58.h chainparams.h \
  chainparamsbase.h consensus/params.h protocol.h netaddress.h \
- config/PCT-config.h compat.h /usr/include/x86_64-linux-gnu/sys/fcntl.h \
+ config/pct-config.h compat.h /usr/include/x86_64-linux-gnu/sys/fcntl.h \
  /usr/include/fcntl.h /usr/include/x86_64-linux-gnu/bits/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
@@ -1588,7 +1588,7 @@ serialize.h:
 
 compat/endian.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h:
 
@@ -3334,7 +3334,7 @@ uint256.h:
 
 crypto/common.h:
 
-../src/config/PCT-config.h:
+../src/config/pct-config.h:
 
 compat/endian.h:
 
@@ -4502,7 +4502,7 @@ protocol.h:
 
 netaddress.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat.h:
 

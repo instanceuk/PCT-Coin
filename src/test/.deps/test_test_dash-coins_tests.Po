@@ -1,6 +1,6 @@
 test/test_test_dash-coins_tests.o: test/coins_tests.cpp \
  /usr/include/stdc-predef.h coins.h compressor.h primitives/transaction.h \
- amount.h serialize.h compat/endian.h config/PCT-config.h \
+ amount.h serialize.h compat/endian.h config/pct-config.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -159,7 +159,7 @@ test/test_test_dash-coins_tests.o: test/coins_tests.cpp \
  /usr/include/c++/7/ostream /usr/include/c++/7/bits/ostream.tcc \
  /usr/include/c++/7/istream /usr/include/c++/7/bits/istream.tcc \
  /usr/include/c++/7/bits/stream_iterator.h script/script.h \
- crypto/common.h ../src/config/PCT-config.h compat/endian.h prevector.h \
+ crypto/common.h ../src/config/pct-config.h compat/endian.h prevector.h \
  /usr/include/c++/7/climits \
  /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/syslimits.h \
@@ -804,7 +804,7 @@ test/test_test_dash-coins_tests.o: test/coins_tests.cpp \
  /usr/include/boost/variant/detail/element_index.hpp \
  /usr/include/boost/variant/visitor_ptr.hpp \
  /usr/include/boost/variant/bad_visit.hpp undo.h consensus/consensus.h \
- utilstrencodings.h test/test_PCT.h chainparamsbase.h key.h pubkey.h \
+ utilstrencodings.h test/test_pct.h chainparamsbase.h key.h pubkey.h \
  support/allocators/secure.h support/pagelocker.h support/cleanse.h \
  /usr/include/boost/thread/mutex.hpp \
  /usr/include/boost/thread/detail/platform.hpp \
@@ -964,7 +964,7 @@ test/test_test_dash-coins_tests.o: test/coins_tests.cpp \
  /usr/include/boost/atomic/detail/type_traits/is_integral.hpp \
  /usr/include/boost/atomic/detail/type_traits/is_function.hpp \
  /usr/include/boost/atomic/detail/type_traits/conditional.hpp pubkey.h \
- txdb.h coins.h dbwrapper.h clientversion.h config/PCT-config.h streams.h \
+ txdb.h coins.h dbwrapper.h clientversion.h config/pct-config.h streams.h \
  support/allocators/zeroafterfree.h util.h compat.h \
  /usr/include/x86_64-linux-gnu/sys/fcntl.h /usr/include/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl.h \
@@ -1462,7 +1462,7 @@ serialize.h:
 
 compat/endian.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h:
 
@@ -1888,7 +1888,7 @@ script/script.h:
 
 crypto/common.h:
 
-../src/config/PCT-config.h:
+../src/config/pct-config.h:
 
 compat/endian.h:
 
@@ -3348,7 +3348,7 @@ consensus/consensus.h:
 
 utilstrencodings.h:
 
-test/test_PCT.h:
+test/test_pct.h:
 
 chainparamsbase.h:
 
@@ -3716,7 +3716,7 @@ dbwrapper.h:
 
 clientversion.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 streams.h:
 

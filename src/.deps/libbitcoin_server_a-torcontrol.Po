@@ -884,7 +884,7 @@ libbitcoin_server_a-torcontrol.o: torcontrol.cpp \
  /usr/include/boost/type_traits/has_trivial_constructor.hpp \
  /usr/include/boost/detail/atomic_undef_macros.hpp \
  /usr/include/boost/detail/atomic_redef_macros.hpp utilstrencodings.h \
- netbase.h config/PCT-config.h compat.h \
+ netbase.h config/pct-config.h compat.h \
  /usr/include/x86_64-linux-gnu/sys/fcntl.h /usr/include/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
@@ -911,14 +911,14 @@ libbitcoin_server_a-torcontrol.o: torcontrol.cpp \
  /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
  /usr/include/x86_64-linux-gnu/bits/netdb.h netaddress.h serialize.h \
- compat/endian.h config/PCT-config.h compat/byteswap.h \
+ compat/endian.h config/pct-config.h compat/byteswap.h \
  /usr/include/byteswap.h prevector.h net.h addrdb.h \
  /usr/include/boost/filesystem/path.hpp \
  /usr/include/boost/filesystem/config.hpp \
  /usr/include/boost/filesystem/path_traits.hpp \
  /usr/include/boost/io/detail/quoted_manip.hpp \
  /usr/include/boost/functional/hash_fwd.hpp addrman.h protocol.h \
- uint256.h crypto/common.h ../src/config/PCT-config.h compat/endian.h \
+ uint256.h crypto/common.h ../src/config/pct-config.h compat/endian.h \
  version.h random.h sync.h threadsafety.h timedata.h util.h tinyformat.h \
  /usr/include/c++/7/iostream utiltime.h amount.h \
  /usr/include/boost/signals2/signal.hpp \
@@ -3218,7 +3218,7 @@ utilstrencodings.h:
 
 netbase.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat.h:
 
@@ -3294,7 +3294,7 @@ serialize.h:
 
 compat/endian.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat/byteswap.h:
 
@@ -3324,7 +3324,7 @@ uint256.h:
 
 crypto/common.h:
 
-../src/config/PCT-config.h:
+../src/config/pct-config.h:
 
 compat/endian.h:
 

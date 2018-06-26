@@ -568,7 +568,7 @@ rpc/libbitcoin_cli_a-client.o: rpc/client.cpp /usr/include/stdc-predef.h \
  /usr/include/boost/filesystem/fstream.hpp /usr/include/c++/7/fstream \
  /usr/include/x86_64-linux-gnu/c++/7/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/7/bits/c++io.h \
- /usr/include/c++/7/bits/fstream.tcc util.h config/PCT-config.h compat.h \
+ /usr/include/c++/7/bits/fstream.tcc util.h config/pct-config.h compat.h \
  /usr/include/x86_64-linux-gnu/sys/fcntl.h /usr/include/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
@@ -605,7 +605,7 @@ rpc/libbitcoin_cli_a-client.o: rpc/client.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
  /usr/include/x86_64-linux-gnu/bits/netdb.h tinyformat.h \
  /usr/include/c++/7/iostream utiltime.h amount.h serialize.h \
- compat/endian.h config/PCT-config.h compat/byteswap.h \
+ compat/endian.h config/pct-config.h compat/byteswap.h \
  /usr/include/byteswap.h /usr/include/c++/7/set \
  /usr/include/c++/7/bits/stl_set.h /usr/include/c++/7/bits/stl_multiset.h \
  prevector.h /usr/include/c++/7/stdlib.h \
@@ -2292,7 +2292,7 @@ rpc/protocol.h:
 
 util.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat.h:
 
@@ -2392,7 +2392,7 @@ serialize.h:
 
 compat/endian.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat/byteswap.h:
 

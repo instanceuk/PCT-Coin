@@ -1,6 +1,6 @@
 test/test_test_dash-policyestimator_tests.o: \
  test/policyestimator_tests.cpp /usr/include/stdc-predef.h policy/fees.h \
- amount.h serialize.h compat/endian.h config/PCT-config.h \
+ amount.h serialize.h compat/endian.h config/pct-config.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -159,7 +159,7 @@ test/test_test_dash-policyestimator_tests.o: \
  /usr/include/c++/7/ostream /usr/include/c++/7/bits/ostream.tcc \
  /usr/include/c++/7/istream /usr/include/c++/7/bits/istream.tcc \
  /usr/include/c++/7/bits/stream_iterator.h uint256.h \
- /usr/include/c++/7/cstring crypto/common.h ../src/config/PCT-config.h \
+ /usr/include/c++/7/cstring crypto/common.h ../src/config/pct-config.h \
  compat/endian.h txmempool.h addressindex.h uint256.h amount.h \
  spentindex.h script/script.h crypto/common.h prevector.h \
  /usr/include/c++/7/climits \
@@ -1020,7 +1020,7 @@ test/test_test_dash-policyestimator_tests.o: \
  /usr/include/boost/bind/bind_mf2_cc.hpp \
  /usr/include/boost/bind/placeholders.hpp \
  /usr/include/boost/multi_index/detail/duplicates_iterator.hpp util.h \
- config/PCT-config.h compat.h /usr/include/x86_64-linux-gnu/sys/fcntl.h \
+ config/pct-config.h compat.h /usr/include/x86_64-linux-gnu/sys/fcntl.h \
  /usr/include/fcntl.h /usr/include/x86_64-linux-gnu/bits/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
@@ -1191,7 +1191,7 @@ test/test_test_dash-policyestimator_tests.o: \
  /usr/include/boost/signals2/detail/lwm_pthreads.hpp \
  /usr/include/boost/signals2/variadic_signal.hpp \
  /usr/include/boost/signals2/detail/variadic_slot_invoker.hpp \
- /usr/include/boost/signals2/detail/signal_template.hpp test/test_PCT.h \
+ /usr/include/boost/signals2/detail/signal_template.hpp test/test_pct.h \
  chainparamsbase.h key.h pubkey.h support/allocators/secure.h \
  support/pagelocker.h support/cleanse.h \
  /usr/include/boost/thread/once.hpp \
@@ -1449,7 +1449,7 @@ serialize.h:
 
 compat/endian.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h:
 
@@ -1877,7 +1877,7 @@ uint256.h:
 
 crypto/common.h:
 
-../src/config/PCT-config.h:
+../src/config/pct-config.h:
 
 compat/endian.h:
 
@@ -3785,7 +3785,7 @@ threadsafety.h:
 
 util.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat.h:
 
@@ -4177,7 +4177,7 @@ utiltime.h:
 
 /usr/include/boost/signals2/detail/signal_template.hpp:
 
-test/test_PCT.h:
+test/test_pct.h:
 
 chainparamsbase.h:
 

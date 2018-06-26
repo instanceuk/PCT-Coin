@@ -142,7 +142,7 @@ test/test_test_dash-hash_tests.o: test/hash_tests.cpp \
  /usr/include/c++/7/bits/ostream.tcc /usr/include/c++/7/istream \
  /usr/include/c++/7/bits/istream.tcc \
  /usr/include/c++/7/bits/stream_iterator.h serialize.h compat/endian.h \
- config/PCT-config.h compat/byteswap.h /usr/include/byteswap.h \
+ config/pct-config.h compat/byteswap.h /usr/include/byteswap.h \
  /usr/include/c++/7/algorithm /usr/include/c++/7/utility \
  /usr/include/c++/7/bits/stl_relops.h /usr/include/c++/7/bits/stl_algo.h \
  /usr/include/c++/7/bits/algorithmfwd.h \
@@ -163,7 +163,7 @@ test/test_test_dash-hash_tests.o: test/hash_tests.cpp \
  /usr/include/c++/7/bits/stl_vector.h \
  /usr/include/c++/7/bits/stl_bvector.h /usr/include/c++/7/bits/vector.tcc \
  uint256.h /usr/include/c++/7/cstring crypto/common.h \
- ../src/config/PCT-config.h compat/endian.h version.h crypto/sph_blake.h \
+ ../src/config/pct-config.h compat/endian.h version.h crypto/sph_blake.h \
  crypto/sph_types.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/syslimits.h \
@@ -176,7 +176,7 @@ test/test_test_dash-hash_tests.o: test/hash_tests.cpp \
  crypto/sph_groestl.h crypto/sph_jh.h crypto/sph_keccak.h \
  crypto/sph_skein.h crypto/sph_luffa.h crypto/sph_cubehash.h \
  crypto/sph_shavite.h crypto/sph_simd.h crypto/sph_echo.h \
- utilstrencodings.h test/test_PCT.h chainparamsbase.h key.h pubkey.h \
+ utilstrencodings.h test/test_pct.h chainparamsbase.h key.h pubkey.h \
  hash.h support/allocators/secure.h support/pagelocker.h \
  support/cleanse.h /usr/include/boost/thread/mutex.hpp \
  /usr/include/boost/thread/detail/platform.hpp \
@@ -795,7 +795,7 @@ test/test_test_dash-hash_tests.o: test/hash_tests.cpp \
  /usr/include/boost/type_traits/is_default_constructible.hpp \
  /usr/include/boost/unordered/detail/map.hpp \
  /usr/include/boost/unordered/unordered_map_fwd.hpp dbwrapper.h \
- clientversion.h config/PCT-config.h streams.h \
+ clientversion.h config/pct-config.h streams.h \
  support/allocators/zeroafterfree.h util.h compat.h \
  /usr/include/x86_64-linux-gnu/sys/fcntl.h /usr/include/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl.h \
@@ -1807,7 +1807,7 @@ serialize.h:
 
 compat/endian.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat/byteswap.h:
 
@@ -1883,7 +1883,7 @@ uint256.h:
 
 crypto/common.h:
 
-../src/config/PCT-config.h:
+../src/config/pct-config.h:
 
 compat/endian.h:
 
@@ -1933,7 +1933,7 @@ crypto/sph_echo.h:
 
 utilstrencodings.h:
 
-test/test_PCT.h:
+test/test_pct.h:
 
 chainparamsbase.h:
 
@@ -3325,7 +3325,7 @@ dbwrapper.h:
 
 clientversion.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 streams.h:
 

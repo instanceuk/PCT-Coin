@@ -1,5 +1,5 @@
 libbitcoin_server_a-masternodeconfig.o: masternodeconfig.cpp \
- /usr/include/stdc-predef.h netbase.h config/PCT-config.h compat.h \
+ /usr/include/stdc-predef.h netbase.h config/pct-config.h compat.h \
  /usr/include/x86_64-linux-gnu/sys/fcntl.h /usr/include/fcntl.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -79,7 +79,7 @@ libbitcoin_server_a-masternodeconfig.o: masternodeconfig.cpp \
  /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
  /usr/include/x86_64-linux-gnu/asm/errno.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
- netaddress.h serialize.h compat/endian.h config/PCT-config.h \
+ netaddress.h serialize.h compat/endian.h config/pct-config.h \
  compat/byteswap.h /usr/include/byteswap.h /usr/include/c++/7/algorithm \
  /usr/include/c++/7/utility \
  /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h \
@@ -880,7 +880,7 @@ libbitcoin_server_a-masternodeconfig.o: masternodeconfig.cpp \
  /usr/include/boost/thread/detail/platform.hpp \
  /usr/include/boost/config/requires_threads.hpp chainparams.h \
  chainparamsbase.h consensus/params.h uint256.h crypto/common.h \
- ../src/config/PCT-config.h compat/endian.h primitives/block.h \
+ ../src/config/pct-config.h compat/endian.h primitives/block.h \
  primitives/transaction.h amount.h script/script.h crypto/common.h \
  prevector.h serialize.h protocol.h uint256.h version.h \
  /usr/include/boost/filesystem.hpp \
@@ -907,7 +907,7 @@ libbitcoin_server_a-masternodeconfig.o: masternodeconfig.cpp \
 
 netbase.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat.h:
 
@@ -1101,7 +1101,7 @@ serialize.h:
 
 compat/endian.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat/byteswap.h:
 
@@ -2929,7 +2929,7 @@ uint256.h:
 
 crypto/common.h:
 
-../src/config/PCT-config.h:
+../src/config/pct-config.h:
 
 compat/endian.h:
 

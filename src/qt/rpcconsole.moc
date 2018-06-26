@@ -132,27 +132,27 @@ void RPCExecutor::reply(int _t1, const QString & _t2)
     void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
     QMetaObject::activate(this, &staticMetaObject, 0, _a);
 }
-struct qt_meta_stringdata_QtRPCTimerBase_t {
+struct qt_meta_stringdata_QtRpctimerBase_t {
     QByteArrayData data[3];
     char stringdata0[24];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    qptrdiff(offsetof(qt_meta_stringdata_QtRPCTimerBase_t, stringdata0) + ofs \
+    qptrdiff(offsetof(qt_meta_stringdata_QtRpctimerBase_t, stringdata0) + ofs \
         - idx * sizeof(QByteArrayData)) \
     )
-static const qt_meta_stringdata_QtRPCTimerBase_t qt_meta_stringdata_QtRPCTimerBase = {
+static const qt_meta_stringdata_QtRpctimerBase_t qt_meta_stringdata_QtRpctimerBase = {
     {
-QT_MOC_LITERAL(0, 0, 14), // "QtRPCTimerBase"
+QT_MOC_LITERAL(0, 0, 14), // "QtRpctimerBase"
 QT_MOC_LITERAL(1, 15, 7), // "timeout"
 QT_MOC_LITERAL(2, 23, 0) // ""
 
     },
-    "QtRPCTimerBase\0timeout\0"
+    "QtRpctimerBase\0timeout\0"
 };
 #undef QT_MOC_LITERAL
 
-static const uint qt_meta_data_QtRPCTimerBase[] = {
+static const uint qt_meta_data_QtRpctimerBase[] = {
 
  // content:
        7,       // revision
@@ -174,10 +174,10 @@ static const uint qt_meta_data_QtRPCTimerBase[] = {
        0        // eod
 };
 
-void QtRPCTimerBase::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+void QtRpctimerBase::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
-        QtRPCTimerBase *_t = static_cast<QtRPCTimerBase *>(_o);
+        QtRpctimerBase *_t = static_cast<QtRpctimerBase *>(_o);
         Q_UNUSED(_t)
         switch (_id) {
         case 0: _t->timeout(); break;
@@ -187,28 +187,28 @@ void QtRPCTimerBase::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _
     Q_UNUSED(_a);
 }
 
-const QMetaObject QtRPCTimerBase::staticMetaObject = {
-    { &QObject::staticMetaObject, qt_meta_stringdata_QtRPCTimerBase.data,
-      qt_meta_data_QtRPCTimerBase,  qt_static_metacall, Q_NULLPTR, Q_NULLPTR}
+const QMetaObject QtRpctimerBase::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_QtRpctimerBase.data,
+      qt_meta_data_QtRpctimerBase,  qt_static_metacall, Q_NULLPTR, Q_NULLPTR}
 };
 
 
-const QMetaObject *QtRPCTimerBase::metaObject() const
+const QMetaObject *QtRpctimerBase::metaObject() const
 {
     return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
 }
 
-void *QtRPCTimerBase::qt_metacast(const char *_clname)
+void *QtRpctimerBase::qt_metacast(const char *_clname)
 {
     if (!_clname) return Q_NULLPTR;
-    if (!strcmp(_clname, qt_meta_stringdata_QtRPCTimerBase.stringdata0))
-        return static_cast<void*>(const_cast< QtRPCTimerBase*>(this));
-    if (!strcmp(_clname, "RPCTimerBase"))
-        return static_cast< RPCTimerBase*>(const_cast< QtRPCTimerBase*>(this));
+    if (!strcmp(_clname, qt_meta_stringdata_QtRpctimerBase.stringdata0))
+        return static_cast<void*>(const_cast< QtRpctimerBase*>(this));
+    if (!strcmp(_clname, "RpctimerBase"))
+        return static_cast< RpctimerBase*>(const_cast< QtRpctimerBase*>(this));
     return QObject::qt_metacast(_clname);
 }
 
-int QtRPCTimerBase::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+int QtRpctimerBase::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
     _id = QObject::qt_metacall(_c, _id, _a);
     if (_id < 0)

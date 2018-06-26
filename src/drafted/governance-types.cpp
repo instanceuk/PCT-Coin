@@ -7,8 +7,8 @@ GovernanceObjectType GovernanceStringToType(std::string strType) {
     if(strType == "AllTypes") type = AllTypes;
     if(strType == "Error") type = Error;
     if(strType == "ValueOverride") type = ValueOverride;
-    if(strType == "PCTNetwork") type = PCTNetwork;
-    if(strType == "PCTNetworkVariable") type = PCTNetworkVariable;
+    if(strType == "pctNetwork") type = pctNetwork;
+    if(strType == "pctNetworkVariable") type = pctNetworkVariable;
     if(strType == "Category") type = Category;
     if(strType == "Group") type = Group;
     if(strType == "User") type = User;
@@ -28,8 +28,8 @@ std::string GovernanceTypeToString(GovernanceObjectType type) {
     if(type == AllTypes) s = "AllTypes";
     if(type == Error) s = "Error";
     if(type == ValueOverride) s = "ValueOverride";
-    if(type == PCTNetwork) s = "PCTNetwork";
-    if(type == PCTNetworkVariable) s = "PCTNetworkVariable";
+    if(type == pctNetwork) s = "pctNetwork";
+    if(type == pctNetworkVariable) s = "pctNetworkVariable";
     if(type == Category) s = "Category";
     if(type == Group) s = "Group";
     if(type == User) s = "User";

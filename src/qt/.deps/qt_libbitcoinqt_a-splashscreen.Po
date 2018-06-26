@@ -254,7 +254,7 @@ qt/qt_libbitcoinqt_a-splashscreen.o: qt/splashscreen.cpp \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h qt/guiutil.h \
- amount.h serialize.h compat/endian.h config/PCT-config.h \
+ amount.h serialize.h compat/endian.h config/pct-config.h \
  compat/byteswap.h /usr/include/byteswap.h /usr/include/assert.h \
  /usr/include/c++/7/set /usr/include/c++/7/bits/stl_set.h \
  /usr/include/c++/7/bits/stl_multiset.h prevector.h \
@@ -707,7 +707,7 @@ qt/qt_libbitcoinqt_a-splashscreen.o: qt/splashscreen.cpp \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/QPixmap \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h clientversion.h \
- config/PCT-config.h init.h util.h compat.h \
+ config/pct-config.h init.h util.h compat.h \
  /usr/include/x86_64-linux-gnu/sys/fcntl.h /usr/include/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
@@ -1026,7 +1026,7 @@ qt/qt_libbitcoinqt_a-splashscreen.o: qt/splashscreen.cpp \
  /usr/include/boost/config/requires_threads.hpp ui_interface.h \
  /usr/include/boost/signals2/last_value.hpp version.h wallet/wallet.h \
  base58.h chainparams.h chainparamsbase.h consensus/params.h uint256.h \
- crypto/common.h ../src/config/PCT-config.h compat/endian.h \
+ crypto/common.h ../src/config/pct-config.h compat/endian.h \
  primitives/block.h primitives/transaction.h script/script.h \
  crypto/common.h prevector.h serialize.h protocol.h netaddress.h \
  uint256.h version.h key.h pubkey.h hash.h crypto/ripemd160.h \
@@ -1830,7 +1830,7 @@ serialize.h:
 
 compat/endian.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat/byteswap.h:
 
@@ -2818,7 +2818,7 @@ qt/networkstyle.h:
 
 clientversion.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 init.h:
 
@@ -3550,7 +3550,7 @@ uint256.h:
 
 crypto/common.h:
 
-../src/config/PCT-config.h:
+../src/config/pct-config.h:
 
 compat/endian.h:
 

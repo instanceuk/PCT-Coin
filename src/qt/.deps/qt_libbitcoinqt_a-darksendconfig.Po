@@ -303,7 +303,7 @@ qt/qt_libbitcoinqt_a-darksendconfig.o: qt/darksendconfig.cpp \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h \
  qt/bitcoinunits.h amount.h serialize.h compat/endian.h \
- config/PCT-config.h compat/byteswap.h /usr/include/byteswap.h \
+ config/pct-config.h compat/byteswap.h /usr/include/byteswap.h \
  /usr/include/assert.h /usr/include/c++/7/set \
  /usr/include/c++/7/bits/stl_set.h /usr/include/c++/7/bits/stl_multiset.h \
  prevector.h /usr/include/x86_64-linux-gnu/qt5/QtCore/QAbstractListModel \
@@ -312,7 +312,7 @@ qt/qt_libbitcoinqt_a-darksendconfig.o: qt/darksendconfig.cpp \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h qt/guiconstants.h \
  qt/optionsmodel.h privatesend-client.h masternode.h key.h pubkey.h \
  hash.h crypto/ripemd160.h crypto/sha256.h uint256.h \
- /usr/include/c++/7/cstring crypto/common.h ../src/config/PCT-config.h \
+ /usr/include/c++/7/cstring crypto/common.h ../src/config/pct-config.h \
  compat/endian.h version.h crypto/sph_blake.h crypto/sph_types.h \
  crypto/sph_bmw.h crypto/sph_groestl.h crypto/sph_jh.h \
  crypto/sph_keccak.h crypto/sph_skein.h crypto/sph_luffa.h \
@@ -780,7 +780,7 @@ qt/qt_libbitcoinqt_a-darksendconfig.o: qt/darksendconfig.cpp \
  /usr/include/boost/atomic/detail/type_traits/is_integral.hpp \
  /usr/include/boost/atomic/detail/type_traits/is_function.hpp \
  /usr/include/boost/atomic/detail/type_traits/conditional.hpp \
- validation.h config/PCT-config.h amount.h chain.h arith_uint256.h \
+ validation.h config/pct-config.h amount.h chain.h arith_uint256.h \
  primitives/block.h primitives/transaction.h script/script.h \
  crypto/common.h prevector.h serialize.h uint256.h pow.h \
  consensus/params.h tinyformat.h /usr/include/c++/7/iostream coins.h \
@@ -2029,7 +2029,7 @@ serialize.h:
 
 compat/endian.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat/byteswap.h:
 
@@ -2077,7 +2077,7 @@ uint256.h:
 
 crypto/common.h:
 
-../src/config/PCT-config.h:
+../src/config/pct-config.h:
 
 compat/endian.h:
 
@@ -3107,7 +3107,7 @@ support/cleanse.h:
 
 validation.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 amount.h:
 

@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2017 The PCT Core developers
+// Copyright (c) 2014-2017 The pct Core developers
 
 /*
  * FIELDS AND CLASSIFICATION
@@ -45,7 +45,7 @@
  * =========================
  *
  *   // network
- *   CPCTNetwork lvl, network-type, network-status, network-error, milestone-status*
+ *   CpctNetwork lvl, network-type, network-status, network-error, milestone-status*
  *   CCategory lvl, category-type, status, status-error
  *   CNetworkGlobalVariable lvl, global-type, status, status-error
  *   // base: actor
@@ -79,7 +79,7 @@
  *  TREE STRUCTURE
  *  ===========================================
  * 
- *  PCT NETWORK (ROOT)
+ *  pct NETWORK (ROOT)
  *      -> NETWORK GLOBOLS
  *          -> SWITCHES, SETTINGS
  *      -> CATEGORIES
@@ -117,7 +117,7 @@ private:
     int nLevel;
     std::string strCategory;
 
-    // Current OBJECT STATUS (see http://govman.PCT.org/index.php/Documentation_:_Status_Field)
+    // Current OBJECT STATUS (see http://govman.pct.org/index.php/Documentation_:_Status_Field)
     int nStatusID;
     std::string strStatusMessage;
 
@@ -130,7 +130,7 @@ public:
 };
 
 // // root node
-class CPCTNetwork : public CGovernanceObject
+class CpctNetwork : public CGovernanceObject
 {
 private:
     std::string strName;
@@ -138,7 +138,7 @@ private:
 
 
 public:
-    CPCTNetwork(UniValue objIn)
+    CpctNetwork(UniValue objIn)
     {
         strName = objIn["name"].get_str();
         strURL = objIn["name"].get_str();
@@ -174,9 +174,9 @@ public:
 
 };
 
-// // can be under: PCTNetwork
+// // can be under: pctNetwork
 // //   -- signature requirements : Key1(User)
-// class CPCTNetworkVariable : public CGovernanceObject
+// class CpctNetworkVariable : public CGovernanceObject
 // {
 // private:
 
@@ -279,7 +279,7 @@ public:
 //     // isRootCategory()
 //     // {
 //     //     // root categories won't have categories as parents
-//     //     return (IsType() == PCTNetwork);
+//     //     return (IsType() == pctNetwork);
 //     // }
 
 //     // isSubcategoryOf(std::string strParentName)

@@ -256,7 +256,7 @@ qt/qt_libbitcoinqt_a-walletframe.o: qt/walletframe.cpp \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QMap \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \
  /usr/include/c++/7/functional /usr/include/c++/7/bits/std_function.h \
- /usr/include/c++/7/bits/refwrap.h qt/bitcoingui.h config/PCT-config.h \
+ /usr/include/c++/7/bits/refwrap.h qt/bitcoingui.h config/pct-config.h \
  amount.h serialize.h compat/endian.h compat/byteswap.h \
  /usr/include/byteswap.h /usr/include/assert.h /usr/include/c++/7/set \
  /usr/include/c++/7/bits/stl_set.h /usr/include/c++/7/bits/stl_multiset.h \
@@ -281,7 +281,7 @@ qt/qt_libbitcoinqt_a-walletframe.o: qt/walletframe.cpp \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QSystemTrayIcon \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsystemtrayicon.h \
  qt/walletview.h qt/masternodelist.h primitives/transaction.h \
- script/script.h crypto/common.h ../src/config/PCT-config.h \
+ script/script.h crypto/common.h ../src/config/pct-config.h \
  compat/endian.h prevector.h /usr/include/c++/7/climits serialize.h \
  uint256.h /usr/include/c++/7/cstring crypto/common.h qt/platformstyle.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/QIcon \
@@ -723,7 +723,7 @@ qt/qt_libbitcoinqt_a-walletframe.o: qt/walletframe.cpp \
  /usr/include/boost/thread/shared_lock_guard.hpp \
  /usr/include/boost/thread/recursive_mutex.hpp \
  /usr/include/boost/thread/pthread/recursive_mutex.hpp util.h \
- config/PCT-config.h compat.h /usr/include/x86_64-linux-gnu/sys/fcntl.h \
+ config/pct-config.h compat.h /usr/include/x86_64-linux-gnu/sys/fcntl.h \
  /usr/include/fcntl.h /usr/include/x86_64-linux-gnu/bits/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
@@ -1734,7 +1734,7 @@ qt/walletframe.h:
 
 qt/bitcoingui.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 amount.h:
 
@@ -1806,7 +1806,7 @@ script/script.h:
 
 crypto/common.h:
 
-../src/config/PCT-config.h:
+../src/config/pct-config.h:
 
 compat/endian.h:
 
@@ -2760,7 +2760,7 @@ threadsafety.h:
 
 util.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat.h:
 

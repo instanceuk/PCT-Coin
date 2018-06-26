@@ -184,8 +184,8 @@ static const unsigned int MAX_BLOCK_CONFIRMS = 25;
 static const double DEFAULT_DECAY = .998;
 
 /** Require greater than 95% of X fee transactions to be confirmed within Y blocks for X to be big enough */
-static const double MIN_SUCCESS_PCT = .95;
-static const double UNLIKELY_PCT = .5;
+static const double MIN_SUCCESS_pct = .95;
+static const double UNLIKELY_pct = .5;
 
 /** Require an avg of 1 tx in the combined fee bucket per block to have stat significance */
 static const double SUFFICIENT_FEETXS = 1;

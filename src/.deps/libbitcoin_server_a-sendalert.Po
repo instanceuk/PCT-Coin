@@ -1,5 +1,5 @@
 libbitcoin_server_a-sendalert.o: sendalert.cpp /usr/include/stdc-predef.h \
- alert.h serialize.h compat/endian.h config/PCT-config.h \
+ alert.h serialize.h compat/endian.h config/pct-config.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -606,8 +606,8 @@ libbitcoin_server_a-sendalert.o: sendalert.cpp /usr/include/stdc-predef.h \
  /usr/include/boost/thread/shared_lock_guard.hpp \
  /usr/include/boost/thread/recursive_mutex.hpp \
  /usr/include/boost/thread/pthread/recursive_mutex.hpp clientversion.h \
- config/PCT-config.h chainparams.h chainparamsbase.h consensus/params.h \
- uint256.h crypto/common.h ../src/config/PCT-config.h compat/endian.h \
+ config/pct-config.h chainparams.h chainparamsbase.h consensus/params.h \
+ uint256.h crypto/common.h ../src/config/pct-config.h compat/endian.h \
  primitives/block.h primitives/transaction.h amount.h serialize.h \
  script/script.h crypto/common.h prevector.h serialize.h protocol.h \
  netaddress.h compat.h /usr/include/x86_64-linux-gnu/sys/fcntl.h \
@@ -1019,7 +1019,7 @@ serialize.h:
 
 compat/endian.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h:
 
@@ -2403,7 +2403,7 @@ threadsafety.h:
 
 clientversion.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 chainparams.h:
 
@@ -2415,7 +2415,7 @@ uint256.h:
 
 crypto/common.h:
 
-../src/config/PCT-config.h:
+../src/config/pct-config.h:
 
 compat/endian.h:
 

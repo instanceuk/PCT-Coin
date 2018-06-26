@@ -1,6 +1,6 @@
 qt/test/qt_test_test_dash_qt-test_main.o: qt/test/test_main.cpp \
- /usr/include/stdc-predef.h config/PCT-config.h util.h \
- config/PCT-config.h compat.h /usr/include/x86_64-linux-gnu/sys/fcntl.h \
+ /usr/include/stdc-predef.h config/pct-config.h util.h \
+ config/pct-config.h compat.h /usr/include/x86_64-linux-gnu/sys/fcntl.h \
  /usr/include/fcntl.h /usr/include/features.h \
  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -1011,7 +1011,7 @@ qt/test/qt_test_test_dash_qt-test_main.o: qt/test/test_main.cpp \
  /usr/include/google/protobuf/stubs/casts.h \
  /usr/include/google/protobuf/extension_set.h base58.h chainparams.h \
  chainparamsbase.h consensus/params.h uint256.h crypto/common.h \
- ../src/config/PCT-config.h compat/endian.h primitives/block.h \
+ ../src/config/pct-config.h compat/endian.h primitives/block.h \
  primitives/transaction.h amount.h script/script.h crypto/common.h \
  prevector.h serialize.h protocol.h netaddress.h uint256.h version.h \
  key.h pubkey.h hash.h crypto/ripemd160.h crypto/sha256.h \
@@ -1216,11 +1216,11 @@ qt/test/qt_test_test_dash_qt-test_main.o: qt/test/test_main.cpp \
 
 /usr/include/stdc-predef.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 util.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat.h:
 
@@ -3512,7 +3512,7 @@ uint256.h:
 
 crypto/common.h:
 
-../src/config/PCT-config.h:
+../src/config/pct-config.h:
 
 compat/endian.h:
 

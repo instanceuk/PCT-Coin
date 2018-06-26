@@ -1,5 +1,5 @@
 // Copyright (c) 2011-2015 The Bitcoin Core developers
-// Copyright (c) 2014-2017 The PCT Core developers
+// Copyright (c) 2014-2017 The pct Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -19,9 +19,9 @@ BitcoinUnits::BitcoinUnits(QObject *parent):
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(PCT);
-    unitlist.append(mPCT);
-    unitlist.append(uPCT);
+    unitlist.append(pct);
+    unitlist.append(mpct);
+    unitlist.append(upct);
     unitlist.append(duffs);
     return unitlist;
 }
@@ -30,9 +30,9 @@ bool BitcoinUnits::valid(int unit)
 {
     switch(unit)
     {
-    case PCT:
-    case mPCT:
-    case uPCT:
+    case pct:
+    case mpct:
+    case upct:
     case duffs:
         return true;
     default:
@@ -46,9 +46,9 @@ QString BitcoinUnits::name(int unit)
     {
         switch(unit)
         {
-            case PCT: return QString("PCT");
-            case mPCT: return QString("mPCT");
-            case uPCT: return QString::fromUtf8("μPCT");
+            case pct: return QString("pct");
+            case mpct: return QString("mpct");
+            case upct: return QString::fromUtf8("μpct");
             case duffs: return QString("duffs");
             default: return QString("???");
         }
@@ -57,9 +57,9 @@ QString BitcoinUnits::name(int unit)
     {
         switch(unit)
         {
-            case PCT: return QString("tPCT");
-            case mPCT: return QString("mtPCT");
-            case uPCT: return QString::fromUtf8("μtPCT");
+            case pct: return QString("tpct");
+            case mpct: return QString("mtpct");
+            case upct: return QString::fromUtf8("μtpct");
             case duffs: return QString("tduffs");
             default: return QString("???");
         }
@@ -72,10 +72,10 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case PCT: return QString("PCT");
-            case mPCT: return QString("Milli-PCT (1 / 1" THIN_SP_UTF8 "000)");
-            case uPCT: return QString("Micro-PCT (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
-            case duffs: return QString("Ten Nano-PCT (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case pct: return QString("pct");
+            case mpct: return QString("Milli-pct (1 / 1" THIN_SP_UTF8 "000)");
+            case upct: return QString("Micro-pct (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case duffs: return QString("Ten Nano-pct (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
     }
@@ -83,10 +83,10 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case PCT: return QString("TestPCTs");
-            case mPCT: return QString("Milli-TestPCT (1 / 1" THIN_SP_UTF8 "000)");
-            case uPCT: return QString("Micro-TestPCT (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
-            case duffs: return QString("Ten Nano-TestPCT (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case pct: return QString("Testpcts");
+            case mpct: return QString("Milli-Testpct (1 / 1" THIN_SP_UTF8 "000)");
+            case upct: return QString("Micro-Testpct (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case duffs: return QString("Ten Nano-Testpct (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
     }
@@ -96,9 +96,9 @@ qint64 BitcoinUnits::factor(int unit)
 {
     switch(unit)
     {
-    case PCT:  return 100000000;
-    case mPCT: return 100000;
-    case uPCT: return 100;
+    case pct:  return 100000000;
+    case mpct: return 100000;
+    case upct: return 100;
     case duffs: return 1;
     default:   return 100000000;
     }
@@ -108,9 +108,9 @@ int BitcoinUnits::decimals(int unit)
 {
     switch(unit)
     {
-    case PCT: return 8;
-    case mPCT: return 5;
-    case uPCT: return 2;
+    case pct: return 8;
+    case mpct: return 5;
+    case upct: return 2;
     case duffs: return 0;
     default: return 0;
     }

@@ -1,5 +1,5 @@
 wallet/libbitcoin_wallet_a-db.o: wallet/db.cpp /usr/include/stdc-predef.h \
- wallet/db.h clientversion.h config/PCT-config.h \
+ wallet/db.h clientversion.h config/pct-config.h \
  /usr/include/c++/7/string \
  /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h \
@@ -123,7 +123,7 @@ wallet/libbitcoin_wallet_a-db.o: wallet/db.cpp /usr/include/stdc-predef.h \
  /usr/include/c++/7/bits/stl_uninitialized.h \
  /usr/include/c++/7/bits/stl_vector.h \
  /usr/include/c++/7/bits/stl_bvector.h /usr/include/c++/7/bits/vector.tcc \
- serialize.h compat/endian.h config/PCT-config.h compat/byteswap.h \
+ serialize.h compat/endian.h config/pct-config.h compat/byteswap.h \
  /usr/include/byteswap.h /usr/include/c++/7/algorithm \
  /usr/include/c++/7/utility /usr/include/c++/7/bits/stl_relops.h \
  /usr/include/c++/7/bits/stl_algo.h \
@@ -724,7 +724,7 @@ wallet/libbitcoin_wallet_a-db.o: wallet/db.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
  /usr/include/x86_64-linux-gnu/bits/netdb.h protocol.h uint256.h \
- crypto/common.h ../src/config/PCT-config.h compat/endian.h version.h \
+ crypto/common.h ../src/config/pct-config.h compat/endian.h version.h \
  random.h sync.h timedata.h util.h tinyformat.h utiltime.h amount.h \
  /usr/include/boost/signals2/signal.hpp /usr/include/boost/function.hpp \
  /usr/include/boost/preprocessor/iterate.hpp \
@@ -1146,7 +1146,7 @@ wallet/db.h:
 
 clientversion.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 /usr/include/c++/7/string:
 
@@ -1454,7 +1454,7 @@ serialize.h:
 
 compat/endian.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat/byteswap.h:
 
@@ -2824,7 +2824,7 @@ uint256.h:
 
 crypto/common.h:
 
-../src/config/PCT-config.h:
+../src/config/pct-config.h:
 
 compat/endian.h:
 

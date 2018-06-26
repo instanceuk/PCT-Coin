@@ -1,5 +1,5 @@
 test/test_test_dash-allocator_tests.o: test/allocator_tests.cpp \
- /usr/include/stdc-predef.h util.h config/PCT-config.h compat.h \
+ /usr/include/stdc-predef.h util.h config/pct-config.h compat.h \
  /usr/include/x86_64-linux-gnu/sys/fcntl.h /usr/include/fcntl.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -180,7 +180,7 @@ test/test_test_dash-allocator_tests.o: test/allocator_tests.cpp \
  /usr/include/c++/7/bits/ostream.tcc /usr/include/c++/7/istream \
  /usr/include/c++/7/bits/istream.tcc /usr/include/c++/7/sstream \
  /usr/include/c++/7/bits/sstream.tcc utiltime.h amount.h serialize.h \
- compat/endian.h config/PCT-config.h compat/byteswap.h \
+ compat/endian.h config/pct-config.h compat/byteswap.h \
  /usr/include/byteswap.h /usr/include/c++/7/algorithm \
  /usr/include/c++/7/utility /usr/include/c++/7/bits/stl_relops.h \
  /usr/include/c++/7/bits/stl_algo.h \
@@ -1001,9 +1001,9 @@ test/test_test_dash-allocator_tests.o: test/allocator_tests.cpp \
  /usr/include/boost/atomic/detail/type_traits/is_integral.hpp \
  /usr/include/boost/atomic/detail/type_traits/is_function.hpp \
  /usr/include/boost/atomic/detail/type_traits/conditional.hpp \
- test/test_PCT.h chainparamsbase.h key.h pubkey.h hash.h \
+ test/test_pct.h chainparamsbase.h key.h pubkey.h hash.h \
  crypto/ripemd160.h crypto/sha256.h uint256.h crypto/common.h \
- ../src/config/PCT-config.h compat/endian.h version.h crypto/sph_blake.h \
+ ../src/config/pct-config.h compat/endian.h version.h crypto/sph_blake.h \
  crypto/sph_types.h crypto/sph_bmw.h crypto/sph_groestl.h crypto/sph_jh.h \
  crypto/sph_keccak.h crypto/sph_skein.h crypto/sph_luffa.h \
  crypto/sph_cubehash.h crypto/sph_shavite.h crypto/sph_simd.h \
@@ -1447,7 +1447,7 @@ test/test_test_dash-allocator_tests.o: test/allocator_tests.cpp \
 
 util.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat.h:
 
@@ -1905,7 +1905,7 @@ serialize.h:
 
 compat/endian.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat/byteswap.h:
 
@@ -3711,7 +3711,7 @@ support/cleanse.h:
 
 /usr/include/boost/atomic/detail/type_traits/conditional.hpp:
 
-test/test_PCT.h:
+test/test_pct.h:
 
 chainparamsbase.h:
 
@@ -3729,7 +3729,7 @@ uint256.h:
 
 crypto/common.h:
 
-../src/config/PCT-config.h:
+../src/config/pct-config.h:
 
 compat/endian.h:
 

@@ -1,5 +1,5 @@
 qt/qt_pct_qt-pct.o: qt/pct.cpp /usr/include/stdc-predef.h \
- config/PCT-config.h qt/bitcoingui.h amount.h serialize.h compat/endian.h \
+ config/pct-config.h qt/bitcoingui.h amount.h serialize.h compat/endian.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -275,10 +275,10 @@ qt/qt_pct_qt-pct.o: qt/pct.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QSystemTrayIcon \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsystemtrayicon.h \
  chainparams.h chainparamsbase.h consensus/params.h uint256.h \
- /usr/include/c++/7/cstring crypto/common.h ../src/config/PCT-config.h \
+ /usr/include/c++/7/cstring crypto/common.h ../src/config/pct-config.h \
  compat/endian.h primitives/block.h primitives/transaction.h \
  script/script.h crypto/common.h prevector.h /usr/include/c++/7/climits \
- serialize.h protocol.h netaddress.h config/PCT-config.h compat.h \
+ serialize.h protocol.h netaddress.h config/pct-config.h compat.h \
  /usr/include/x86_64-linux-gnu/sys/fcntl.h /usr/include/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
@@ -1434,11 +1434,11 @@ qt/qt_pct_qt-pct.o: qt/pct.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcryptographichash.h \
  /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qssl.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QFlags \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h qt/PCT.moc
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h qt/pct.moc
 
 /usr/include/stdc-predef.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 qt/bitcoingui.h:
 
@@ -2124,7 +2124,7 @@ uint256.h:
 
 crypto/common.h:
 
-../src/config/PCT-config.h:
+../src/config/pct-config.h:
 
 compat/endian.h:
 
@@ -2146,7 +2146,7 @@ protocol.h:
 
 netaddress.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat.h:
 
@@ -4790,4 +4790,4 @@ scheduler.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h:
 
-qt/PCT.moc:
+qt/pct.moc:

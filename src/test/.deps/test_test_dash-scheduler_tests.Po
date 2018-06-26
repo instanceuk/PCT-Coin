@@ -127,8 +127,8 @@ test/test_test_dash-scheduler_tests.o: test/scheduler_tests.cpp \
  /usr/include/c++/7/bits/stl_uninitialized.h \
  /usr/include/c++/7/bits/stl_vector.h \
  /usr/include/c++/7/bits/stl_bvector.h /usr/include/c++/7/bits/vector.tcc \
- crypto/common.h ../src/config/PCT-config.h compat/endian.h \
- config/PCT-config.h compat/byteswap.h /usr/include/byteswap.h \
+ crypto/common.h ../src/config/pct-config.h compat/endian.h \
+ config/pct-config.h compat/byteswap.h /usr/include/byteswap.h \
  scheduler.h /usr/include/boost/function.hpp \
  /usr/include/c++/7/functional /usr/include/c++/7/tuple \
  /usr/include/c++/7/utility /usr/include/c++/7/bits/stl_relops.h \
@@ -886,7 +886,7 @@ test/test_test_dash-scheduler_tests.o: test/scheduler_tests.cpp \
  /usr/include/boost/type_traits/has_trivial_assign.hpp \
  /usr/include/boost/type_traits/has_trivial_constructor.hpp \
  /usr/include/boost/detail/atomic_undef_macros.hpp \
- /usr/include/boost/detail/atomic_redef_macros.hpp test/test_PCT.h \
+ /usr/include/boost/detail/atomic_redef_macros.hpp test/test_pct.h \
  chainparamsbase.h key.h pubkey.h hash.h crypto/ripemd160.h \
  crypto/sha256.h prevector.h serialize.h compat/endian.h version.h \
  crypto/sph_blake.h crypto/sph_types.h crypto/sph_bmw.h \
@@ -940,7 +940,7 @@ test/test_test_dash-scheduler_tests.o: test/scheduler_tests.cpp \
  /usr/include/boost/unordered/unordered_map.hpp \
  /usr/include/boost/unordered/detail/map.hpp \
  /usr/include/boost/unordered/unordered_map_fwd.hpp dbwrapper.h \
- clientversion.h config/PCT-config.h streams.h \
+ clientversion.h config/pct-config.h streams.h \
  support/allocators/zeroafterfree.h util.h compat.h \
  /usr/include/x86_64-linux-gnu/sys/fcntl.h /usr/include/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl.h \
@@ -1786,11 +1786,11 @@ uint256.h:
 
 crypto/common.h:
 
-../src/config/PCT-config.h:
+../src/config/pct-config.h:
 
 compat/endian.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat/byteswap.h:
 
@@ -3476,7 +3476,7 @@ scheduler.h:
 
 /usr/include/boost/detail/atomic_redef_macros.hpp:
 
-test/test_PCT.h:
+test/test_pct.h:
 
 chainparamsbase.h:
 
@@ -3664,7 +3664,7 @@ dbwrapper.h:
 
 clientversion.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 streams.h:
 

@@ -1,5 +1,5 @@
 // Copyright (c) 2011-2015 The Bitcoin Core developers
-// Copyright (c) 2014-2017 The PCT Core developers
+// Copyright (c) 2014-2017 The pct Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -85,18 +85,18 @@ Q_SIGNALS:
 /** Class for handling RPC timers
  * (used for e.g. re-locking the wallet after a timeout)
  */
-class QtRPCTimerBase: public QObject, public RPCTimerBase
+class QtRpctimerBase: public QObject, public RpctimerBase
 {
     Q_OBJECT
 public:
-    QtRPCTimerBase(boost::function<void(void)>& func, int64_t millis):
+    QtRpctimerBase(boost::function<void(void)>& func, int64_t millis):
         func(func)
     {
         timer.setSingleShot(true);
         connect(&timer, SIGNAL(timeout()), this, SLOT(timeout()));
         timer.start(millis);
     }
-    ~QtRPCTimerBase() {}
+    ~QtRpctimerBase() {}
 private Q_SLOTS:
     void timeout() { func(); }
 private:
@@ -104,14 +104,14 @@ private:
     boost::function<void(void)> func;
 };
 
-class QtRPCTimerInterface: public RPCTimerInterface
+class QtRpctimerInterface: public RpctimerInterface
 {
 public:
-    ~QtRPCTimerInterface() {}
+    ~QtRpctimerInterface() {}
     const char *Name() { return "Qt"; }
-    RPCTimerBase* NewTimer(boost::function<void(void)>& func, int64_t millis)
+    RpctimerBase* NewTimer(boost::function<void(void)>& func, int64_t millis)
     {
-        return new QtRPCTimerBase(func, millis);
+        return new QtRpctimerBase(func, millis);
     }
 };
 
@@ -301,7 +301,7 @@ RPCConsole::RPCConsole(const PlatformStyle *platformStyle, QWidget *parent) :
     ui->berkeleyDBVersion->hide();
 #endif
     // Register RPC timer interface
-    rpcTimerInterface = new QtRPCTimerInterface();
+    rpcTimerInterface = new QtRpctimerInterface();
     RPCRegisterTimerInterface(rpcTimerInterface);
 
     setTrafficGraphRange(INITIAL_TRAFFIC_GRAPH_SETTING);
@@ -641,7 +641,7 @@ void RPCConsole::clear(bool clearHistory)
             ).arg(fixedFontInfo.family(), QString("%1pt").arg(consoleFontSize))
         );
 
-    message(CMD_REPLY, (tr("Welcome to the PCT Core RPC console.") + "<br>" +
+    message(CMD_REPLY, (tr("Welcome to the pct Core RPC console.") + "<br>" +
                         tr("Use up and down arrows to navigate history, and <b>Ctrl-L</b> to clear screen.") + "<br>" +
                         tr("Type <b>help</b> for an overview of available commands.")), true);
 }

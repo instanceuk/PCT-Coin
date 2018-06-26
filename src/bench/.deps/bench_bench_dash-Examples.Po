@@ -344,8 +344,8 @@ bench/bench_bench_dash-Examples.o: bench/Examples.cpp \
  /usr/include/boost/move/detail/config_end.hpp \
  /usr/include/boost/move/detail/meta_utils.hpp \
  /usr/include/boost/move/detail/meta_utils_core.hpp validation.h \
- config/PCT-config.h amount.h serialize.h compat/endian.h \
- config/PCT-config.h compat/byteswap.h /usr/include/byteswap.h \
+ config/pct-config.h amount.h serialize.h compat/endian.h \
+ config/pct-config.h compat/byteswap.h /usr/include/byteswap.h \
  /usr/include/c++/7/ios /usr/include/c++/7/bits/ios_base.h \
  /usr/include/c++/7/bits/locale_classes.h \
  /usr/include/c++/7/bits/locale_classes.tcc \
@@ -370,7 +370,7 @@ bench/bench_bench_dash-Examples.o: bench/Examples.cpp \
  /usr/include/c++/7/istream /usr/include/c++/7/bits/istream.tcc \
  /usr/include/c++/7/bits/stream_iterator.h chain.h arith_uint256.h \
  primitives/block.h primitives/transaction.h amount.h script/script.h \
- crypto/common.h ../src/config/PCT-config.h compat/endian.h prevector.h \
+ crypto/common.h ../src/config/pct-config.h compat/endian.h prevector.h \
  serialize.h uint256.h crypto/common.h pow.h consensus/params.h \
  tinyformat.h /usr/include/c++/7/iostream /usr/include/c++/7/sstream \
  /usr/include/c++/7/bits/sstream.tcc uint256.h coins.h compressor.h \
@@ -1645,7 +1645,7 @@ bench/bench.h:
 
 validation.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 amount.h:
 
@@ -1653,7 +1653,7 @@ serialize.h:
 
 compat/endian.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat/byteswap.h:
 
@@ -1745,7 +1745,7 @@ script/script.h:
 
 crypto/common.h:
 
-../src/config/PCT-config.h:
+../src/config/pct-config.h:
 
 compat/endian.h:
 

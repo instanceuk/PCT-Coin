@@ -10,7 +10,7 @@
 #include "script/interpreter.h"
 #include "script/sign.h"
 #include "uint256.h"
-#include "test/test_PCT.h"
+#include "test/test_pct.h"
 
 #ifdef ENABLE_WALLET
 #include "wallet/wallet_ismine.h"

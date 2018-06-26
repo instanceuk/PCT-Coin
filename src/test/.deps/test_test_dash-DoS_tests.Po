@@ -127,8 +127,8 @@ test/test_test_dash-DoS_tests.o: test/DoS_tests.cpp \
  /usr/include/c++/7/cstring /usr/include/string.h /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
- /usr/include/c++/7/stdexcept crypto/common.h ../src/config/PCT-config.h \
- compat/endian.h config/PCT-config.h compat/byteswap.h \
+ /usr/include/c++/7/stdexcept crypto/common.h ../src/config/pct-config.h \
+ compat/endian.h config/pct-config.h compat/byteswap.h \
  /usr/include/byteswap.h /usr/include/c++/7/map \
  /usr/include/c++/7/bits/stl_tree.h \
  /usr/include/c++/7/ext/aligned_buffer.h \
@@ -173,7 +173,7 @@ test/test_test_dash-DoS_tests.o: test/DoS_tests.cpp \
  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
  /usr/include/x86_64-linux-gnu/bits/uio_lim.h serialize.h protocol.h \
- netaddress.h config/PCT-config.h compat.h \
+ netaddress.h config/pct-config.h compat.h \
  /usr/include/x86_64-linux-gnu/sys/fcntl.h /usr/include/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
@@ -1058,7 +1058,7 @@ test/test_test_dash-DoS_tests.o: test/DoS_tests.cpp \
  /usr/include/boost/range/reverse_iterator.hpp \
  /usr/include/boost/range/rbegin.hpp /usr/include/boost/foreach_fwd.hpp \
  net_processing.h net.h validationinterface.h pow.h script/sign.h util.h \
- test/test_PCT.h chainparamsbase.h key.h pubkey.h txdb.h coins.h \
+ test/test_pct.h chainparamsbase.h key.h pubkey.h txdb.h coins.h \
  compressor.h primitives/transaction.h core_memusage.h memusage.h \
  /usr/include/c++/7/unordered_map /usr/include/c++/7/bits/hashtable.h \
  /usr/include/c++/7/bits/hashtable_policy.h \
@@ -1794,11 +1794,11 @@ uint256.h:
 
 crypto/common.h:
 
-../src/config/PCT-config.h:
+../src/config/pct-config.h:
 
 compat/endian.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat/byteswap.h:
 
@@ -1948,7 +1948,7 @@ protocol.h:
 
 netaddress.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat.h:
 
@@ -3958,7 +3958,7 @@ script/sign.h:
 
 util.h:
 
-test/test_PCT.h:
+test/test_pct.h:
 
 chainparamsbase.h:
 

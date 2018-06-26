@@ -1,5 +1,5 @@
 qt/qt_libbitcoinqt_a-moc_bitcoingui.o: qt/moc_bitcoingui.cpp \
- /usr/include/stdc-predef.h qt/bitcoingui.h config/PCT-config.h amount.h \
+ /usr/include/stdc-predef.h qt/bitcoingui.h config/pct-config.h amount.h \
  serialize.h compat/endian.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -280,7 +280,7 @@ qt/qt_libbitcoinqt_a-moc_bitcoingui.o: qt/moc_bitcoingui.cpp \
 
 qt/bitcoingui.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 amount.h:
 

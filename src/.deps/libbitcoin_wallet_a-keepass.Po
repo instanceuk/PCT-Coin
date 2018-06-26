@@ -634,12 +634,12 @@ libbitcoin_wallet_a-keepass.o: keepass.cpp /usr/include/stdc-predef.h \
  /usr/include/c++/7/bits/stl_bvector.h /usr/include/c++/7/bits/vector.tcc \
  univalue/include/univalue.h wallet/crypter.h keystore.h hdchain.h key.h \
  pubkey.h hash.h crypto/ripemd160.h crypto/sha256.h prevector.h \
- serialize.h compat/endian.h config/PCT-config.h compat/byteswap.h \
+ serialize.h compat/endian.h config/pct-config.h compat/byteswap.h \
  /usr/include/byteswap.h /usr/include/c++/7/list \
  /usr/include/c++/7/bits/stl_list.h /usr/include/c++/7/bits/list.tcc \
  /usr/include/c++/7/set /usr/include/c++/7/bits/stl_set.h \
  /usr/include/c++/7/bits/stl_multiset.h uint256.h crypto/common.h \
- ../src/config/PCT-config.h compat/endian.h version.h crypto/sph_blake.h \
+ ../src/config/pct-config.h compat/endian.h version.h crypto/sph_blake.h \
  crypto/sph_types.h crypto/sph_bmw.h crypto/sph_groestl.h crypto/sph_jh.h \
  crypto/sph_keccak.h crypto/sph_skein.h crypto/sph_luffa.h \
  crypto/sph_cubehash.h crypto/sph_shavite.h crypto/sph_simd.h \
@@ -995,7 +995,7 @@ libbitcoin_wallet_a-keepass.o: keepass.cpp /usr/include/stdc-predef.h \
  /usr/include/boost/signals2/detail/variadic_slot_invoker.hpp \
  /usr/include/boost/type_traits/function_traits.hpp \
  /usr/include/boost/signals2/detail/signal_template.hpp \
- support/allocators/secure.h clientversion.h config/PCT-config.h \
+ support/allocators/secure.h clientversion.h config/pct-config.h \
  protocol.h netaddress.h compat.h \
  /usr/include/x86_64-linux-gnu/sys/fcntl.h /usr/include/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl.h \
@@ -2544,7 +2544,7 @@ serialize.h:
 
 compat/endian.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat/byteswap.h:
 
@@ -2566,7 +2566,7 @@ uint256.h:
 
 crypto/common.h:
 
-../src/config/PCT-config.h:
+../src/config/pct-config.h:
 
 compat/endian.h:
 
@@ -3370,7 +3370,7 @@ support/allocators/secure.h:
 
 clientversion.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 protocol.h:
 

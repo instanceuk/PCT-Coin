@@ -228,13 +228,13 @@ qt/qt_libbitcoinqt_a-bitcoinaddressvalidator.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h base58.h \
  chainparams.h chainparamsbase.h consensus/params.h uint256.h \
  /usr/include/assert.h /usr/include/c++/7/cstring crypto/common.h \
- ../src/config/PCT-config.h compat/endian.h config/PCT-config.h \
+ ../src/config/pct-config.h compat/endian.h config/pct-config.h \
  compat/byteswap.h /usr/include/byteswap.h primitives/block.h \
  primitives/transaction.h amount.h serialize.h compat/endian.h \
  /usr/include/c++/7/set /usr/include/c++/7/bits/stl_set.h \
  /usr/include/c++/7/bits/stl_multiset.h prevector.h script/script.h \
  crypto/common.h prevector.h /usr/include/c++/7/climits serialize.h \
- protocol.h netaddress.h config/PCT-config.h compat.h \
+ protocol.h netaddress.h config/pct-config.h compat.h \
  /usr/include/x86_64-linux-gnu/sys/fcntl.h /usr/include/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
@@ -1558,11 +1558,11 @@ uint256.h:
 
 crypto/common.h:
 
-../src/config/PCT-config.h:
+../src/config/pct-config.h:
 
 compat/endian.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat/byteswap.h:
 
@@ -1600,7 +1600,7 @@ protocol.h:
 
 netaddress.h:
 
-config/PCT-config.h:
+config/pct-config.h:
 
 compat.h:
 

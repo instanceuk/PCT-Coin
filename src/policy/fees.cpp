@@ -453,21 +453,21 @@ void CBlockPolicyEstimator::processBlock(unsigned int nBlockHeight,
     // a fee/priority is "likely" the reason your tx was included in a block if >85% of such tx's
     // were confirmed in 2 blocks and is "unlikely" if <50% were confirmed in 10 blocks
     LogPrint("estimatefee", "Blockpolicy recalculating dynamic cutoffs:\n");
-    priLikely = priStats.EstimateMedianVal(2, SUFFICIENT_PRITXS, MIN_SUCCESS_PCT, true, nBlockHeight);
+    priLikely = priStats.EstimateMedianVal(2, SUFFICIENT_PRITXS, MIN_SUCCESS_pct, true, nBlockHeight);
     if (priLikely == -1)
         priLikely = INF_PRIORITY;
 
-    double feeLikelyEst = feeStats.EstimateMedianVal(2, SUFFICIENT_FEETXS, MIN_SUCCESS_PCT, true, nBlockHeight);
+    double feeLikelyEst = feeStats.EstimateMedianVal(2, SUFFICIENT_FEETXS, MIN_SUCCESS_pct, true, nBlockHeight);
     if (feeLikelyEst == -1)
         feeLikely = CFeeRate(INF_FEERATE);
     else
         feeLikely = CFeeRate(feeLikelyEst);
 
-    priUnlikely = priStats.EstimateMedianVal(10, SUFFICIENT_PRITXS, UNLIKELY_PCT, false, nBlockHeight);
+    priUnlikely = priStats.EstimateMedianVal(10, SUFFICIENT_PRITXS, UNLIKELY_pct, false, nBlockHeight);
     if (priUnlikely == -1)
         priUnlikely = 0;
 
-    double feeUnlikelyEst = feeStats.EstimateMedianVal(10, SUFFICIENT_FEETXS, UNLIKELY_PCT, false, nBlockHeight);
+    double feeUnlikelyEst = feeStats.EstimateMedianVal(10, SUFFICIENT_FEETXS, UNLIKELY_pct, false, nBlockHeight);
     if (feeUnlikelyEst == -1)
         feeUnlikely = CFeeRate(0);
     else
@@ -495,7 +495,7 @@ CFeeRate CBlockPolicyEstimator::estimateFee(int confTarget)
     if (confTarget <= 0 || (unsigned int)confTarget > feeStats.GetMaxConfirms())
         return CFeeRate(0);
 
-    double median = feeStats.EstimateMedianVal(confTarget, SUFFICIENT_FEETXS, MIN_SUCCESS_PCT, true, nBestSeenHeight);
+    double median = feeStats.EstimateMedianVal(confTarget, SUFFICIENT_FEETXS, MIN_SUCCESS_pct, true, nBestSeenHeight);
 
     if (median < 0)
         return CFeeRate(0);
@@ -513,7 +513,7 @@ CFeeRate CBlockPolicyEstimator::estimateSmartFee(int confTarget, int *answerFoun
 
     double median = -1;
     while (median < 0 && (unsigned int)confTarget <= feeStats.GetMaxConfirms()) {
-        median = feeStats.EstimateMedianVal(confTarget++, SUFFICIENT_FEETXS, MIN_SUCCESS_PCT, true, nBestSeenHeight);
+        median = feeStats.EstimateMedianVal(confTarget++, SUFFICIENT_FEETXS, MIN_SUCCESS_pct, true, nBestSeenHeight);
     }
 
     if (answerFoundAtTarget)
@@ -536,7 +536,7 @@ double CBlockPolicyEstimator::estimatePriority(int confTarget)
     if (confTarget <= 0 || (unsigned int)confTarget > priStats.GetMaxConfirms())
         return -1;
 
-    return priStats.EstimateMedianVal(confTarget, SUFFICIENT_PRITXS, MIN_SUCCESS_PCT, true, nBestSeenHeight);
+    return priStats.EstimateMedianVal(confTarget, SUFFICIENT_PRITXS, MIN_SUCCESS_pct, true, nBestSeenHeight);
 }
 
 double CBlockPolicyEstimator::estimateSmartPriority(int confTarget, int *answerFoundAtTarget, const CTxMemPool& pool)
@@ -554,7 +554,7 @@ double CBlockPolicyEstimator::estimateSmartPriority(int confTarget, int *answerF
 
     double median = -1;
     while (median < 0 && (unsigned int)confTarget <= priStats.GetMaxConfirms()) {
-        median = priStats.EstimateMedianVal(confTarget++, SUFFICIENT_PRITXS, MIN_SUCCESS_PCT, true, nBestSeenHeight);
+        median = priStats.EstimateMedianVal(confTarget++, SUFFICIENT_PRITXS, MIN_SUCCESS_pct, true, nBestSeenHeight);
     }
 
     if (answerFoundAtTarget)
