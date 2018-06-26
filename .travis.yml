@@ -55,7 +55,7 @@ before_install:
     - travis_retry sudo apt-get install python-dev
     - travis_retry sudo add-apt-repository ppa:ubuntu-wine/ppa -y
     - export PATH=$(echo $PATH | tr ':' "\n" | sed '/\/opt\/python/d' | tr "\n" ":" | sed "s|::|:|g")
-    - sudo chmod 777 ./ -R
+    - sudo chmod 777 ./depends/ -R
     
 install:
     - if [ "$PYZMQ" = "true" ]; then pip install pyzmq --user ; fi
