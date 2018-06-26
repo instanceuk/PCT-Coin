@@ -98,7 +98,7 @@ src/ecmult_static_context.h: $(gen_context_BIN)
 CLEANFILES = $(gen_context_BIN) src/ecmult_static_context.h
 endif
 
-EXTRA_DIST = autogen.sh ./src/secp256k1/gen_context.c ./src/secp256k1/basic-config.h
+EXTRA_DIST = autogen.sh ./src/gen_context.c ./src/basic-config.h
 
 if ENABLE_MODULE_ECDH
 include src/modules/ecdh/Makefile.am.include
