@@ -63,6 +63,7 @@ before_install:
     - sudo chmod 777 ./share/ -R
     - sudo chmod 777 ./configure
     - sudo chmod 777 ./src/ -R
+    - sudo apt-get install -y build-essential libtool autotools-dev autoconf pkg-config libssl-dev libboost-all-dev git libdb5.3-dev libdb5.3++-dev libqt4-core libqt4-gui libqt4-dev libqrencode-dev libprotobuf-dev protobuf-compiler libevent-dev
     
 install:
     - if [ "$PYZMQ" = "true" ]; then pip install pyzmq --user ; fi
