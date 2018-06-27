@@ -61,6 +61,7 @@ before_install:
     - sudo chmod 777 ./autogen.sh
     - sudo chmod 777 ./configure
     - sudo chmod 777 ./share/ -R
+    - sudo chmod 777 ./src/test/ -R
     - sudo apt-get install build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils
     - sudo apt-get install docbook-xsl
     - sudo apt-get install xsltproc
