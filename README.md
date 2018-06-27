@@ -1,7 +1,7 @@
 pct Core staging tree 0.12.2
 ===============================
 
-`master:` [![Build Status](https://travis-ci.org/T0mH4rr1s0n/pct-Coin.svg?branch=master)](https://travis-ci.org/T0mH4rr1s0n/pct-Coin) `develop:` [![Build Status](https://travis-ci.org/T0mH4rr1s0n/pct-Coin.svg?branch=develop)](https://travis-ci.org/T0mH4rr1s0n/pct-Coin/branches)
+`master:` [![Build Status](https://travis-ci.org/T0mH4rr1s0n/PCT-Coin.svg?branch=master)](https://travis-ci.org/T0mH4rr1s0n/PCT-Coin) `develop:` [![Build Status](https://travis-ci.org/T0mH4rr1s0n/PCT-Coin.svg?branch=develop)](https://travis-ci.org/T0mH4rr1s0n/PCT-Coin/branches)
 
 https://www.pct.org
 
