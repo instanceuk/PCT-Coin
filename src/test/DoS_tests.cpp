@@ -13,7 +13,7 @@
 #include "serialize.h"
 #include "util.h"
 
-#include "test/test_pct.h"
+#include "test/test_dash.h"
 
 #include <stdint.h>
 

@@ -4,7 +4,7 @@
 
 #define BOOST_TEST_MODULE pct Test Suite
 
-#include "test_pct.h"
+#include "test_dash.h"
 
 #include "chainparams.h"
 #include "consensus/consensus.h"
